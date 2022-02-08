@@ -47,9 +47,3 @@
 * [使用環境](qi-ta-qing-bao/shi-yong-huan-jing.md)
 * [FAQ](qi-ta-qing-bao/faq.md)
 * [開發情況](qi-ta-qing-bao/kai-fa-qing-kuang.md)
-
-***
-
-* [HKTRPG百科](https://www.hktrpg.com/wiki/index.php/%E9%A6%96%E9%A0%81)
-* [支援Discord群組](https://discord.gg/vx4kcm7)
-* [Patreon支持](https://www.patreon.com/HKTRPG)
