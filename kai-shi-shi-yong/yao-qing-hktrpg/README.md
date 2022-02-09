@@ -19,3 +19,4 @@ description: 如何使用HKTRPG
 * [Line 邀請連結](http://bit.ly/HKTRPG\_LINE)
 * [網頁版 邀請連結](https://rollbot.hktrpg.com)
 * [Plurk 邀請連結](https://www.plurk.com/HKTRPG)
+* [Whatsapp 邀請連結](https://api.whatsapp.com/send?phone=85246415497)
