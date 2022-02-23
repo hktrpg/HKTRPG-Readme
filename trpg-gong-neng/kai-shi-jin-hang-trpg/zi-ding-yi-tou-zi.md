@@ -8,7 +8,7 @@ description: 骰子的每一面不一定只有點數，有可能是其他圖案�
 
 {% hint style="info" %}
 本功能已改版， .rap 轉成個人專用的骰組， \
-原全服群組(.rap)變成.ras \
+原全服群組(.rap)變成 .ras \
 .ra => random answer (group) \
 .rap => random answer personal \
 .ras => random answer server
