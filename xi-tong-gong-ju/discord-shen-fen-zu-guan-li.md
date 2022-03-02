@@ -14,38 +14,49 @@ description: Discord 在群組中以「分類」來對不同頻道進行管理�
 * 注意: 此功能需求HKTRPG擁有【編輯身分組】及【增加Reaction】的權限，請確定授權。
 * 另外，使用者需要【伺服器管理者】權限。
 
-![](https://camo.githubusercontent.com/64127e839e299470afdba2e56a364ecbed6351a1e72b24b247caeae377c7d777/68747470733a2f2f692e696d6775722e636f6d2f6b755a4841336d2e676966)
+![](../.gitbook/assets/000123.gif)
 
 ### 使用教學
 
-首先去**User Setting**=>**Advanced**=>開啓**Developer Mode**
+#### 開啓**Developer Mode**
 
-再去**Server Setting**=>**Roles**=>**新增**或**設定**希望分配的**身分組**
+首先去**User Setting**=>**Advanced**=>開啓**Developer Mode**\
+****這會令你可以COPY ID
 
-然後對該身分組按右鍵並按**COPY ID**，把該**ID**記下來
+#### **複製身分組ID**
 
-*   最後按以下格式來輸入指令
+再去**Server Setting**=>**Roles**=>**新增**或**設定**希望分配的**身分組**\
+****然後對該身分組按右鍵並按**COPY ID**，把該**ID**記下來
 
-    `.roleReact add`
+#### 發佈信息及複製信息ID
 
-    `身份組ID Emoji`
+接著，去任意頻道中發佈一段信息，表示如果按了React 就會得到身份組，\
+並對該信息按右鍵再按COPY ID，把該ID記下
 
-    `[[message]]`
+**範例** \
+按🎨可得身分組-畫家 \
+按😁可得身分組-大笑
 
-    `需要發佈的訊息`
-*   **範例**
+#### 輸入指令
 
-    `.roleReact add`
+最後按以下格式來輸入指令，把上面記下的ID，填進去
 
-    `232312882291231263 🎨`
+`.roleReact add`\
+`身份組ID Emoji`\
+`[[messageID]]`\
+``發佈訊息的ID
 
-    `123123478897792323 😁`
+#### **範例**
 
-    `[[message]]`
+`.roleReact add`\
+`232312882291231263 🎨`\
+`123123478897792323 😁`\
+`[[messageID]]`\
+``12312347889779233
 
-    `按🎨可得身分組-畫家`
-
-    `按😁可得身分組-大笑`
+{% hint style="info" %}
+注意, 可以重覆輸入同樣ID來增加新emoji
+{% endhint %}
 
 ### 功能一覧
 
