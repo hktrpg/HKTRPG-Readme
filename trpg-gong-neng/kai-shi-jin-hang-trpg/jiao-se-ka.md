@@ -40,11 +40,11 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 ****![](<../../.gitbook/assets/image (5).png>)****
 
-輸入 **.admin account (username) (password)**&#x20;
+輸入 ** `.admin account (username) (password)`**&#x20;
 
-然後進入 **https://www.hktrpg.com:20721/card/**&#x20;
+然後進入 [`角色卡管理庫`](https://www.hktrpg.com:20721/card/)``
 
-成功後，在網頁 輸入帳號密碼， 就可以管理你的角色卡，進行修改。
+在網頁 輸入帳號密碼， 就可以管理你的角色卡，進行修改。
 
 ![](<../../.gitbook/assets/image (40).png>)![](<../../.gitbook/assets/image (38).png>)
 
@@ -73,9 +73,7 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 **``**![](<../../.gitbook/assets/image (32).png>)**``**
 
-`接著，就可以在該頻道使用`
-
-``
+接著，就可以在該頻道使用
 
 把結果傳送到已登記的Discord，TG，LINE上的聊天群組的登記方法:&#x20;
 
@@ -90,7 +88,9 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 #### `.char`
 
-`.char add name[Sad]~ state[HP:15/15;con:60;san:60]~ roll[鬥毆: cc 50;投擲: cc 15;sc:cc {san}]~ notes[筆記:這是測試,請試試在群組輸入 .char use Sad;]~`&#x20;
+`.char add name[Sad]~ state[HP:15/15;con:60;san:60]~` \
+`roll[鬥毆: cc 50;投擲: cc 15;sc:cc {san}]~` \
+`notes[筆記:這是測試,請試試在群組輸入 .char use Sad;]~`&#x20;
 
 **可以新增及更新角色卡**
 
