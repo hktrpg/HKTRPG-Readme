@@ -1,6 +1,6 @@
 # CoC克蘇魯神話
 
-`cc` `cc(n)1~2` `ccb` `ccrt` `ccsu` `.dp` `.cc7build` `.cc6build` `.cc7bg`
+`cc` `cc(n)1~2` `ccb` `ccrt` `ccsu` `.dp` `.cc7build` `.cc6build` `.cc7bg` `.sc`
 
 * coc6版擲骰： `ccb 80` 技能小於等於80
 * coc7版擲骰： `cc 80` 技能小於等於80\
