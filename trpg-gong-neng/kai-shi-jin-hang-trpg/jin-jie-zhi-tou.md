@@ -18,7 +18,7 @@ description: 這裡介紹一些比較不常用的擲骰方法，適用於個別�
 
 `5B10` 不進行計算，即使有多粒骰子，也只直接顯示擲骰結果
 
-![](<../../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (43) (1).png>)
 
 `5B10S` 不加總的擲骰，並按大至小排序
 
@@ -44,4 +44,4 @@ description: 這裡介紹一些比較不常用的擲骰方法，適用於個別�
 擲出指定範圍的數字
 
 `.int 20 30` 即骰出20-30\
-![](<../../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (28) (1).png>)
