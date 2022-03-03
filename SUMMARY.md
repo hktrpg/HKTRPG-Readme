@@ -44,6 +44,6 @@
 
 ## 其他情報
 
-* [使用環境](qi-ta-qing-bao/shi-yong-huan-jing.md)
+* [名人堂](qi-ta-qing-bao/ming-ren-tang.md)
 * [FAQ](qi-ta-qing-bao/faq.md)
 * [開發情況](qi-ta-qing-bao/kai-fa-qing-kuang.md)
