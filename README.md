@@ -6,7 +6,7 @@ description: 本網站是骰子機械人HKTRPG的官方文件。它提供了如�
 
 ## **歡迎來到HKTRPG!**
 
-HKTRPG是一個用於TRPG的網上工具，它允許你在不同平台上(如:網站，Discord，Line，Whatsapp)上進行擲骰。它不僅可以用於TRPG，還可以用於日常娛樂及群組管理。
+HKTRPG是一個用於TRPG的網上工具，它允許你在不同平台上(如:網站，Discord，Line，Telegram，Plurk，Whatsapp)上進行擲骰。而且它不僅可以用於TRPG，還可以用於日常娛樂及群組管理。
 
 ### 使用理由
 
