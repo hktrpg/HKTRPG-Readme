@@ -43,7 +43,9 @@ ID: HKTRPG#4989
 
 {% tab title="Whatsapp" %}
 [https://api.whatsapp.com/send?phone=85246415497](https://api.whatsapp.com/send?phone=85246415497)\
-點擊就可以使用，然後加好友，如朋友一樣加入群組\
+點擊就可以使用，然後加好友，如朋友一樣加入群組
+
+(注: 非常不穩定，可能失效)\
 ![](<../../.gitbook/assets/image (10).png>)
 {% endtab %}
 
