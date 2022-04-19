@@ -6,8 +6,7 @@
 
 * [邀請HKTRPG](kai-shi-shi-yong/yao-qing-hktrpg/README.md)
   * [網頁版](kai-shi-shi-yong/yao-qing-hktrpg/wang-ye-ban.md)
-  * [聊天軟件](kai-shi-shi-yong/yao-qing-hktrpg/liao-tian-ruan-jian/README.md)
-    * [Discord版注意事項](kai-shi-shi-yong/yao-qing-hktrpg/liao-tian-ruan-jian/discord-ban-zhu-yi-shi-xiang.md)
+  * [聊天軟件](kai-shi-shi-yong/yao-qing-hktrpg/liao-tian-ruan-jian.md)
   * [Google Docs](kai-shi-shi-yong/yao-qing-hktrpg/google-docs.md)
   * [API](kai-shi-shi-yong/yao-qing-hktrpg/api.md)
 
@@ -49,6 +48,7 @@
 
 * [名人堂](qi-ta-qing-bao/ming-ren-tang.md)
 * [FAQ](qi-ta-qing-bao/faq.md)
+* [Discord版注意事項](qi-ta-qing-bao/discord-ban-zhu-yi-shi-xiang.md)
 * [服務條款](qi-ta-qing-bao/fu-wu-tiao-kuan.md)
 * [隱私權聲明](qi-ta-qing-bao/yin-si-quan-sheng-ming.md)
 * [開發情況](qi-ta-qing-bao/kai-fa-qing-kuang.md)
