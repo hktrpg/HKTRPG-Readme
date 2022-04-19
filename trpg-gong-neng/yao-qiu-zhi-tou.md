@@ -1,5 +1,5 @@
 ---
-description: 應用Discord 的button功能，暫時只限Discord，有機會會放上Telegram
+description: 應用Discord 的button功能，暫時只限Discord，有機會會放上Telegram。
 ---
 
 # 要求擲骰
