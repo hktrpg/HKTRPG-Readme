@@ -15,7 +15,7 @@ description: Discord 在群組中以「分類」來對不同頻道進行管理�
 * 注意: 此功能需求HKTRPG擁有【編輯身分組】及【增加Reaction】的權限，請確定授權。
 * 另外，使用者需要【伺服器管理者】權限。
 
-![](../.gitbook/assets/000123.gif)
+<img src="../.gitbook/assets/000123.gif" alt="" data-size="original">
 
 ### 使用教學
 

@@ -4,7 +4,7 @@ description: TRPG有時可能需要定時發訊，例如提醒跑團或是倒數
 
 # 定時發訊功能
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (35) (1).png>)
 
 定時功能擁有兩種模式\
 `.at .cron mins hours delete show`

@@ -22,7 +22,7 @@
 那刻我心裡懷疑是不是搞錯了什麼，那個好像要有一千個群組在使用HKTRPG才會發生，怎知我寫了個檢查功能，才發現，欸，已經有千多個群在使用…?\
 接下來是莫名的興奮，和一堆的手續。當時HKTRPG寄存在免費的Heroku，後台開始不斷顯示Ram不足，所以HKTRPG搬到付費Server，開始每天有十多二十個新群使用HKTRPG，就有開Patreon的想法。
 
-![](<../.gitbook/assets/image (34).png>)\
+<img src="../.gitbook/assets/image (34).png" alt="" data-size="original">\
 \#2022/02/09 隨著Discord使用人數增多，Server 的Ram, CPU, SSD還是一直處於滿載狀態，別問我為什麼……\
 \
 Patreon除了金錢支援，還有心靈上支持，「原來真的有支持者」「原來真的有人覺得好用」，令我投入更多心機進HKTRPG，挑戰了很多課題，.ra 抽選功能那時我看了超久的文檔才寫得出來，現在看來真的寫的超難看，超不合理，但就是我踏出挑戰的第一步。\

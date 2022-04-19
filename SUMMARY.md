@@ -22,6 +22,7 @@
   * [資料庫功能](trpg-gong-neng/kai-shi-jin-hang-trpg/zi-liao-ku-gong-neng.md)
   * [儲存擲骰指令](trpg-gong-neng/kai-shi-jin-hang-trpg/chu-cun-zhi-tou-zhi-ling.md)
 * [你的名字(扮演功能)](trpg-gong-neng/ni-de-ming-zi-ban-yan-gong-neng.md)
+* [要求擲骰](trpg-gong-neng/yao-qiu-zhi-tou.md)
 * [指定TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/README.md)
   * [CoC克蘇魯神話](trpg-gong-neng/zhi-ding-trpg-xi-tong/coc-ke-su-lu-shen-hua.md)
   * [其他TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/qi-ta-trpg-xi-tong.md)
