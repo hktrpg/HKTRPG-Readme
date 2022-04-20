@@ -14,7 +14,7 @@ description: 如何使用HKTRPG
 
 ## 連結
 
-* [Discord 邀請連結](http://bit.ly/HKTRPG\_DISCORD\_)
+* [Discord 邀請連結](https://bit.ly/HKTRPG\_DISCORD\_2022)
 * [Telegram 邀請連結](http://t.me/hktrpg\_bot)
 * [Line 邀請連結](http://bit.ly/HKTRPG\_LINE)
 * [網頁版 邀請連結](https://rollbot.hktrpg.com)
