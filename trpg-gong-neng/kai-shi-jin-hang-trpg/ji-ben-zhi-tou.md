@@ -48,7 +48,7 @@ k keep保留，d drop 放棄，h highest最高，l lowest最低 \
 \
 3D6dl2\
 放棄最小的2粒骰\
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (26) (1).png>)
 
 
 
