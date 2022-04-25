@@ -17,6 +17,16 @@ Discord 於8月31日將會改變機械人的[使用政策](https://support.disco
       1. 延長名字，如`.me`變更成`/mee`
       2. 更改成其他名字
 
+### 為什麼我的群組加了HKTRPG，但沒有斜線指令(/)
+
+通常原因是因為使用舊的邀請連結加入HKTRPG，只要點擊HKTRPG->Profile->Add to Server\
+再加入一次你的群組一次，**不需要先移除**，直接加入就可以。\
+或是使用[Discord 邀請連結](https://bit.ly/HKTRPG\_DISCORD\_2022)
+
+<img src="../.gitbook/assets/image (37).png" alt="" data-size="original">
+
+
+
 ### 為什麼還沒有全面使用斜線指令(/)
 
 因為~~我懶~~數量是真的多，指令數量加起來百多條。
