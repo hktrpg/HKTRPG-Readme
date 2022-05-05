@@ -21,7 +21,7 @@ Discord 於8月31日將會改變機械人的[使用政策](https://support.disco
 
 通常原因是因為使用舊的邀請連結加入HKTRPG，只要點擊HKTRPG->Profile->Add to Server\
 再加入一次你的群組一次，**不需要先移除**，直接加入就可以。\
-或是使用[Discord 邀請連結](https://bit.ly/HKTRPG\_DISCORD\_2022)
+或是使用[Discord 邀請連結](https://discord.hktrpg.com)
 
 <img src="../.gitbook/assets/image (37).png" alt="" data-size="original">
 

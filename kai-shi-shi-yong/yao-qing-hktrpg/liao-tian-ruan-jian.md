@@ -22,7 +22,7 @@ ID: HKTRPG#4989
 
 在Discord -> Home -> Find or start a conversation 中輸入ID就可以使用HKTRPG了\
 不過邀請到群組的話還是需要使用下面的連結\
-[https://bit.ly/HKTRPG\_DISCORD\_2022](https://bit.ly/HKTRPG\_DISCORD\_2022)\
+[https://discord.hktrpg.com](https://discord.hktrpg.com)\
 ![](<../../.gitbook/assets/image (14).png>)
 {% endtab %}
 
