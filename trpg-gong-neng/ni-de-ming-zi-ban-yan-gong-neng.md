@@ -7,7 +7,7 @@ description: 這裡介紹一個在Discord上固定名字和頭像的發訊方式
 {% hint style="info" %}
 在Discord之中，你在群組中的名字可以隨時改變，但問題是這種改變是追溯整個群組的，導致如果你有使用文字跑團，角色的名字圖片將會被打亂。
 
-請注意，這種方式只可以以.edit (修改舊訊息功能) 來**追加修改內容**。
+請注意，這種方式只可以以[.edit (修改舊訊息功能)](../xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md) 來**追加修改內容**。
 {% endhint %}
 
 `.myname` `.me` `.me1` `.me(名字)` \*Discord限定功能
