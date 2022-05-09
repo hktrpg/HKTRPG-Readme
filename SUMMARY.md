@@ -1,6 +1,6 @@
 # Table of contents
 
-* [HKTRPG  官方使用教學](README.md)
+* [HKTRPG 官方使用教學](README.md)
 
 ## 開始使用
 
@@ -26,12 +26,14 @@
 * [指定TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/README.md)
   * [CoC克蘇魯神話](trpg-gong-neng/zhi-ding-trpg-xi-tong/coc-ke-su-lu-shen-hua.md)
   * [其他TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/qi-ta-trpg-xi-tong.md)
+* [RPG Dice Roller(新擲骰方法)](trpg-gong-neng/rpg-dice-roller-xin-zhi-tou-fang-fa.md)
 
 ## 系統工具
 
 * [Discord身分組管理](xi-tong-gong-ju/discord-shen-fen-zu-guan-li.md)
 * [Discord 頻道聊天紀錄輸出工具](xi-tong-gong-ju/discord-bin-dao-liao-tian-ji-lu-shu-chu-gong-ju.md)
 * [顯示HKTRPG統計信息](xi-tong-gong-ju/xian-shi-hktrpg-tong-ji-xin-xi.md)
+* [Discord 修改舊訊息](xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md)
 * [功能開關](xi-tong-gong-ju/gong-neng-kai-guan.md)
 
 ## 娛樂功能
