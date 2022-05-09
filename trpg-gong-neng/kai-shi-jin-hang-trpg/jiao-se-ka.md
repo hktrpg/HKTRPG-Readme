@@ -48,7 +48,7 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 在網頁 輸入帳號密碼， 就可以管理你的角色卡，進行修改。
 
-![](<../../.gitbook/assets/image (40) (1).png>)![](<../../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (40) (1).png>)![](<../../.gitbook/assets/image (21).png>)
 
 想修改內容，只要直接修改數字然後按右上角的儲存角色卡就可以了。
 
