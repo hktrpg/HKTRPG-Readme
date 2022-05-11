@@ -25,8 +25,9 @@
 * [要求擲骰](trpg-gong-neng/yao-qiu-zhi-tou.md)
 * [指定TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/README.md)
   * [CoC克蘇魯神話](trpg-gong-neng/zhi-ding-trpg-xi-tong/coc-ke-su-lu-shen-hua.md)
+  * [BcDice(日系擲骰方法)](trpg-gong-neng/zhi-ding-trpg-xi-tong/bcdice-ri-xi-zhi-tou-fang-fa.md)
   * [其他TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/qi-ta-trpg-xi-tong.md)
-* [RPG Dice Roller(新擲骰方法)](trpg-gong-neng/rpg-dice-roller-xin-zhi-tou-fang-fa.md)
+* [RPG Dice Roller(美系擲骰方法)](trpg-gong-neng/rpg-dice-roller-mei-xi-zhi-tou-fang-fa.md)
 
 ## 系統工具
 
