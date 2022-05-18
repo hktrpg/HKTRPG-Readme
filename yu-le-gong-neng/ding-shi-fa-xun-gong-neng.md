@@ -48,6 +48,27 @@ description: TRPG有時可能需要定時發訊，例如提醒跑團或是倒數
 `.cron 1921-wed-mon`\
 `我將會每個星期一和三發一次訊息`
 
+### 以自定的名字和圖片發訊(Patreoner專用)
+
+在時間後加上name 和link 就可以像.meX 功能，使用自定的身份來定時發訊
+
+![](<../.gitbook/assets/image (19).png>)\
+**範例**
+
+`.cron 2258` \
+**``**`name=Sad` \
+`link=`[`https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png`](https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png) `` \
+`第一行` \
+`[[2d3 第二行]]` \
+`hello world 文末`
+
+`.at 1mins` \
+**``**`name=Sad` \
+`link=`[`https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png`](https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png) `` \
+`第一行` \
+`[[2d3 第二行]]` \
+`hello world 文末`
+
 ### 功能一覧
 
 * `.cron / .at` 增加信息

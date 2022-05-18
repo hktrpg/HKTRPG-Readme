@@ -6,7 +6,7 @@ description: 為了提供方便性，HKTRPG擁有簡單的網上聊天室，可�
 
 ### 新增一個房間
 
-[HKTRPG網頁版](https://rollbot.hktrpg.com)
+[HKTRPG網頁版](https://rollbot.hktrpg.com/)
 
 網上聊天室以一個個房間為單位，進入時預設使用房間「公共房間」。你可以變更右方的名字來進入其他房間。左邊則是你在聊天室顯示的名字。同樣可以自由更改。
 
