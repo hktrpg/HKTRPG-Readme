@@ -65,4 +65,14 @@ description: Discord 在群組中以「分類」來對不同頻道進行管理�
 * `.roleReact show` 顯示現有的指定訊息的資料
 * `.roleReact delete 序號` 刪除後該信息將不會再派發移除身分組
 
-\
+### FAQ
+
+#### 問1: 我嘗試把某身份組分配給人，但別人點擊了Reaction 也沒反應呢?
+
+可能的原因很多，但主要是權限不足。\
+Discord 有嚴格的權限保護，你可以嘗試檢查HKTRPG有沒有管理Roles的權限，如果已經有或已經是Admin，\
+那麼接下來請查看希望分派的Role會不會在《Roles》裡，位置比HKTRPG更高。\
+在這情況裡，即使HKTRPG擁有Admin權限，也會派發不了這Role給別人。\
+你需要把HKTRPG調整到更它們更高的位置。
+
+![](../.gitbook/assets/rolereactionFAQ.png)\
