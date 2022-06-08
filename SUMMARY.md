@@ -36,6 +36,7 @@
 * [顯示HKTRPG統計信息](xi-tong-gong-ju/xian-shi-hktrpg-tong-ji-xin-xi.md)
 * [Discord 修改舊訊息](xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md)
 * [功能開關](xi-tong-gong-ju/gong-neng-kai-guan.md)
+* [Token製作功能](xi-tong-gong-ju/token-zhi-zuo-gong-neng.md)
 
 ## 娛樂功能
 
