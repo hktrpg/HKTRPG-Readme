@@ -28,6 +28,7 @@
   * [BcDice(日系擲骰方法)](trpg-gong-neng/zhi-ding-trpg-xi-tong/bcdice-ri-xi-zhi-tou-fang-fa.md)
   * [其他TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/qi-ta-trpg-xi-tong.md)
 * [RPG Dice Roller(美系擲骰方法)](trpg-gong-neng/rpg-dice-roller-mei-xi-zhi-tou-fang-fa.md)
+* [Token製作功能](trpg-gong-neng/token-zhi-zuo-gong-neng.md)
 
 ## 系統工具
 
@@ -36,7 +37,6 @@
 * [顯示HKTRPG統計信息](xi-tong-gong-ju/xian-shi-hktrpg-tong-ji-xin-xi.md)
 * [Discord 修改舊訊息](xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md)
 * [功能開關](xi-tong-gong-ju/gong-neng-kai-guan.md)
-* [Token製作功能](xi-tong-gong-ju/token-zhi-zuo-gong-neng.md)
 
 ## 娛樂功能
 
