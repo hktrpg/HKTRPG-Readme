@@ -1,6 +1,14 @@
+---
+description: 這裡介紹如何使用HKTRPG進行COC擲骰
+---
+
 # CoC克蘇魯神話
 
 `cc` `cc(n)1~2` `ccb` `ccrt` `ccsu` `.dp` `.cc7build` `.cc6build` `.cc7bg` `.sc` `.chase`
+
+{% hint style="info" %}
+[CoC7ed規則書介紹](https://www.patreon.com/posts/67705000)
+{% endhint %}
 
 ### 擲骰檢定
 
