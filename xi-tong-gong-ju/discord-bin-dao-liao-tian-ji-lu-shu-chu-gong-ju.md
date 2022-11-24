@@ -1,6 +1,6 @@
 # Discord 頻道聊天紀錄輸出工具
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (4).png>)
 
 `.discord html` 可以輸出有分析功能的聊天紀錄(暫停開放中)
 

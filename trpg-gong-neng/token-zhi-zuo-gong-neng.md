@@ -26,7 +26,10 @@ HKTRPG
 ### 樣式
 
 `.token` 是一張即影即有相片 \
-`.token2` 是一張圓型透明Token \
+`.token2` 是一張圓型透明Token&#x20;
+
+![](../.gitbook/assets/image.png)\
+\
 
 
 ### &#x20;現在只有這兩款格式，歡迎有創意/會畫畫的人，提供圖樣， 豐富這功能
