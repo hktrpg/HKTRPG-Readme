@@ -33,7 +33,7 @@ description: 這裡說明最基本的擲骰方法
 
 ![](<../../.gitbook/assets/image (16).png>)
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 ### 支援kh|kl|dh|dl
 

@@ -28,7 +28,7 @@ HKTRPG
 `.token` 是一張即影即有相片 \
 `.token2` 是一張圓型透明Token&#x20;
 
-![](<../.gitbook/assets/image (1).png>)\
+![](<../.gitbook/assets/image (1) (1).png>)\
 \
 
 

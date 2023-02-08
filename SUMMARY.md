@@ -26,6 +26,8 @@
 * [指定TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/README.md)
   * [CoC克蘇魯神話](trpg-gong-neng/zhi-ding-trpg-xi-tong/coc-ke-su-lu-shen-hua.md)
   * [DND 5e](trpg-gong-neng/zhi-ding-trpg-xi-tong/dnd-5e.md)
+  * [PF2e](trpg-gong-neng/zhi-ding-trpg-xi-tong/pf2e.md)
+  * [PokeRole 寶可夢扮演](trpg-gong-neng/zhi-ding-trpg-xi-tong/pokerole-bao-ke-meng-ban-yan.md)
   * [BcDice(日系擲骰方法)](trpg-gong-neng/zhi-ding-trpg-xi-tong/bcdice-ri-xi-zhi-tou-fang-fa.md)
   * [其他TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/qi-ta-trpg-xi-tong.md)
 * [RPG Dice Roller(美系擲骰方法)](trpg-gong-neng/rpg-dice-roller-mei-xi-zhi-tou-fang-fa.md)

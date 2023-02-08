@@ -40,7 +40,7 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 **而為了使用網頁版角色卡，你需要新增管理用的帳號**
 
-****![](<../../.gitbook/assets/image (5).png>)****
+****![](<../../.gitbook/assets/image (5) (1).png>)****
 
 輸入 ** `.admin account (username) (password)`**&#x20;
 
