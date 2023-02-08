@@ -11,7 +11,7 @@ description: 這裡介紹一個在Discord上如何修改由HKTRPG所發出的舊
 
 `.edit`  Discord限定功能
 
-![範例](<../.gitbook/assets/image (2) (2).png>)
+![範例](<../.gitbook/assets/image (2).png>)
 
 ### 使用方法:
 

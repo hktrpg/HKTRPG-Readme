@@ -9,7 +9,9 @@ description: 這裡介紹如何使用HKTRPG進行PokeRole擲骰
 這是一個Pokemon的資料庫，\
 進行小精靈，招式的查詢以及 顯示 對戰的屬性相克結果
 
-<img src="../../.gitbook/assets/image (5).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (6).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (4).png" alt="" data-size="original"><img src="../../.gitbook/assets/image.png" alt="" data-size="original">
+
+## 使用方法
 
 **`.poke`** 可以查看更多指令\
 **`.poke mon (名稱/編號)`** 可以查看小精靈的資料\
