@@ -50,6 +50,7 @@
 * [經驗值升級](yu-le-gong-neng/jing-yan-zhi-sheng-ji/README.md)
   * [事件功能](yu-le-gong-neng/jing-yan-zhi-sheng-ji/shi-jian-gong-neng.md)
 * [Wiki查詢/圖片搜索/語言翻譯/數學計算](yu-le-gong-neng/wiki-cha-xun-tu-pian-sou-suo-yu-yan-fan-yi-shu-xue-ji-suan.md)
+* [ChatGPT AI 功能](yu-le-gong-neng/chatgpt-ai-gong-neng.md)
 
 ## 其他情報
 

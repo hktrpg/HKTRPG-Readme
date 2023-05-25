@@ -7,7 +7,7 @@ description: .ca .wiki .image .tran
 ### 數學計算
 
 `.ca` 只進行數學計算 例如: `.ca 1.2 * (2 + 4.5)` `12.7 米 to inch` `sin(45 deg) ^ 2` `5磅轉斤` `10米轉呎` `10米=吋`\
-``![](<../.gitbook/assets/image (25).png>)``
+![](<../.gitbook/assets/image (25).png>)
 
 ### 搜索WIKI
 

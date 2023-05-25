@@ -6,7 +6,7 @@ description: 背後開發秘申
 
 ### HKTRPG起源
 
-因為30 Nov 2016有人發佈了[機器鴨霸獸開源計劃](https://docs.google.com/document/d/1dYnJqF2\_QTp90ld4YXj6X8kgxvjUoHrB4E2seqlDlAk/edit)****
+因為30 Nov 2016有人發佈了[機器鴨霸獸開源計劃](https://docs.google.com/document/d/1dYnJqF2\_QTp90ld4YXj6X8kgxvjUoHrB4E2seqlDlAk/edit)
 
 **鴨霸獸**的指令基本和跑團平台**凍豆腐**差不多，因為當時**凍豆腐**可算是唯一的日系跑團平台，所以大家都是站在**凍豆腐**上來寫，\
 但我當時覺得啊COC指令`CC<=80` 太麻煩了，明明LINE是手機用戶為主，<=這指令根本反人類，就想自己也學寫一個\

@@ -18,8 +18,8 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 **roll\[鬥毆: cc 50;sc:cc {san};]\~** \
 **notes\[筆記:這是測試,請試試在群組輸入 .char use Sad或你想要的名字;]\~**&#x20;
 
-****\
-****彈出**新增/修改成功**代表你已經新增角色卡
+\
+彈出**新增/修改成功**代表你已經新增角色卡
 
 ![](<../../.gitbook/assets/image (37) (1).png>)
 
@@ -40,11 +40,11 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 **而為了使用網頁版角色卡，你需要新增管理用的帳號**
 
-****![](<../../.gitbook/assets/image (5) (1).png>)****
+![](<../../.gitbook/assets/image (5) (1).png>)
 
-輸入 ** `.admin account (username) (password)`**&#x20;
+輸入 **`.admin account (username) (password)`**&#x20;
 
-然後進入 [`角色卡管理庫`](https://www.hktrpg.com:20721/card/)``
+然後進入 [`角色卡管理庫`](https://www.hktrpg.com:20721/card/)
 
 在網頁 輸入帳號密碼， 就可以管理你的角色卡，進行修改。
 
@@ -73,7 +73,7 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 `如上面就輸入 .char use`` `**`Sad或你想要的名字`**
 
-**``**![](<../../.gitbook/assets/image (32) (1).png>)**``**
+![](<../../.gitbook/assets/image (32) (1).png>)
 
 接著，就可以在該頻道使用
 
@@ -95,7 +95,7 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 **`.ch button`**  或\
 **`.char button 角色名字`** 可以產生你的角色卡按鈕
 
-兩種產生的按鈕指令會有所不同，前者調用**`.ch`**後者產生直接擲骰的指令 ****&#x20;
+兩種產生的按鈕指令會有所不同，前者調用**`.ch`**後者產生直接擲骰的指令&#x20;
 
 {% hint style="info" %}
 按鈕產生後，可以按右鍵點擊Pin，方便自己擲骰時可以找到角色卡位置

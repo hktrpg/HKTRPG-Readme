@@ -12,7 +12,7 @@ description: 有很多時候，擲骰的結果需要隱藏或只分享給指定�
 
 `dr cc 80`
 
-``![](<../../.gitbook/assets/image (19) (1).png>)``
+![](<../../.gitbook/assets/image (19) (1).png>)
 
 ### DDR DDDR 把結果私訊給指定的人
 

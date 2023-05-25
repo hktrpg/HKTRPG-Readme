@@ -22,12 +22,12 @@ description: Discord 在群組中以「分類」來對不同頻道進行管理�
 #### 開啓**Developer Mode**
 
 首先去**User Setting**=>**Advanced**=>開啓**Developer Mode**\
-****這會令你可以COPY ID
+這會令你可以COPY ID
 
 #### **複製身分組ID**
 
 再去**Server Setting**=>**Roles**=>**新增**或**設定**希望分配的**身分組**\
-****然後對該身分組按右鍵並按**COPY ID**，把該**ID**記下來
+然後對該身分組按右鍵並按**COPY ID**，把該**ID**記下來
 
 #### 發佈信息及複製信息ID
 
@@ -45,7 +45,7 @@ description: Discord 在群組中以「分類」來對不同頻道進行管理�
 `.roleReact add`\
 `身份組ID Emoji`\
 `[[messageID]]`\
-``發佈訊息的ID
+發佈訊息的ID
 
 #### **範例**
 
@@ -53,7 +53,7 @@ description: Discord 在群組中以「分類」來對不同頻道進行管理�
 `232312882291231263 🎨`\
 `123123478897792323 😁`\
 `[[messageID]]`\
-``12312347889779233
+12312347889779233
 
 {% hint style="info" %}
 注意, 可以重覆輸入同樣ID來增加新emoji
