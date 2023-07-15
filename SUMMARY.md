@@ -1,14 +1,15 @@
 # Table of contents
 
 * [HKTRPG 官方使用教學](README.md)
+* [開發支援](kai-fa-zhi-yuan.md)
 
 ## 開始使用
 
 * [邀請HKTRPG](kai-shi-shi-yong/yao-qing-hktrpg/README.md)
-  * [網頁版](kai-shi-shi-yong/yao-qing-hktrpg/wang-ye-ban.md)
   * [聊天軟件](kai-shi-shi-yong/yao-qing-hktrpg/liao-tian-ruan-jian.md)
   * [Google Docs](kai-shi-shi-yong/yao-qing-hktrpg/google-docs.md)
   * [API](kai-shi-shi-yong/yao-qing-hktrpg/api.md)
+  * [網頁版](kai-shi-shi-yong/yao-qing-hktrpg/wang-ye-ban.md)
 
 ## TRPG功能
 
