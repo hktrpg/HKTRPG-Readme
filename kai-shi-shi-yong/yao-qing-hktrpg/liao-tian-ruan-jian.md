@@ -26,7 +26,7 @@ ID: HKTRPG#4989
 建議使用手機開啓，進入網址後，中間的Chat按鈕可以和HKTRPG對話。\
 也可以按+朋友。\
 接著在群組中就可以像一般朋友那樣邀請他加入，但要注意LINE限定一個群組只可以加入一個機械人。\
-
+![](<../../.gitbook/assets/image (39).png>)
 {% endembed %}
 
 [https://t.me/hktrpg\_bot](https://t.me/hktrpg\_bot)\

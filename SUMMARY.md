@@ -1,10 +1,9 @@
 # Table of contents
 
-* [HKTRPG 官方使用教學](README.md)
-* [開發支援](kai-fa-zhi-yuan.md)
-
 ## 開始使用
 
+* [HKTRPG 官方使用教學](README.md)
+* [開發支援](kai-shi-shi-yong/kai-fa-zhi-yuan.md)
 * [邀請HKTRPG](kai-shi-shi-yong/yao-qing-hktrpg/README.md)
   * [聊天軟件](kai-shi-shi-yong/yao-qing-hktrpg/liao-tian-ruan-jian.md)
   * [Google Docs](kai-shi-shi-yong/yao-qing-hktrpg/google-docs.md)
