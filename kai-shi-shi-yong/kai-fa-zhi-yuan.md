@@ -58,7 +58,7 @@ HKTRPG贊助說明
 
 捐助網站使用[PATREON: https://www.patreon.com/HKTRPG](https://www.patreon.com/HKTRPG)
 
-請捐助後，在Patreon中連接到你的Discord，並私訊我
+請捐助後，在Patreon中連接到你的Discord，並進行私訊。
 
 注意 Patreon私訊功能有點慢，所以不一定可以立即回應。\
 可以用Discord DM。
