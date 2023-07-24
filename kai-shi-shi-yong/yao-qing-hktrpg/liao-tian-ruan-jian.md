@@ -32,7 +32,7 @@ ID: HKTRPG#4989
 [https://t.me/hktrpg\_bot](https://t.me/hktrpg\_bot)\
 點擊後同樣可以直接和HKTRPG對話\
 然後在選項中就可以選Add to Group 加到你的群組\
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 [https://api.whatsapp.com/send?phone=85246415497](https://api.whatsapp.com/send?phone=85246415497)\
 點擊就可以使用，然後加好友，如朋友一樣加入群組

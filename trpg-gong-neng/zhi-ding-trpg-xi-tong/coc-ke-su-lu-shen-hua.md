@@ -33,6 +33,15 @@ description: 這裡介紹如何使用HKTRPG進行COC擲骰
     `成長檢定 65 頭槌 45 劍術`  \
     `幕間成長 40 單車`
 
+### COC資料
+
+`coc7版 神話組織 隨機產生： 啓動語 .cccc` \
+`coc7版 神話資料 隨機產生： 啓動語 .ccdr` \
+`coc7版 施法推骰後果： 啓動語 .ccpc`\
+![](<../../.gitbook/assets/image (7).png>)
+
+![](<../../.gitbook/assets/image (9).png>)
+
 ### 瘋狂結果
 
 * coc7版 即時型瘋狂： 啓動語 `ccrt`
