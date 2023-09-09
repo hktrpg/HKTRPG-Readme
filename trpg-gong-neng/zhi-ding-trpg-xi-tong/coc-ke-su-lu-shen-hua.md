@@ -51,8 +51,21 @@ description: 這裡介紹如何使用HKTRPG進行COC擲骰
 
 * coc6版創角： 啓動語 `.cc6build`
 * coc7版創角： 啓動語 `.cc7build (歲數7-79)`
-* coc7版隨機創角 ： 啓動語 .cc7build random
-* coc pulp版創角 ： 啓動語 .ccpulpbuild
+* coc7版隨機創角 ： 啓動語 `.cc7build random`
+* coc7版自由分配點數創角 ： 啓動語 `.cc7build .xyz (歲數7-89)`
+
+如`.cc7build .752` \
+就會擲出\
+`7次 3d6 * 5`\
+`5次 (2d6+6) * 5` \
+`2次 3d6 * 5`
+
+可只輸入`.`  不輸入xyz\
+預設值為 .53 即`5次 3d6 * 5` 和`3次 (2d6+6) * 5`&#x20;
+
+![](<../../.gitbook/assets/image (45).png>)
+
+* coc pulp版創角 ： 啓動語 `.ccpulpbuild`
 * coc7版角色背景隨機生成： 啓動語 `.cc7bg`
 
 ### 成長檢定紀錄功能
