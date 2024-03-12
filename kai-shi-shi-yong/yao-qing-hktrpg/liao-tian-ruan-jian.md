@@ -26,7 +26,7 @@ ID: HKTRPG#4989
 建議使用手機開啓，進入網址後，中間的Chat按鈕可以和HKTRPG對話。\
 也可以按+朋友。\
 接著在群組中就可以像一般朋友那樣邀請他加入，但要注意LINE限定一個群組只可以加入一個機械人。\
-![](<../../.gitbook/assets/image (39).png>)
+
 {% endembed %}
 
 [https://t.me/hktrpg\_bot](https://t.me/hktrpg\_bot)\
@@ -34,7 +34,7 @@ ID: HKTRPG#4989
 然後在選項中就可以選Add to Group 加到你的群組\
 ![](<../../.gitbook/assets/image (9) (1).png>)
 
-[https://api.whatsapp.com/send?phone=85246415497](https://api.whatsapp.com/send?phone=85246415497)\
+[https://api.whatsapp.com/send?phone=85294427421](https://api.whatsapp.com/send?phone=85294427421)\
 點擊就可以使用，然後加好友，如朋友一樣加入群組
 
 (注: 非常不穩定，可能失效)\
