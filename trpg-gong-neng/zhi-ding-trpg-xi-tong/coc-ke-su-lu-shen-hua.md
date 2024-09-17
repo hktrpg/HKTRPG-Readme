@@ -19,10 +19,8 @@ description: 這裡介紹如何使用HKTRPG進行COC擲骰
 * CoC7版懲罰骰： ccn(1\~2) `ccn2 80` 兩粒懲罰骰
 * CoC7版聯合檢定：cc (x,y) (z,a) `cc 80,60 鬥毆,魅惑` \
   支援獎勵懲罰骰，如：`cc１ 80,60 鬥毆,魅惑`
-* CoC7版SanCheck ： `.sc (SAN值) (成功)/(失敗)`
-
-![](<../../.gitbook/assets/image (28).png>)
-
+* CoC7版SanCheck ： `.sc (SAN值) (成功)/(失敗)`\
+  ![](<../../.gitbook/assets/image (28).png>)
 *   CoC7 手動成長或增長檢定
 
     ![](<../../.gitbook/assets/image (32).png>)\
