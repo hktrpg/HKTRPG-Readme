@@ -183,14 +183,20 @@ _`.ch 項目名稱 (+-`_`/xDy)` - **可以對如HP進行擲骰四則運算**&#x2
 
 ## 使用範例
 
-.ch set 護甲 3\
-.ch hp 10\
-.ch HP +3 MP 6 san -10 筆記\
-.ch HP +3d6 \
-.ch hp \*3/2 .ch 鬥毆\
-.ch san \
-dr .ch 魔法\
-.ch str <3D6dl2>\
-.ch san -<1d3>\
-.ch san <.sc san 1/1d3>
+`.ch set 護甲 3` - 設定護甲為3\
+`.ch hp 10`         - 設定 hp 為10\
+`.ch HP +3 MP 6 san -10 筆記` - 設定hp增加3點，MP為6，San減少10及顯示筆記\
+`.ch HP +3d6` - 設定hp增加3d6\
+`.ch san -<1d3>` - 設定hp減少1d3\
+`.ch san <.sc san 1/1d3>`  - 設定san進行san check\
+![](<../../.gitbook/assets/image (46).png>)\
+`.ch str <3D6dl2>` - 設定str 為 3d6dl2\
+`.ch hp *3/2`  -  設定hp 乘3除以2\
+\
+`.ch 鬥毆` - 進行鬥毆\
+`.ch san`  - 顯示現時San\
+`dr .ch 魔法` - 暗骰\
+\
+\
+
 
