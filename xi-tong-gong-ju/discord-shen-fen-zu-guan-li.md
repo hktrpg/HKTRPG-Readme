@@ -45,7 +45,7 @@ description: Discord 在群組中以「分類」來對不同頻道進行管理�
 `.roleReact add`\
 `身份組ID Emoji`\
 `[[messageID]]`\
-發佈訊息的ID
+`發佈訊息的ID`
 
 #### **範例**
 
@@ -53,7 +53,7 @@ description: Discord 在群組中以「分類」來對不同頻道進行管理�
 `232312882291231263 🎨`\
 `123123478897792323 😁`\
 `[[messageID]]`\
-12312347889779233
+`12312347889779233`
 
 {% hint style="info" %}
 注意, 可以重覆輸入同樣ID來增加新emoji
