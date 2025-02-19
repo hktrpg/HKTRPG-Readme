@@ -8,24 +8,20 @@ description: >-
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>範例君-TRPG 名片</p></figcaption></figure>
 
-```markdown
+### 1. TRPG 角色卡
 
-## 1. TRPG 角色卡名片
-- **網址**：[https://character.hktrpg.com/](https://character.hktrpg.com/)
-- **功能特色**：
-  - 編輯角色基本資訊、屬性、技能、筆記及其他多項自訂資料
-  - 使用 Chart.js 與 SortableJS 呈現動態圖表與拖曳排序功能
-  - 提供匯出 PNG 與備份連結，方便分享與儲存角色資料
-
-```
+* **網址**：[https://character.hktrpg.com/](https://character.hktrpg.com/)
+* **功能特色**：
+  * 編輯角色基本資訊、屬性、技能、筆記及其他多項自訂資料
+  * 使用 Chart.js 與 SortableJS 呈現動態圖表與拖曳排序功能
+  * 提供匯出 PNG 與備份連結，方便分享與儲存角色資料
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>範例君-TRPG喜好卡</p></figcaption></figure>
 
-```markdown
-## TRPG 遊玩喜好卡
-- **網址**：[https://player.hktrpg.com](https://player.hktrpg.com)
-- **功能特色**：
-  - 展示玩家頭像、暱稱和其他基本資訊
-  - 支援多重編輯模式，可自訂遊玩方式、跑團平台、關係扮演等設定
-  - 提供即時預覽與匯出為 PNG 的功能，並帶有豐富的色彩自訂設定
-```
+### 2. TRPG 遊玩喜好卡
+
+* **網址**：[https://player.hktrpg.com](https://player.hktrpg.com)
+* **功能特色**：
+  * 展示玩家頭像、暱稱和其他基本資訊
+  * 支援多重編輯模式，可自訂遊玩方式、跑團平台、關係扮演等設定
+  * 提供即時預覽與匯出為 PNG 的功能，並帶有色彩自訂設定
