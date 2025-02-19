@@ -43,21 +43,13 @@ HKTRPG
 \
 
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/finally_temp_1727596153725_.png" alt="" width="260"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/finally_temp_1727596153725_.png" alt="" width="260"><figcaption></figcaption></figure></div>
 
 
 
 ### .tokenupload
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/image.png" alt="" width="284"><figcaption><p>Credit: <a href="https://en.wikipedia.org/wiki/Cat#/media/File:Cat_August_2010-4.jpg">https://en.wikipedia.org/wiki/Cat#/media/File:Cat_August_2010-4.jpg</a></p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt="" width="284"><figcaption><p>Credit: <a href="https://en.wikipedia.org/wiki/Cat#/media/File:Cat_August_2010-4.jpg">https://en.wikipedia.org/wiki/Cat#/media/File:Cat_August_2010-4.jpg</a></p></figcaption></figure></div>
 
 Reply Message並輸入`.tokenupload` 就可以把圖片上傳去imgbox \
 方便FVTT使用

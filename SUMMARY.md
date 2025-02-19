@@ -21,6 +21,7 @@
   * [自定義骰子](trpg-gong-neng/kai-shi-jin-hang-trpg/zi-ding-yi-tou-zi.md)
   * [資料庫功能](trpg-gong-neng/kai-shi-jin-hang-trpg/zi-liao-ku-gong-neng.md)
   * [儲存擲骰指令](trpg-gong-neng/kai-shi-jin-hang-trpg/chu-cun-zhi-tou-zhi-ling.md)
+* [TRPG 名片與喜好卡功能](trpg-gong-neng/trpg-ming-pian-yu-xi-hao-ka-gong-neng.md)
 * [你的名字(扮演功能)](trpg-gong-neng/ni-de-ming-zi-ban-yan-gong-neng.md)
 * [要求擲骰](trpg-gong-neng/yao-qiu-zhi-tou.md)
 * [指定TRPG系統](trpg-gong-neng/zhi-ding-trpg-xi-tong/README.md)

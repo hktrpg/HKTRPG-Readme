@@ -10,4 +10,4 @@ description: .ai .aimgae
 
 .ai \[對話] - 使用gpt-4o-mini產生對話
 
-![](<../.gitbook/assets/image (1) (1).png>)![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)![](<../.gitbook/assets/image (2) (1).png>)

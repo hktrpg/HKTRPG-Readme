@@ -4,7 +4,7 @@ description: 用來紀錄群組參與度的功能，加入LV概念，嘛，就�
 
 # 經驗值升級
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 `.level (show config LevelUpWord RankWord)`
 
