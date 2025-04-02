@@ -22,8 +22,6 @@ description: 這裡介紹一個在Discord上固定名字和頭像的發訊方式
 
 注意: 此功能需求編輯Webhook及訊息功能，請確定授權
 
-[![示範](https://camo.githubusercontent.com/9bdcdb52ced2f592682c1e44d91da5195212b917dd37813ad3d3a2d250c9a791/68747470733a2f2f692e696d6775722e636f6d2f56537a4f3038552e706e67)](https://camo.githubusercontent.com/9bdcdb52ced2f592682c1e44d91da5195212b917dd37813ad3d3a2d250c9a791/68747470733a2f2f692e696d6775722e636f6d2f56537a4f3038552e706e67)
-
 ### 使用教學
 
 #### 1.設定角色
@@ -70,6 +68,7 @@ _**`.myname delete 序號 / 名字縮寫 / "名字"`**_
 * `.myname delete 序號 / 名字縮寫` - 刪除角色
 * `.myname show` - 顯示角色列表
 * `.me(序號/名字縮寫) 訊息` - 使用角色發言
+* `.mehistory` - 顯示該頻道過往.me發言
 
 
 
