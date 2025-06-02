@@ -44,7 +44,7 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 輸入 **`.admin account (username) (password)`**&#x20;
 
-然後進入 [`角色卡管理庫`](https://www.hktrpg.com:20721/card/)
+然後進入 [`角色卡管理庫`](https://card.hktrpg.com/)
 
 在網頁 輸入帳號密碼， 就可以管理你的角色卡，進行修改。
 
