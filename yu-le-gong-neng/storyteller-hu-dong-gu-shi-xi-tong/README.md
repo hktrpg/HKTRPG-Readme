@@ -1,18 +1,28 @@
 ---
 description: >-
   StoryTeller
-  是一個互動故事系統，允許用戶新增、管理和遊玩文字冒險遊戲。系統支援多種平台（Discord、Line、Telegram、WhatsApp），並提供豐富的功能來創建沉浸式的互動體驗。
+  是一個互動故事系統，允許用戶新增自己的劇本、管理和遊玩他人文字冒險遊戲。系統支援多種平台（Discord、Line、Telegram、WhatsApp），並希望以豐富的功能來創造沉浸式的互動體驗。
 ---
 
 # StoryTeller 互動故事系統
 
-快速開始
+{% hint style="info" %}
+## 製作這個功能的目的，是因為小時候玩的抉擇叢書，明明它好像一本小說，卻可以讓自己選擇行動。長大後還是念念不忘，希望有一天自己也可以再玩到這種類型的遊戲。
+{% endhint %}
+
+## 快速開始
 
 #### 基本指令
 
 ```bash
-.st start <alias|title> [alone|all|poll x]  # 啟動劇本
-.st list                                    # 顯示可啟動的劇本清單
+# 啟動劇本
+.st start <alias|title> [alone|all|poll
+ x]  
+ 
+ # 查看可玩劇本清單
+.st list     
+
+# 遊戲控制
 .st pause                                   # 暫停目前進行中的劇本
 .st continue [runId]                        # 繼續暫停中的劇本
 .st end                                     # 結束目前劇本
@@ -29,14 +39,15 @@ description: >-
 
 #### 1. 劇本管理
 
-**創建和上傳劇本**
+**新增和更新劇本**
 
 **Discord 專用功能：**
 
 ```bash
+# 以附件方式上傳及下載
 .st import <alias> [title]                  # 上傳檔案以新增劇本
 .st update <alias> [title]                  # 上傳檔案以覆蓋既有劇本
-.st exportfile <alias>                      # 將劇本以私訊傳送文字檔
+.st export <alias>                      # 將劇本以私訊傳送文字檔
 ```
 
 **支援的檔案格式：**
@@ -253,7 +264,7 @@ StoryTeller 支援 RUN\_DESIGN 語法，這是一種簡潔的文字格式來定�
 
 ### 最佳實踐
 
-#### 創建劇本
+#### 新增劇本
 
 1. **規劃故事結構**
    * 先設計主要情節和分支

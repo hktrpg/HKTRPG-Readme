@@ -54,6 +54,11 @@
 * [ChatGPT AI 功能](yu-le-gong-neng/chatgpt-ai-gong-neng.md)
 * [StoryTeller 互動故事系統](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/README.md)
   * [RUN\_DESIGN 文字格式指南](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/rundesign-wen-zi-ge-shi-zhi-nan.md)
+  * [範例](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/README.md)
+    * [01. 貓咪的一天](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/01.-mao-mi-de-yi-tian.md)
+    * [02. 愛之語](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/02.-ai-zhi-yu.md)
+    * [03. 霧之村](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/03.-wu-zhi-cun.md)
+    * [04. test](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/04.-test.md)
 
 ## 其他情報
 
