@@ -1,7 +1,7 @@
 ---
 description: >-
   StoryTeller
-  是一個互動故事系統，允許用戶新增自己的劇本、管理和遊玩他人文字冒險遊戲。系統支援多種平台（Discord、Line、Telegram、WhatsApp），並希望以豐富的功能來創造沉浸式的互動體驗。
+  是一個互動故事系統，允許用戶新增自己的劇本、管理和遊玩他人文字冒險遊戲。系統支援多種平台（Discord、Line、Telegram、WhatsApp），並希望以豐富的功能來創造沉浸式的互動體驗。你可以用它來設計抉擇叢書式遊戲或知識測驗等等
 ---
 
 # StoryTeller 互動故事系統
