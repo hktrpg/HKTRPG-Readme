@@ -26,6 +26,7 @@ description: 本指南描述一種簡潔、便於人手編輯的互動故事文�
 ### 頂層後設資料（Metadata）
 
 * `[meta] title "<Title>"` 設定故事標題
+* `[meta] author "<Author>"` 設定作者（必填；匯入/更新時若缺少會被拒絕）
 * `[intro] <text>` 追加一行故事導言（可重複多行），在劇本開始時會顯示。
 
 顯示行為：
