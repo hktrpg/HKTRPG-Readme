@@ -52,7 +52,7 @@
   * [事件功能](yu-le-gong-neng/jing-yan-zhi-sheng-ji/shi-jian-gong-neng.md)
 * [Wiki查詢/圖片搜索/語言翻譯/數學計算](yu-le-gong-neng/wiki-cha-xun-tu-pian-sou-suo-yu-yan-fan-yi-shu-xue-ji-suan.md)
 * [ChatGPT AI 功能](yu-le-gong-neng/chatgpt-ai-gong-neng.md)
-* [數碼寶貝進化路徑查詢器](yu-le-gong-neng/shu-ma-bao-bei-jin-hua-lu-jing-cha-xun-qi.md)
+* [數碼寶貝物語 時空異客進化路線查詢器](yu-le-gong-neng/shu-ma-bao-bei-wu-yu-shi-kong-yi-ke-jin-hua-lu-xian-cha-xun-qi.md)
 * [StoryTeller 互動故事系統](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/README.md)
   * [RUN\_DESIGN 文字格式指南](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/rundesign-wen-zi-ge-shi-zhi-nan.md)
   * [範例](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/README.md)

@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>範例君-TRPG 名片</p></figcaption></figure>
 
-### 1. TRPG 角色卡
+### 1. TRPG 角色卡名片
 
 * **網址**：[https://character.hktrpg.com/](https://character.hktrpg.com/)
 * **功能特色**：
