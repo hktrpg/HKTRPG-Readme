@@ -42,7 +42,7 @@ async function replaceHKTRPG_Text() {
 
 async function HKTRPG_Api(query = 'cc 80') {
   if (!query) return;
-  var url = 'https://www.hktrpg.com:20721/api'
+  var url = 'https://api.hktrpg.com/'
     + '?msg=' + encodeURIComponent(query);
   var response = UrlFetchApp.fetch(url, { 'muteHttpExceptions': true });
   var json = response.getContentText();
