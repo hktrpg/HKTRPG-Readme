@@ -41,12 +41,14 @@
 * [顯示HKTRPG統計信息](xi-tong-gong-ju/xian-shi-hktrpg-tong-ji-xin-xi.md)
 * [Discord 修改舊訊息](xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md)
 * [功能開關](xi-tong-gong-ju/gong-neng-kai-guan.md)
+* [ID 查詢](xi-tong-gong-ju/id-cha-xun.md)
 
 ## 娛樂功能
 
 * [趣味擲骰](yu-le-gong-neng/qu-wei-zhi-tou/README.md)
   * [占卜](yu-le-gong-neng/qu-wei-zhi-tou/zhan-bu.md)
   * [每日娛樂](yu-le-gong-neng/qu-wei-zhi-tou/mei-ri-yu-le.md)
+  * [輪盤動畫抽籤](yu-le-gong-neng/qu-wei-zhi-tou/lun-pan-dong-hua-chou-qian.md)
 * [定時發訊功能](yu-le-gong-neng/ding-shi-fa-xun-gong-neng.md)
 * [經驗值升級](yu-le-gong-neng/jing-yan-zhi-sheng-ji/README.md)
   * [事件功能](yu-le-gong-neng/jing-yan-zhi-sheng-ji/shi-jian-gong-neng.md)
@@ -60,6 +62,7 @@
     * [02. 愛之語](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/02.-ai-zhi-yu.md)
     * [03. 霧之村](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/03.-wu-zhi-cun.md)
     * [04. test](yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/fan-li/04.-test.md)
+* [程式碼執行Playground](yu-le-gong-neng/cheng-shi-ma-zhi-xing-playground.md)
 
 ## 其他情報
 

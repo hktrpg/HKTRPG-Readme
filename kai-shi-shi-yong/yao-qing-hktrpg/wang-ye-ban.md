@@ -18,8 +18,7 @@ description: 為了提供方便性，HKTRPG擁有簡單的網上聊天室，可�
 
 ![](<../../.gitbook/assets/image (23).png>)
 
-右邊顯示你現在的位置及所有房間的總共人數。\
-
+右邊顯示你現在的位置及所有房間的總共人數。<br>
 
 ![](<../../.gitbook/assets/image (7) (1).png>)
 

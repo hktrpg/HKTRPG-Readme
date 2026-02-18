@@ -6,7 +6,7 @@ description: >-
 
 # TRPG 名片與喜好卡功能
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>範例君-TRPG 名片</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>範例君-TRPG 名片</p></figcaption></figure>
 
 ### 1. TRPG 角色卡名片
 
@@ -16,7 +16,7 @@ description: >-
   * 使用 Chart.js 與 SortableJS 呈現動態圖表與拖曳排序功能
   * 提供匯出 PNG 與備份連結，方便分享與儲存角色資料
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>範例君-TRPG喜好卡</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>範例君-TRPG喜好卡</p></figcaption></figure>
 
 ### 2. TRPG 遊玩喜好卡
 

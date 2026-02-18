@@ -11,8 +11,7 @@ description: 這裡介紹一些比較不常用的擲骰方法，適用於個別�
 `D66` `D66s` `D66n`&#x20;
 
 骰出D66 s代表數字小在前 n大在前\
-![](<../../.gitbook/assets/image (30).png>)\
-
+![](<../../.gitbook/assets/image (30).png>)<br>
 
 ### xBy 不加總的擲骰
 
@@ -23,7 +22,7 @@ description: 這裡介紹一些比較不常用的擲骰方法，適用於個別�
 `5B10S` 不加總的擲骰，並按大至小排序
 
 `5B10<>=x` 如上,另外計算其中有多少粒大於小於X\
-![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 `5B10 x` 如上 用空格取代`>=`, 即大於等於
 
@@ -36,8 +35,7 @@ description: 這裡介紹一些比較不常用的擲骰方法，適用於個別�
 `5U10 8` 進行5D10 每骰出一粒8會有一粒獎勵骰
 
 `5U10 8 9` 如上,另外計算其中有多少粒大於9\
-![](<../../.gitbook/assets/image (24).png>)\
-
+![](<../../.gitbook/assets/image (24).png>)<br>
 
 ### `.int x y`
 

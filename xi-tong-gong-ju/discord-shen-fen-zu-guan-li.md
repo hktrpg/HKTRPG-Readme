@@ -75,4 +75,4 @@ Discord 有嚴格的權限保護，你可以嘗試檢查HKTRPG有沒有管理Rol
 在這情況裡，即使HKTRPG擁有Admin權限，也會派發不了這Role給別人。\
 你需要把HKTRPG調整到更它們更高的位置。
 
-![](../.gitbook/assets/rolereactionFAQ.png)\
+![](../.gitbook/assets/rolereactionFAQ.png)<br>

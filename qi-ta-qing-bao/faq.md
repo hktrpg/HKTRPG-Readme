@@ -6,7 +6,7 @@ description: 背後開發秘申
 
 ### HKTRPG起源
 
-因為30 Nov 2016有人發佈了[機器鴨霸獸開源計劃](https://docs.google.com/document/d/1dYnJqF2\_QTp90ld4YXj6X8kgxvjUoHrB4E2seqlDlAk/edit)
+因為30 Nov 2016有人發佈了[機器鴨霸獸開源計劃](https://docs.google.com/document/d/1dYnJqF2_QTp90ld4YXj6X8kgxvjUoHrB4E2seqlDlAk/edit)
 
 **鴨霸獸**的指令基本和跑團平台**凍豆腐**差不多，因為當時**凍豆腐**可算是唯一的日系跑團平台，所以大家都是站在**凍豆腐**上來寫，\
 但我當時覺得啊COC指令`CC<=80` 太麻煩了，明明LINE是手機用戶為主，<=這指令根本反人類，就想自己也學寫一個\
@@ -29,8 +29,7 @@ description: 背後開發秘申
 我是一個很懶的人，如果要我做一些重覆的事，我會很討厭，\
 所以HKTRPG這robot或我所開發的東西，主要是為了讓我懶下來，不用重覆勞動，節省時間。\
 然後就是學學新事物吧，這個算是我的小興趣。\
-最後是我很喜歡跑TRPG，所以可以讓我快速跑團，節省時間，我會很爽XD\
-
+最後是我很喜歡跑TRPG，所以可以讓我快速跑團，節省時間，我會很爽XD<br>
 
 ### HKTRPG功能增多原因
 
@@ -54,4 +53,4 @@ Patreon除了金錢支援，還有心靈上支持，「原來真的有支持者�
 
 ### 對本教學內容有意見怎麼辦?
 
-按右邊的Edit on github 到issues 可以留下意見，甚至使用pull request 功能直接更新內容\
+按右邊的Edit on github 到issues 可以留下意見，甚至使用pull request 功能直接更新內容<br>
