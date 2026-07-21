@@ -65,5 +65,5 @@ Use HKTRPG while you read the docs!
 Shortcuts:
 
 * [Command cheat sheet](getting-started/zhi-ling-su-cha-biao.md)
-* [VIP benefits](getting-started/vip-dui-zhao.md)
+* [Development Support (incl. VIP)](getting-started/development-support.md#vip-benefits-overview)
 * [Platform differences](qi-ta-qing-bao/ping-tai-cha-yi-biao.md)

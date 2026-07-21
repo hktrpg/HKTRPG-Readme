@@ -57,7 +57,7 @@ description: 对齐 bothelp 分类的常用指令速查。细节请用「指令 
 | `.roleReact` | 身份组 Reaction | [身份组管理](../xi-tong-gong-ju/discord-shen-fen-zu-guan-li.md) |
 | `.bk` | 功能开关 | [功能开关](../xi-tong-gong-ju/gong-neng-kai-guan.md) |
 | `.admin account` | 网页角色卡账号 | [角色卡](../trpg-gong-neng/kai-shi-jin-hang-trpg/jiao-se-ka.md) |
-| `.patreon level` | 查 VIP 等级 | [VIP 对照](vip-dui-zhao.md) |
+| `.patreon level` | 查 VIP 等级 | [开发支持](kai-fa-zhi-yuan.md#vip-权益对照) |
 | `.myname` / `.me` | 扮演发言 | [你的名字](../trpg-gong-neng/ni-de-ming-zi-ban-yan-gong-neng.md) |
 
 ### funny（娱乐）

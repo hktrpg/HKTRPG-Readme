@@ -11,7 +11,6 @@
   * [网页版](kai-shi-shi-yong/yao-qing-hktrpg/wang-ye-ban.md)
 * [语言设置（多语系）](kai-shi-shi-yong/yu-yan-she-ding-duo-yu-xi.md)
 * [指令速查表](kai-shi-shi-yong/zhi-ling-su-cha-biao.md)
-* [VIP 权益对照](kai-shi-shi-yong/vip-dui-zhao.md)
 
 ## TRPG功能
 

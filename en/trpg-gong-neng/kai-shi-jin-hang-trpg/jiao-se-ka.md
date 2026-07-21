@@ -112,7 +112,7 @@ Common play flow: keep buttons in a prep channel; forward results to the public 
 2. Copy the message link
 3. In the target channel: [`.forward message_link`](../../xi-tong-gong-ju/discord-an-niu-zhuan-fa.md)
 
-Clicks then appear in the forwarded channel. Limits: [VIP benefits](../../getting-started/vip-dui-zhao.md).
+Clicks then appear in the forwarded channel. Limits: [Development Support (VIP)](../../getting-started/development-support.md#vip-benefits-overview).
 
 For a shareable character intro image (not Bot state), use the web [TRPG Profile & Preference Cards](../trpg-ming-pian-yu-xi-hao-ka-gong-neng.md) PNG export.
 

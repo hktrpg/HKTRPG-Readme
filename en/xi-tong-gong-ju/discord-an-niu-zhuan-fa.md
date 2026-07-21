@@ -37,11 +37,11 @@ Sheet buttons are often pinned in a prep channel. `.forward` sends click results
 
 * You can only forward **your own** sheet buttons
 * Each button maps to one forward channel
-* Limits scale with [VIP level](../getting-started/vip-dui-zhao.md) (about 4 at VIP 0)
+* Limits scale with [VIP level](../getting-started/development-support.md#vip-benefits-overview) (about 4 at VIP 0)
 * Rules persist until deleted
 
 ### Related
 
 * [Character Sheets](../trpg-gong-neng/kai-shi-jin-hang-trpg/jiao-se-ka.md)
 * [Request a Roll](../trpg-gong-neng/yao-qiu-zhi-tou.md)
-* [VIP benefits](../getting-started/vip-dui-zhao.md)
+* [Development Support (VIP)](../getting-started/development-support.md#vip-benefits-overview)

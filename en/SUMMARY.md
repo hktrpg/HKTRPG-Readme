@@ -11,7 +11,6 @@
   * [Web Version](getting-started/yao-qing-hktrpg/wang-ye-ban.md)
 * [Language Settings (Multilingual)](getting-started/yu-yan-she-ding-duo-yu-xi.md)
 * [Command Cheat Sheet](getting-started/zhi-ling-su-cha-biao.md)
-* [VIP Benefits Overview](getting-started/vip-dui-zhao.md)
 
 ## TRPG Features
 

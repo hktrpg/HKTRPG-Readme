@@ -63,5 +63,5 @@ Bot 內輸入 `bothelp` 可分四類查詢；文件亦按此對齊：
 相關快捷頁：
 
 * [指令速查表](kai-shi-shi-yong/zhi-ling-su-cha-biao.md)
-* [VIP 權益對照](kai-shi-shi-yong/vip-dui-zhao.md)
+* [開發支援（含 VIP 對照）](kai-shi-shi-yong/kai-fa-zhi-yuan.md#vip-權益對照)
 * [平台差異表](qi-ta-qing-bao/ping-tai-cha-yi-biao.md)

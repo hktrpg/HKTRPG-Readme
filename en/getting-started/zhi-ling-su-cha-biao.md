@@ -57,7 +57,7 @@ Details: `bothelp Dice` or `command help` (e.g. `.4df help`).
 | `.roleReact` | Role reactions | [Role management](../xi-tong-gong-ju/discord-shen-fen-zu-guan-li.md) |
 | `.bk` | Feature toggles | [Feature toggles](../xi-tong-gong-ju/gong-neng-kai-guan.md) |
 | `.admin account` | Web sheet account | [Character Sheets](../trpg-gong-neng/kai-shi-jin-hang-trpg/jiao-se-ka.md) |
-| `.patreon level` | VIP level | [VIP](vip-dui-zhao.md) |
+| `.patreon level` | VIP level | [Development Support](development-support.md#vip-benefits-overview) |
 | `.myname` / `.me` | Roleplay speak | [Your Name](../trpg-gong-neng/ni-de-ming-zi-ban-yan-gong-neng.md) |
 
 ### funny
