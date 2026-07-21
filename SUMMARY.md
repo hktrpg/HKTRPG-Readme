@@ -9,6 +9,7 @@
   * [Google Docs](kai-shi-shi-yong/yao-qing-hktrpg/google-docs.md)
   * [API](kai-shi-shi-yong/yao-qing-hktrpg/api.md)
   * [網頁版](kai-shi-shi-yong/yao-qing-hktrpg/wang-ye-ban.md)
+* [語言設定（多語系）](kai-shi-shi-yong/yu-yan-she-ding-duo-yu-xi.md)
 
 ## TRPG功能
 
