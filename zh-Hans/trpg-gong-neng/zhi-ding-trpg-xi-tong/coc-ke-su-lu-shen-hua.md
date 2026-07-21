@@ -67,18 +67,40 @@ description: 这里介绍如何使用HKTRPG进行COC掷骰
 * coc pulp版创角 ： 启动语 `.ccpulpbuild`
 * coc7版角色背景随机生成： 启动语 `.cc7bg`
 
-### 成长检定纪录功能
+### 成长检定纪录功能（`.dp` 流程）
 
 ![](<../../.gitbook/assets/image (34) (1).png>)
 
-开启后将会纪录你使用CC功能投掷成功和大成功大失败的技能， 然后可以调用出来进行自动成长。
+建议流程：
+
+1. `.dp start` — 开启纪录（会纪录后续 `cc` 成功、大成功、大失败的技能）
+2. 正常跑团掷 `cc` / `cc1` 等
+3. `.dp show` — 查看自己的纪录；`.dp showall` — 查看全频道纪录
+4. `.dp auto` — 自动成长并清除纪录；或 `.dp 50 侦查 …` 手动成长
+5. 不需要时 `.dp stop`；清资料用 `.dp clear` / `.dp clearall`
+
+指令一览：
 
 * `.dp start` ： 开启纪录功能
 * `.dp stop` ： 停止纪录功能
-* `.dp show` ： 显示掷骰纪录
+* `.dp show` ： 显示你的掷骰纪录
+* `.dp showall` ： 显示全频道掷骰纪录
 * `.dp auto` ： 进行自动成长并清除掷骰纪录
-* `.dp clear` ： 清除掷骰纪录
+* `.dp clear` ： 清除你的掷骰纪录
 * `.dp clearall` ： 清除掷骰纪录包括大成功大失败
+
+### COC 资料与特殊指令速查
+
+| 指令 | 说明 |
+| ---- | ---- |
+| `.cccc` | 随机产生神话组织 |
+| `.ccdr` | 随机产生神话资料 |
+| `.ccpc` | 施法推骰后果判定 |
+| `.ccpulpbuild` | PULP 版创角 |
+| `.cc6build` / `.cc7build` | 六／七版创角 |
+| `.cc7bg` | 七版角色背景 |
+| `.chase` | 追逐战产生器（见下） |
+| `ccrt` / `ccsu` | 即时／总结型疯狂 |
 
 ### coc7版追逐战产生器:&#x20;
 

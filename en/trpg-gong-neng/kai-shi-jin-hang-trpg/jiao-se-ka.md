@@ -104,6 +104,18 @@ Buttons from `.char button` do not support `{}` placeholders — `{San}` will no
 After buttons are posted, right-click and Pin them so you can find your sheet quickly.
 {% endhint %}
 
+### Using with `.forward` and `.re` (Discord)
+
+Common play flow: keep buttons in a prep channel; forward results to the public channel.
+
+1. Create buttons: `.ch button` or `.char button name` (or GM uses [`.re`](../yao-qiu-zhi-tou.md) so players click to roll)
+2. Copy the message link
+3. In the target channel: [`.forward message_link`](../../xi-tong-gong-ju/discord-an-niu-zhuan-fa.md)
+
+Clicks then appear in the forwarded channel. Limits: [VIP benefits](../../getting-started/vip-dui-zhao.md).
+
+For a shareable character intro image (not Bot state), use the web [TRPG Profile & Preference Cards](../trpg-ming-pian-yu-xi-hao-ka-gong-neng.md) PNG export.
+
 ### Command Reference
 
 #### `.char`

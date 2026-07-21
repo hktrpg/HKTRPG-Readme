@@ -22,3 +22,5 @@ Separate each roll option with a comma (,).
 {% hint style="info" %}
 Note: this works with Discord slash (/) commands — replace `.` with `/`.
 {% endhint %}
+
+Pair with [button forwarding `.forward`](../xi-tong-gong-ju/discord-an-niu-zhuan-fa.md) to send click results to another channel.

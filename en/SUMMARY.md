@@ -10,6 +10,8 @@
   * [API](getting-started/yao-qing-hktrpg/api.md)
   * [Web Version](getting-started/yao-qing-hktrpg/wang-ye-ban.md)
 * [Language Settings (Multilingual)](getting-started/yu-yan-she-ding-duo-yu-xi.md)
+* [Command Cheat Sheet](getting-started/zhi-ling-su-cha-biao.md)
+* [VIP Benefits Overview](getting-started/vip-dui-zhao.md)
 
 ## TRPG Features
 
@@ -39,6 +41,7 @@
 
 * [Discord Role Management](xi-tong-gong-ju/discord-shen-fen-zu-guan-li.md)
 * [Discord Channel Chat Log Export](xi-tong-gong-ju/discord-bin-dao-liao-tian-ji-lu-shu-chu-gong-ju.md)
+* [Discord Button Forwarding](xi-tong-gong-ju/discord-an-niu-zhuan-fa.md)
 * [HKTRPG Statistics Display](xi-tong-gong-ju/xian-shi-hktrpg-tong-ji-xin-xi.md)
 * [Discord Edit Old Messages](xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md)
 * [Feature Toggles](xi-tong-gong-ju/gong-neng-kai-guan.md)
@@ -69,6 +72,7 @@
 
 * [Hall of Fame](qi-ta-qing-bao/ming-ren-tang.md)
 * [FAQ](qi-ta-qing-bao/faq.md)
+* [Platform Differences](qi-ta-qing-bao/ping-tai-cha-yi-biao.md)
 * [Discord Edition Notes](qi-ta-qing-bao/discord-ban-zhu-yi-shi-xiang.md)
 * [Terms of Service](qi-ta-qing-bao/fu-wu-tiao-kuan.md)
 * [Privacy Policy](qi-ta-qing-bao/yin-si-quan-sheng-ming.md)

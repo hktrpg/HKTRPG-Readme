@@ -10,6 +10,8 @@
   * [API](kai-shi-shi-yong/yao-qing-hktrpg/api.md)
   * [网页版](kai-shi-shi-yong/yao-qing-hktrpg/wang-ye-ban.md)
 * [语言设置（多语系）](kai-shi-shi-yong/yu-yan-she-ding-duo-yu-xi.md)
+* [指令速查表](kai-shi-shi-yong/zhi-ling-su-cha-biao.md)
+* [VIP 权益对照](kai-shi-shi-yong/vip-dui-zhao.md)
 
 ## TRPG功能
 
@@ -39,6 +41,7 @@
 
 * [Discord身分组管理](xi-tong-gong-ju/discord-shen-fen-zu-guan-li.md)
 * [Discord 频道聊天纪录输出工具](xi-tong-gong-ju/discord-bin-dao-liao-tian-ji-lu-shu-chu-gong-ju.md)
+* [Discord 按钮转发](xi-tong-gong-ju/discord-an-niu-zhuan-fa.md)
 * [显示HKTRPG统计信息](xi-tong-gong-ju/xian-shi-hktrpg-tong-ji-xin-xi.md)
 * [Discord 修改旧消息](xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md)
 * [功能开关](xi-tong-gong-ju/gong-neng-kai-guan.md)
@@ -69,6 +72,7 @@
 
 * [名人堂](qi-ta-qing-bao/ming-ren-tang.md)
 * [FAQ](qi-ta-qing-bao/faq.md)
+* [平台差异表](qi-ta-qing-bao/ping-tai-cha-yi-biao.md)
 * [Discord版注意事项](qi-ta-qing-bao/discord-ban-zhu-yi-shi-xiang.md)
 * [服务条款](qi-ta-qing-bao/fu-wu-tiao-kuan.md)
 * [隐私权声明](qi-ta-qing-bao/yin-si-quan-sheng-ming.md)

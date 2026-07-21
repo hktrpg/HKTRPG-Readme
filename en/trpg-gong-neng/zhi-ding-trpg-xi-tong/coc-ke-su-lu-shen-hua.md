@@ -66,18 +66,40 @@ default is `.53` → `5× 3d6 * 5` and `3× (2d6+6) * 5`
 * CoC Pulp: `.ccpulpbuild`
 * CoC 7th random background: `.cc7bg`
 
-### Improvement Roll Log
+### Improvement Roll Log (`.dp` flow)
 
 ![](<../../.gitbook/assets/image (34) (1).png>)
 
-When enabled, logs successful rolls (and crits/fumbles) from `cc` commands for automatic improvement.
+Suggested flow:
+
+1. `.dp start` — start logging (later successful / crit / fumble `cc` skills)
+2. Play normally with `cc` / `cc1` etc.
+3. `.dp show` — your log; `.dp showall` — channel-wide log
+4. `.dp auto` — auto-improve and clear; or `.dp 50 SpotHidden …` manually
+5. `.dp stop` when done; `.dp clear` / `.dp clearall` to wipe data
+
+Commands:
 
 * `.dp start` — start logging
 * `.dp stop` — stop logging
-* `.dp show` — show log
+* `.dp show` — show your log
+* `.dp showall` — show channel log
 * `.dp auto` — auto-improve and clear log
-* `.dp clear` — clear log
+* `.dp clear` — clear your log
 * `.dp clearall` — clear log including crits/fumbles
+
+### CoC data & extras cheat sheet
+
+| Command | About |
+| ------- | ----- |
+| `.cccc` | Random mythos organization |
+| `.ccdr` | Random mythos data |
+| `.ccpc` | Spell push consequences |
+| `.ccpulpbuild` | Pulp character creation |
+| `.cc6build` / `.cc7build` | 6th / 7th creation |
+| `.cc7bg` | 7th background |
+| `.chase` | Chase generator (below) |
+| `ccrt` / `ccsu` | Temporary / indefinite insanity |
 
 ### CoC 7th Chase Generator
 
