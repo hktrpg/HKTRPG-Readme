@@ -21,10 +21,11 @@ It is designed to cut your workload!
 ### 5-minute quick start
 
 1. **Invite** HKTRPG → [Invite HKTRPG](getting-started/yao-qing-hktrpg/README.md)
-2. Type `1d100` to try a basic roll
-3. Type `bothelp` for command categories (or see the [Command cheat sheet](getting-started/zhi-ling-su-cha-biao.md))
-4. Create a [character sheet](trpg-gong-neng/kai-shi-jin-hang-trpg/jiao-se-ka.md): `.char add …` / `.char use name`
-5. Hide results with [secret rolls](trpg-gong-neng/kai-shi-jin-hang-trpg/an-tou.md): `dr` / `ddr` / `dddr`
+2. (Optional) Switch reply language: `.lang en` / `.lang zh-tw` / `.lang zh-hans` (see [Language Settings](getting-started/yu-yan-she-ding-duo-yu-xi.md))
+3. Type `1d100` to try a basic roll
+4. Type `bothelp` for command categories (or see the [Command cheat sheet](getting-started/zhi-ling-su-cha-biao.md))
+5. Create a [character sheet](trpg-gong-neng/kai-shi-jin-hang-trpg/jiao-se-ka.md): `.char add …` / `.char use name`
+6. Hide results with [secret rolls](trpg-gong-neng/kai-shi-jin-hang-trpg/an-tou.md): `dr` / `ddr` / `dddr`
 
 {% hint style="info" %}
 **Fun fact:** HKTRPG is a native Traditional Chinese project. It started for running CoC, and now independently supports a dozen+ TRPG systems. If you like it, you can [support on Patreon](https://www.patreon.com/HKTRPG).
