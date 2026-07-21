@@ -1,17 +1,17 @@
 ---
-description: 這裡說明如何使用BcDice進行日系系統擲骰
+description: 这里说明如何使用BcDice进行日系系统掷骰
 ---
 
-# BcDice(日系擲骰方法)
+# BcDice(日系掷骰方法)
 
-這是讓你可以使用Bcdice 那100種擲骰系統的功能
+这是让你可以使用Bcdice 那100种掷骰系统的功能
 
 ### 使用方法&#x20;
 
-首先，先在BCDICE官方的[骰表ID](https://bcdice.org/systems/)中找出你所想的系統\
-然後輸入.bc use (ID) 進行登記\
-現在，你可以以.bc (骰子指令)來進行擲骰了<br>
+首先，先在BCDICE官方的[骰表ID](https://bcdice.org/systems/)中找出你所想的系统\
+然后输入.bc use (ID) 进行登记\
+现在，你可以以.bc (骰子指令)来进行掷骰了<br>
 
-注: 登記或刪除需要Admin或頻道管理權限
+注: 登记或删除需要Admin或频道管理权限
 
-[骰組ID連結](https://bcdice.org/systems/)
+[骰组ID链接](https://bcdice.org/systems/)

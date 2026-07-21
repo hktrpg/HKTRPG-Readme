@@ -1,58 +1,58 @@
 ---
-description: 歡迎使用 AI 助手服務。此功能嘗試整合多種大型語言模型，提供AI對話與翻譯功能。
+description: Welcome to the AI assistant service. This feature integrates multiple large language models for AI chat and translation.
 ---
 
-# AI翻譯對話功能
+# AI Chat & Translation
 
-### 🗣️ 對話功能 (Conversation)
+### 🗣️ Conversation
 
-您可以直接輸入指令或透過「回覆 (Reply)」訊息與 AI 互動。
+You can chat with the AI by typing a command or **Reply**ing to a message.
 
-| **指令**     | **適用對象** | **模型 / 說明**                                                                                                                                                       |
+| **Command** | **Audience** | **Model / Notes**                                                                                                                                                       |
 | ---------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `.ai [訊息]` | 所有用戶     | <p>默認指令</p><p><br></p><p>隨機/輪詢使用以下模型：</p><p><br></p><p>• Aurora Alpha</p><p><br></p><p>• Z.ai: GLM 4.5 Air</p><p><br></p><p>• Arcee AI: Trinity Large Preview</p> |
+| `.ai [message]` | All users     | <p>Default command</p><p><br></p><p>Randomly rotates among:</p><p><br></p><p>• Aurora Alpha</p><p><br></p><p>• Z.ai: GLM 4.5 Air</p><p><br></p><p>• Arcee AI: Trinity Large Preview</p> |
 
-> 💡 提示： 您也可以直接對著想要討論的訊息點擊 回覆 (Reply)，AI 將會讀取該則訊息的上下文。
+> 💡 Tip: You can also **Reply** to the message you want to discuss; the AI will read that context.
 
 ***
 
-### 📝 翻譯功能 (Translation)
+### 📝 Translation
 
-系統專精於將各類文本與檔案轉換為 正體中文。
+The system specializes in converting text and files to **Traditional Chinese**.
 
-| **指令**      | **適用對象** | **模型 / 說明**                                        |
+| **Command**      | **Audience** | **Model / Notes**                                        |
 | ----------- | -------- | -------------------------------------------------- |
-| `.ait [內容]` | 所有用戶     | <p>默認翻譯</p><p><br></p><p>使用 Aurora Alpha 進行翻譯。</p> |
+| `.ait [content]` | All users     | <p>Default translation</p><p><br></p><p>Uses Aurora Alpha.</p> |
 
-#### 📂 支援檔案格式與限制
+#### 📂 Supported File Formats and Limits
 
-您可以直接上傳檔案並搭配翻譯指令使用。
+Upload a file with the translation command.
 
-* 支援格式： `.txt`, `.pdf`, `.docx`, `.jpg`, `.png`, `.gif`
-* 檔案大小限制：
+* Formats: `.txt`, `.pdf`, `.docx`, `.jpg`, `.png`, `.gif`
+* Size limits:
   * PDF: `50MB`
   * DOCX: `25MB`
-  * 圖像 (OCR): `20MB`
+  * Images (OCR): `20MB`
   * TXT: `10MB`
 
 ***
 
-### ⚠️ 使用限制與權限 (Limits)
+### ⚠️ Limits and Permissions
 
-| **用戶等級** | **文字上限** | **模型權限**            |
+| **User Tier** | **Text Limit** | **Model Access**            |
 | -------- | -------- | ------------------- |
-| 一般用戶     | 2,500 字  | 僅限基礎模型 (LOW Models) |
-| VIP 用戶   | 更高上限     | 解鎖中級模型              |
+| Regular users     | 2,500 characters  | Basic models only (LOW Models) |
+| VIP users   | Higher limit     | Mid-tier models unlocked              |
 
 ***
 
-### 📌 重要注意事項 (Notes)
+### 📌 Important Notes
 
-處理時間說明
+Processing time
 
-* 長文翻譯： 10,000 字以上的內容可能需要 10 分鐘以上 的處理時間。
-* 檔案處理： PDF/DOCX 或圖像 OCR 識別較為耗時，請耐心等待。
+* Long translations: Content over 10,000 characters may take **more than 10 minutes**.
+* Files: PDF/DOCX or image OCR take longer—please wait patiently.
 
-系統機制
+System behavior
 
-* 長回應處理： 若 AI 回覆超過 1900 字，系統將自動轉換為 `.txt` 檔案傳送。
+* Long replies: If the AI response exceeds 1,900 characters, it is sent as a `.txt` file.

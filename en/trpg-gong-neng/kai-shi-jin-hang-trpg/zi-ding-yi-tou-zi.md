@@ -1,71 +1,68 @@
 ---
-description: 骰子的每一面不一定只有點數，有可能是其他圖案其他文字。這功能可以自定一粒內容由你決定的骰子。
+description: Dice faces are not always numbers — they can be symbols or text. This feature lets you define custom dice with your own faces.
 ---
 
-# 自定義骰子
+# Custom Dice
 
-這是根據關鍵字來隨機抽選功能,只要符合內容,以後就會隨機抽選
+Keyword-based random pick: once configured, matching input triggers a random choice.
 
 {% hint style="info" %}
-本功能已改版， .rap 轉成個人專用的骰組， \
-原全服群組(.rap)變成 .ras \
-.ra => random answer (group) \
-.rap => random answer personal \
-.ras => random answer server
+This feature was updated: `.rap` is now personal-only dice tables;\
+server-wide `.rap` became `.ras`.\
+`.ra` => random answer (group)\
+`.rap` => random answer (personal)\
+`.ras` => random answer (server)
 {% endhint %}
 
-### 使用方法
+### How to Use
 
-準備骰子內容，及骰子的名字
+Prepare die faces and a name for the die.
 
-在群組中輸入`.ra add (骰子名稱) (骰子內容1 2 3 4 5)`\
-這時應該新增成功，然後你可以輸入
+In a group, type `.ra add (die_name) (face1 face2 face3 face4 face5)`\
+When added, roll with:
 
-`.ra (骰子名稱)`來投擲此骰子
+`.ra (die_name)`
 
-### 功能一覧
+### Command Reference
 
-`.ra(p|s)(次數) (add del show 骰子名稱)`
+`.ra(p|s)(count) (add del show die_name)`
 
-* 輸入.ra add (`骰子名稱`) (選項1) (選項2) (選項3)即可增加關鍵字&#x20;
+* `.ra add (die_name) (option1) (option2) (option3)` — add options\
+     Repeating adds more options; total limit 2000 characters.
 
-&#x20;     重覆輸入，可以增加選項，總共上限2000字
+* `.ra show` — list all dice and index numbers
+* `.ra show (die_name)` — show faces for one die
+* `.ra del (die_name)` — delete a die
+* `.ra(count, max 30) (die_name1/index) (die_name2)...(die_namen)` —\
+     random pick without replacement
 
-* 輸入.ra show 顯示所有`骰子`及 編號&#x20;
-* 輸入.ra show (`骰子名稱`)顯示內容&#x20;
-* 輸入.ra del (`骰子名稱`) 即可刪除&#x20;
-* 輸入.ra(次數,最多30次) (`骰子名稱`1/編號) (`骰子名稱`2)...(`骰子名稱`n)&#x20;
+* `.rra(count, max 30) (die_name1/index)(die_name2)...(die_namen)` —\
+     random pick with replacement
 
-&#x20;     即可不重覆隨機抽選&#x20;
+     Die names can be replaced by index numbers, e.g. index 5 → `.ra 5`
 
-* 輸入.rra(次數,最多30次) (`骰子名稱`1/編號)(`骰子名稱`2)...(`骰子名稱`n)&#x20;
+### Three Modes
 
-&#x20;     即可重覆隨機抽選&#x20;
+* `.ra` — group version, shared in the server
+* `.ras` — public version, visible across HKTRPG
+* `.rap` — personal only
+* Example: `.ras10 聖晶石召喚` — ten consecutive draws
 
-&#x20; `骰子名稱`可用數字代替, 如編號5,可以輪入 .ra 5&#x20;
+### Template Codes
 
-### 三種模式
+* Templates are supported; try `.ras newType` to preview.
+* `{br}` — line break
+* `{ran:100}` — random 1–100
+* `{random:5-20}` — random 5–20
+* `{server.member_count}` — member count in the current channel
+* `{my.name}` — roller’s display name
 
-* 如使用.ra 是群組版, 供整個群組共用&#x20;
-* 如使用.ras 是公開版, 在整個HKTRPG可以看到&#x20;
-* 如使用.rap 是個人專用版, 只有自己可以使用
-* 例如輸入 .ras10 聖晶石召喚 即可十連抽了
+Requires `.level` to be enabled:
 
-### 代碼
-
-* 亦支援代碼，輸入.ras newType 可以觀看效果
-* {br} <--隔一行
-* {ran:100} <---隨機1-100
-* {random:5-20} <---隨機5-20
-* {server.member\_count} <---現在頻道中總人數
-* {my.name} <---顯示擲骰者名字
-
-以下需要開啓.level 功能
-
-* {allgp.name} <---隨機全GP其中一人名字
-* {allgp.title} <---隨機全GP其中一種稱號
-* {my.RankingPer} <---現在排名百分比
-* {my.Ranking} <---顯示擲骰者現在排名
-* {my.exp} <---顯示擲骰者經驗值
-* {my.title} <---顯示擲骰者稱號
-* {my.level} <---顯示擲骰者等級
+* `{allgp.name}` — random name from all group members
+* `{allgp.title}` — random title from the group
+* `{my.RankingPer}` — current ranking percentile
+* `{my.Ranking}` — roller’s current rank
+* `{my.exp}` — roller’s experience
+* `{my.title}` — roller’s title
+* `{my.level}` — roller’s level

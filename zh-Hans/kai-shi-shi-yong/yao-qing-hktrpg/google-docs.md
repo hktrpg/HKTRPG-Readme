@@ -1,25 +1,25 @@
 ---
-description: 這裡介紹怎樣在Google Docs 上進行擲骰
+description: 这里介绍怎样在Google Docs 上进行掷骰
 ---
 
 # Google Docs
 
-![使用示範](<../../.gitbook/assets/google docs rolling.gif>)
+![使用示范](<../../.gitbook/assets/google docs rolling.gif>)
 
-## 準備方法
+## 准备方法
 
-打開你需要擲骰的文件，在Tools -> Scripts Editor 中，\
-把最下面代碼取代進去。選擇init
+打开你需要掷骰的文档，在Tools -> Scripts Editor 中，\
+把最下面代码取代进去。选择init
 
 ## 使用方法
 
-有兩種方式
+有两种方式
 
-1. 直接按Run，直接啓動程式。
-2. 按畫面左邊時鐘符號Triggers，再按右下角Add Trigger，選擇init，\
-   然後按Save。以後每次重啓Docs 畫面時，就會自動擲骰。
+1. 直接按Run，直接启动程序。
+2. 按画面左边时钟符号Triggers，再按右下角Add Trigger，选择init，\
+   然后按Save。以后每次重启Docs 画面时，就会自动掷骰。
 
-## 代碼
+## 代码
 
 ```
 async function init() {

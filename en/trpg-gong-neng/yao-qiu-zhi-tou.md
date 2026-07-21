@@ -1,24 +1,24 @@
 ---
-description: 應用Discord 的button功能，暫時只限Discord，有機會會放上Telegram。
+description: Uses Discord buttons to prompt rolls. Discord only for now; Telegram may be added later.
 ---
 
-# 要求擲骰
+# Request a Roll
 
-![使用示範](<../.gitbook/assets/image (42).png>)
+![Usage example](<../.gitbook/assets/image (26).png>)
 
-### 要求擲骰功能
+### Request Roll Feature
 
-方便GM提示玩家需要進行的擲骰，支援角色卡，所以可以調用.ch功能。
+Lets the GM prompt players for rolls. Supports character sheets, so `.ch` can be used.
 
-輸入指令後，會彈出按鈕，點擊後就會自動進行擲骰。
+After you send the command, buttons appear; clicking one runs the roll automatically.
 
-### 使用方法
+### How to Use
 
-`.re 要求擲骰`\
-例如 .`re 1d100 哈哈, 1d3 SC成功, 1d10 SC失敗`
+`.re request text`\
+Example: `.re 1d100 haha, 1d3 SC success, 1d10 SC failure`
 
-每個擲骰方法需要使用逗號(,)進行分割
+Separate each roll option with a comma (,).
 
 {% hint style="info" %}
-注意: 本功能支援Discord斜線(/)功能，只需要把(.)轉成(/)
+Note: this works with Discord slash (/) commands — replace `.` with `/`.
 {% endhint %}

@@ -1,75 +1,68 @@
 ---
-description: 這裡介紹一個在Discord上固定名字和頭像的發訊方式。
+description: How to post messages on Discord with a fixed name and avatar for roleplay.
 ---
 
-# 你的名字(扮演功能)
+# Your Name (Roleplay Feature)
 
 {% hint style="info" %}
-在Discord之中，你在群組中的名字可以隨時改變，但問題是這種改變是追溯整個群組的，導致如果你有使用文字跑團，角色的名字圖片將會被打亂。
+On Discord, you can change your display name in a server at any time — but that change applies across the whole server. If you play text-based TRPG there, character names and avatars in past messages can get mixed up.
 
-請注意，這種方式只可以以[.edit (修改舊訊息功能)](../xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md) 來**追加修改內容**。
+Note: you can only **append or edit content** on existing messages using [.edit (edit old messages)](../xi-tong-gong-ju/discord-xiu-gai-jiu-xun-xi.md).
 {% endhint %}
 
-`.myname` `.me` `.me1` `.me(名字)` \*Discord限定功能
+`.myname` `.me` `.me1` `.me(name)` — *Discord only*
 
-### TRPG扮演發言功能
+### TRPG Roleplay Posting
 
-你可以設定一個角色的名字及頭像，
+Set a character name and avatar, then type a command plus your line — the bot posts as that character.
 
-然後你只要輸入指令和說話，就會幫你使用該角色發言。
+Dice rolls are supported. Wrap roll commands in `[[]]`, e.g. `[[1d100]]`.
 
-支援擲骰，請使用`[[]]`來包著擲骰指令 如`[[1d100]]`
+Note: this feature requires permission to manage webhooks and messages.
 
-注意: 此功能需求編輯Webhook及訊息功能，請確定授權
+### Tutorial
 
-### 使用教學
+#### 1. Set up a character
 
-#### 1.設定角色
+Type `.myname "name" character_image_url name_abbreviation (optional)`
 
-輸入 `.myname "名字" 角色圖片網址 名字縮寫(非必要)`
+Example: `.myname "泉心 造史"` [`https://images.pexels.com/photos/10013067/pexels-photo-10013067.jpeg`](https://images.pexels.com/photos/10013067/pexels-photo-10013067.jpeg) `造`
 
-例子 `.myname "泉心 造史"` [`https://images.pexels.com/photos/10013067/pexels-photo-10013067.jpeg`](https://images.pexels.com/photos/10013067/pexels-photo-10013067.jpeg) `造`
+**Name** — the character name shown on posts. Use `"quotes"` if the name contains spaces, e.g. **"泉心 造史"**; otherwise quotes are optional.
 
-_**名字**_&#x662F;角色名字，會作為角色顯示的名字，但如果該名字有空格就需要用開`引號"`包著
+**Image** — character icon URL. If the image fails, a default Discord icon is used.
 
-&#x5982;**"泉心 造史"** 不然可以省去`"`
+You can upload images to Discord or imgur.com.
 
-_**圖片**_&#x5247;是角色圖示，如果圖片出錯會變成最簡單的Discord圖示
+**Name abbreviation** — shortcut to invoke this character, e.g. `.me造 「來玩吧」`
 
-圖片可以直接上傳到DISCORD或IMGUR.COM上
+#### 2. Delete a character
 
-_**名字縮寫**_&#x662F; 是用來方便你啓動它
+**`.myname delete index / abbreviation / "name"`**
 
-例&#x5982;_`.me造 「來玩吧」`_
+After `delete`, provide the index, abbreviation, or full name.
 
-#### 2.刪除角色
-
-_**`.myname delete 序號 / 名字縮寫 / "名字"`**_
-
-刪除方式是delete 後面接上序號或名字縮寫或名字
-
-#### 3.顯示角色
+#### 3. List characters
 
 `.myname show`
 
-#### 4.使用角色
+#### 4. Post as a character
 
-**`.me(序號/名字縮寫) 訊息`**
+**`.me(index/abbreviation) message`**
 
-如
+Examples:
 
 * **`.me1 泉心慢慢的走到他們旁邊，伺機行動`**
-* ![](<../.gitbook/assets/image (17).png>)
+* ![](<../.gitbook/assets/image (13).png>)
 * **`.me造 「我接受你的挑戰」`**
 
-### 功能一覧
+### Command Reference
 
-* `.myname` - 設定角色
-* `.myname delete 序號 / 名字縮寫` - 刪除角色
-* `.myname show` - 顯示角色列表
-* `.me(序號/名字縮寫) 訊息` - 使用角色發言
-* `.mehistory` - 顯示該頻道過往.me發言
-
+* `.myname` — set up a character
+* `.myname delete index / abbreviation` — delete a character
+* `.myname show` — list characters
+* `.me(index/abbreviation) message` — post as that character
+* `.mehistory` — show past `.me` posts in this channel
 
 
 

@@ -1,56 +1,56 @@
 ---
-description: 背後開發秘申
+description: Behind-the-scenes development stories
 ---
 
 # FAQ
 
-### HKTRPG起源
+### Origins of HKTRPG
 
-因為30 Nov 2016有人發佈了[機器鴨霸獸開源計劃](https://docs.google.com/document/d/1dYnJqF2_QTp90ld4YXj6X8kgxvjUoHrB4E2seqlDlAk/edit)
+On 30 Nov 2016, someone published the [Machine Duck Beast open-source project](https://docs.google.com/document/d/1dYnJqF2_QTp90ld4YXj6X8kgxvjUoHrB4E2seqlDlAk/edit).
 
-**鴨霸獸**的指令基本和跑團平台**凍豆腐**差不多，因為當時**凍豆腐**可算是唯一的日系跑團平台，所以大家都是站在**凍豆腐**上來寫，\
-但我當時覺得啊COC指令`CC<=80` 太麻煩了，明明LINE是手機用戶為主，<=這指令根本反人類，就想自己也學寫一個\
-當時主要參考對像[BcDice](https://docs.bcdice.org/)，還有Line的防翻群機械人，第一個增加的功能好像是運勢，就是模仿防翻群機械人。
+**Duck Beast**’s commands were basically the same as the TRPG platform **Frozen Tofu**. At the time, Frozen Tofu was more or less the only Japanese-style TRPG platform, so everyone built on top of it.\
+But I thought the CoC command `CC<=80` was too annoying—LINE is mainly used on phones, and `<=` is basically anti-human—so I wanted to write my own.\
+I mainly referenced [BcDice](https://docs.bcdice.org/) and LINE anti-raid bots. The first feature I added was probably **`運勢` (fortune)**, mimicking those anti-raid bots.
 
-### 開發者是誰
+### Who Is the Developer?
 
-我叫Sad，其實是本來英名字太長，導致其他人都用第一個字母叫我，然後就變成Sad了。\
-本職不是程式員，也和程式無關，不過因為抱著研究一下的心態就寫下去了。
+My name is Sad. My English name was too long, so everyone called me by the first letter, and it became Sad.\
+I’m not a programmer by profession and my job has nothing to do with coding, but I kept going out of curiosity.
 
-### 為什麼HKTRPG這麼不穩定
+### Why Is HKTRPG So Unstable?
 
-因為我沒正式學過JS編程，雖然上課時學過一年C#，但對編程其實沒具體概念和正統訓練。\
-所以寫這個程式時，都是配合著GOOGLE，邊查邊學。\
-因此很多可能編程常識我都不了解，寫得不好又很多BUG……\
-如果當時學了CLASS這概念可能不會這麼爛，可惜……真想時光倒流十年啊……
+Because I never formally learned JS. I did one year of C# in class, but I never got solid programming training.\
+So when writing this, I mostly learned by Googling as I went.\
+That means I miss a lot of common knowledge and there are many bugs…\
+If I had learned about classes back then, maybe it wouldn’t be this bad. I wish I could go back ten years…
 
-### 寫HKTRPG的目標是什麼
+### What Was the Goal of HKTRPG?
 
-我是一個很懶的人，如果要我做一些重覆的事，我會很討厭，\
-所以HKTRPG這robot或我所開發的東西，主要是為了讓我懶下來，不用重覆勞動，節省時間。\
-然後就是學學新事物吧，這個算是我的小興趣。\
-最後是我很喜歡跑TRPG，所以可以讓我快速跑團，節省時間，我會很爽XD<br>
+I’m lazy. If I have to repeat something, I hate it.\
+So HKTRPG and the things I build are mainly so I can be lazy—avoid repetitive work and save time.\
+Also to learn new things—it’s a small hobby.\
+Finally, I love playing TRPG, so anything that lets me run games faster and save time makes me happy XD<br>
 
-### HKTRPG功能增多原因
+### Why Did HKTRPG Gain So Many Features?
 
-之後HKTRPG一直以修改本來功能為主，然後就是加一些Bcdice有的那些隨機功能什麼的，\
-第二個真的原創功能好像是有人在巴哈說，\
-**機械人可不可以TAG打指令的人**，然後好像就開始自創功能了。
+After that, HKTRPG mostly refined existing features and added random stuff BcDice had.\
+The second truly original feature was probably someone on Bahamut asking,\
+**“Can the bot TAG the person who typed the command?”**—and that seems to be when custom features really started.
 
-### 為什麼會有Patreon
+### Why Is There Patreon?
 
-我第一次使用Patreon是在網上買TRPG地圖的時候，那時還不明白Patreon的機制，只知道課金後要不斷看Post下載圖片。\
-咳咳，說遠了，其實第一原因是HKTRPG新增Discord版本一段時間後，使用者突然增加。\
-當時Discord官方Email警告我使用人數增加，要使用Spawn來啓動，還要我實名登記HKTRPG才可以使用下去。\
-那刻我心裡懷疑是不是搞錯了什麼，那個好像要有一千個群組在使用HKTRPG才會發生，怎知我寫了個檢查功能，才發現，欸，已經有千多個群在使用…?\
-接下來是莫名的興奮，和一堆的手續。當時HKTRPG寄存在免費的Heroku，後台開始不斷顯示Ram不足，所以HKTRPG搬到付費Server，開始每天有十多二十個新群使用HKTRPG，就有開Patreon的想法。
+The first time I used Patreon was to buy TRPG maps online. I didn’t understand how Patreon worked—I just knew that after paying I had to keep reading posts to download images.\
+Anyway, the first real reason: after the Discord version launched for a while, user count suddenly jumped.\
+Discord emailed me warning that usage had increased, that I needed Spawn to run, and that I had to register HKTRPG with real-name verification to keep going.\
+At that moment I wondered if something was wrong—that was supposed to happen only at around a thousand servers. I wrote a check and found, huh, over a thousand groups already…?\
+Then came excitement and a pile of paperwork. HKTRPG was hosted on free Heroku; the dashboard kept showing insufficient RAM, so HKTRPG moved to a paid server. With ten to twenty new groups every day, Patreon became an idea.
 
 <img src="../.gitbook/assets/image (49).png" alt="" data-size="original">\
-\#2022/02/09 隨著Discord使用人數增多，Server 的Ram, CPU, SSD還是一直處於滿載狀態，別問我為什麼……\
+\#2022/02/09 As Discord usage grew, server RAM, CPU, and SSD stayed maxed out. Don’t ask me why…\
 \
-Patreon除了金錢支援，還有心靈上支持，「原來真的有支持者」「原來真的有人覺得好用」，令我投入更多心機進HKTRPG，挑戰了很多課題，.ra 抽選功能那時我看了超久的文檔才寫得出來，現在看來真的寫的超難看，超不合理，但就是我踏出挑戰的第一步。\
-所以為什麼會有Patreon呢，大概就是「Server成本增加」「想有人支持我」吧。
+Patreon is financial support and moral support—“there really are supporters,” “someone really finds this useful”—which made me invest more in HKTRPG and tackle many challenges. The `.ra` draw feature took me forever reading docs to implement; looking back, the code is ugly and unreasonable, but it was my first step.\
+So why Patreon? Roughly “server costs went up” and “I wanted support.”
 
-### 對本教學內容有意見怎麼辦?
+### How Do I Give Feedback on This Documentation?
 
-按右邊的Edit on github 到issues 可以留下意見，甚至使用pull request 功能直接更新內容<br>
+Click **Edit on GitHub** on the right to open issues, or use a pull request to update content directly.<br>

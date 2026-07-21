@@ -1,60 +1,57 @@
 ---
-description: TRPG進入戰鬥環節時，通常需要按先攻值決定行動次序。這裡會教授如何快速建立先攻表。
+description: When TRPG combat starts, initiative order is usually needed. This page shows how to build an initiative tracker quickly.
 ---
 
-# 先攻表
+# Initiative Tracker
 
 {% hint style="info" %}
-因為像DND，無限恐怖等系統每次戰鬥都需要重擲一次1D20+先攻值，所以這功能也支援重擲，
-
-可以儲存你的擲骰方法，而不需要再輸入。
+Systems like DND and Infinite Horror reroll 1D20+initiative each fight, so this feature supports rerolling and saving your roll formula without retyping it.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
-### 使用方法
+### How to Use
 
-#### 登記角色
+#### Add a combatant
 
-`.in (擲骰或數字) (名字)`
+`.in (roll or number) (name)`
 
-(擲骰或數字)是必填，可以輸入像 `1D20+3`或直接輸入數字`5`
+(roll or number) is required — e.g. `1D20+3` or a fixed value like `5`.
 
-(名字) 是可選選項，如果你不填寫，會直接讀取你在聊天軟件中的名稱，作為先攻表中的名字
+(name) is optional. If omitted, your chat display name is used.
 
-假如多次輸入`.in (擲骰或數字) (不同名字)` 即可以在先攻表中新增多個角色
+Repeat `.in (roll or number) (different name)` to add multiple combatants.
 
-#### 顯示先攻表
+#### Show initiative
 
-`init` - 顯示先攻表，由大到小
+`init` — show initiative, highest first
 
-`.initn` - 顯示先攻表，由小到大
+`.initn` — show initiative, lowest first
 
-#### 重擲先攻表
+#### Reroll initiative
 
-`.in reroll`&#x20;
+`.in reroll`
 
-很多系統的每場戰鬥，都需要重擲一次先攻值，
+Many systems reroll initiative each encounter;\
+this reruns the stored formulas on the tracker.
 
-`使用這指令可以重擲一次先攻中的算式`
+#### Other
 
-#### 其他
+* `.in -3+6*3/2.1` — supports arithmetic
+* `.in remove (name)` — remove a combatant
+* `.in clear` — clear the whole tracker
 
-* `.in -3+6*3/2.1` - 支援四則運算
-* `.in remove` (名字) - 移除該角色
-* `.in clear` - 清除整個先攻表
-
-### 功能一覧
+### Command Reference
 
 `.in (remove clear reroll help)` `.init`
 
-* `.in (擲骰或數字) (名字)`
-* `.in 1d20+3 (名字)`
-* `.in 1d3` (如沒有輸入, 會用你聊天軟件中的名字)
-* `.in 80` - 直接取代先攻值
-* `.in -3+6*3/2.1` - 加減
-* `.in remove` (名字) - 移除該角色
-* `.in reroll` - 根據算式重擲先攻表
-* `.in clear` - 清除整個先攻表
-* `.init` - 顯示先攻表，由大到小
-* `.initn` - 顯示先攻表，由小到大
+* `.in (roll or number) (name)`
+* `.in 1d20+3 (name)`
+* `.in 1d3` (uses your chat name if name is omitted)
+* `.in 80` — set initiative to a fixed value
+* `.in -3+6*3/2.1` — arithmetic
+* `.in remove (name)` — remove a combatant
+* `.in reroll` — reroll formulas on the tracker
+* `.in clear` — clear the tracker
+* `.init` — show initiative, highest first
+* `.initn` — show initiative, lowest first

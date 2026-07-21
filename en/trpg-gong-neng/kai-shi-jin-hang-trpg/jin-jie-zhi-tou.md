@@ -1,45 +1,45 @@
 ---
-description: 這裡介紹一些比較不常用的擲骰方法，適用於個別的系統或需要
+description: Less common rolling methods for specific systems or special cases.
 ---
 
-# 進階擲骰
+# Advanced Rolling
 
 ### D66
 
-擲出兩粒六面骰，常見於日本系統，用來抽選一些事件表，名字表
+Roll two six-sided dice — common in Japanese systems for event or name tables.
 
-`D66` `D66s` `D66n`&#x20;
+`D66` `D66s` `D66n`
 
-骰出D66 s代表數字小在前 n大在前\
-![](<../../.gitbook/assets/image (23).png>)<br>
+For D66, `s` puts the lower digit first; `n` puts the higher digit first.\
+![](<../../.gitbook/assets/image (30).png>)<br>
 
-### xBy 不加總的擲骰
+### xBy — roll without totaling
 
-`5B10` 不進行計算，即使有多粒骰子，也只直接顯示擲骰結果
+`5B10` — no sum; each die is listed separately even with multiple dice.
 
-![](<../../.gitbook/assets/image (37).png>)
+![](<../../.gitbook/assets/image (43) (1).png>)
 
-`5B10S` 不加總的擲骰，並按大至小排序
+`5B10S` — same as above, sorted high to low.
 
-`5B10<>=x` 如上,另外計算其中有多少粒大於小於X\
-![](<../../.gitbook/assets/image (35).png>)
+`5B10<>=x` — also counts how many dice are greater/less than x.\
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
-`5B10 x` 如上 用空格取代`>=`, 即大於等於
+`5B10 x` — same as above using a space instead of `>=` (greater than or equal).
 
-`5B10 5` 等價於 `5B10>=5`　&#x20;
+`5B10 5` — equivalent to `5B10>=5`
 
-`5B10 D5` 等價於 `5B10<=5`
+`5B10 D5` — equivalent to `5B10<=5`
 
 ### xUy z a
 
-`5U10 8` 進行5D10 每骰出一粒8會有一粒獎勵骰
+`5U10 8` — roll 5d10; each die showing 8 grants one bonus die.
 
-`5U10 8 9` 如上,另外計算其中有多少粒大於9\
-![](<../../.gitbook/assets/image (6).png>)<br>
+`5U10 8 9` — as above, and count how many dice are greater than 9.\
+![](<../../.gitbook/assets/image (24).png>)<br>
 
 ### `.int x y`
 
-擲出指定範圍的數字
+Roll a random integer in a range.
 
-`.int 20 30` 即骰出20-30\
-![](<../../.gitbook/assets/image (48).png>)
+`.int 20 30` — roll 20–30.\
+![](<../../.gitbook/assets/image (28) (1).png>)

@@ -1,25 +1,25 @@
 ---
-description: 這裡介紹怎樣在Google Docs 上進行擲骰
+description: How to roll dice in Google Docs
 ---
 
 # Google Docs
 
-![使用示範](<../../.gitbook/assets/google docs rolling.gif>)
+![Usage demo](<../../.gitbook/assets/google docs rolling.gif>)
 
-## 準備方法
+## Setup
 
-打開你需要擲骰的文件，在Tools -> Scripts Editor 中，\
-把最下面代碼取代進去。選擇init
+Open the document where you want to roll, go to Tools → Scripts Editor,\
+replace the code at the bottom with the script below, then select `init`.
 
-## 使用方法
+## Usage
 
-有兩種方式
+There are two ways to run it:
 
-1. 直接按Run，直接啓動程式。
-2. 按畫面左邊時鐘符號Triggers，再按右下角Add Trigger，選擇init，\
-   然後按Save。以後每次重啓Docs 畫面時，就會自動擲骰。
+1. Click Run to start the script directly.
+2. Click the clock icon (Triggers) on the left, then Add Trigger at the bottom right, choose `init`,\
+   and click Save. After that, rolls run automatically whenever you reopen the Doc.
 
-## 代碼
+## Code
 
 ```
 async function init() {

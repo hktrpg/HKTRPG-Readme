@@ -1,30 +1,30 @@
-# Discord版注意事項
+# Discord Version Notes
 
-### 為什麼開始使用斜線指令(/)
+### Why Slash Commands (/) Were Introduced
 
-Discord 於8月31日將會改變機械人的[使用政策](https://support.discord.com/hc/en-us/articles/360040720412)除非機械人有特別需要，不然不可以直接讀取聊天信息。\
-即是說，過往隨意輸入1D100的方式將會被放棄，在群組內使用機械人必須使用斜線指令(/)。
+On August 31, Discord changed its [bot usage policy](https://support.discord.com/hc/en-us/articles/360040720412). Unless a bot has special approval, it may not read chat messages directly.\
+That means typing `1D100` freely in chat will be phased out; bots in servers must be used via slash commands (/).
 
-### 通常斜線指令(/)和普通指令有什麼分別
+### Differences Between Slash Commands (/) and Regular Commands
 
-首先開首必須使用**斜線(/)**，然後要按指定規則來輸入指令，可能多了一些button或option，方便選擇。\
-為了方便過渡，我會按以下規則進行轉換。
+Slash commands must start with **/** and follow specific input rules. They may include buttons or options for easier selection.\
+To ease the transition, conversion follows these rules:
 
-1. 沒有前置的指令，會加上斜線(/)
-2. 有前置句號(.)的指令，全部變成斜線(/)
-3. 假設指令出現衝突，我覺得比較重要的功能按以上規則保持原指令，次要功能更名。
-   1. 更名原則
-      1. 延長名字，如`.me`變更成`/mee`
-      2. 更改成其他名字
+1. Commands without a prefix get a slash (/)
+2. Commands with a leading period (.) become slash commands (/)
+3. If commands conflict, more important features keep their names under the rules above; less important ones are renamed.
+   1. Renaming principles
+      1. Lengthen the name, e.g. `.me` becomes `/mee`
+      2. Change to a different name
 
-### 為什麼我的群組加了HKTRPG，但沒有斜線指令(/)
+### Why My Server Added HKTRPG but Has No Slash Commands (/)
 
-通常原因是因為使用舊的邀請連結加入HKTRPG，只要點擊HKTRPG->Profile->Add to Server\
-再加入一次你的群組一次，**不需要先移除**，直接加入就可以。\
-或是使用[Discord 邀請連結](https://discord.hktrpg.com)
+Usually this is because an old invite link was used. Click HKTRPG -> Profile -> Add to Server\
+and add it to your server again. **You do not need to remove it first**—just add it again.\
+Or use the [Discord invite link](https://discord.hktrpg.com).
 
 <img src="../.gitbook/assets/image (21).png" alt="" data-size="original">
 
-### 為什麼還沒有全面使用斜線指令(/)
+### Why Slash Commands (/) Are Not Fully Rolled Out Yet
 
-因為~~我懶~~數量是真的多，指令數量加起來百多條。
+Because ~~I’m lazy~~ there really are a lot of them—over a hundred commands in total.

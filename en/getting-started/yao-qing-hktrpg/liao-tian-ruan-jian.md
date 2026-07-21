@@ -1,44 +1,44 @@
 ---
-description: 這頁會介紹如何在聊天軟件上使用HKTRPG。
+description: This page explains how to use HKTRPG on chat apps.
 ---
 
-# 聊天軟件
+# Chat Apps
 
-### 邀請
+### Inviting the Bot
 
-通常來說，聊天軟件的機械人都有兩種模式，一是直接和機械人聊天，一是把機械人邀請到私人的群組之中。
+Chat bots generally support two modes: chatting with the bot directly, or inviting it into a private group.
 
-而對於HKTRPG來說，你可以在兩種模式中使用大部份功能，只是某些功能只可以在群組中使用。
+For HKTRPG, most features work in both modes; some features are group-only.
 
 {% hint style="info" %}
-只限在群組使用的功能如暗骰功能，自定骰子功能，資料庫功能。\
-亦有Discord限定功能，如角色扮演功能，聊天紀錄匯出功能。\\
+Group-only features include secret rolls, custom dice, and database features.\
+Discord-only features include roleplay and chat log export.\\
 {% endhint %}
 
 ID: HKTRPG#4989
 
-在Discord -> Home -> Find or start a conversation 中輸入ID就可以使用HKTRPG了\
-不過邀請到群組的話還是需要使用下面的連結\
+In Discord → Home → Find or start a conversation, enter the ID to use HKTRPG.\
+To add it to a server, you still need the link below.\
 [https://discord.hktrpg.com](https://discord.hktrpg.com)\
 ![](<../../.gitbook/assets/image (63).png>)
 
 {% embed url="https://page.line.me/?accountId=utr0641o" %}
-建議使用手機開啓，進入網址後，中間的Chat按鈕可以和HKTRPG對話。\
-也可以按+朋友。\
-接著在群組中就可以像一般朋友那樣邀請他加入，但要注意LINE限定一個群組只可以加入一個機械人。<br>
+We recommend opening on mobile. After visiting the URL, tap the Chat button in the center to talk to HKTRPG.\
+You can also tap Add Friend.\
+Then invite it to a group like any other friend—but note that LINE allows only one bot per group.<br>
 {% endembed %}
 
 [https://t.me/hktrpg\_bot](https://t.me/hktrpg_bot)\
-點擊後同樣可以直接和HKTRPG對話\
-然後在選項中就可以選Add to Group 加到你的群組\
+Tap to chat with HKTRPG directly.\
+Then choose Add to Group from the menu to add it to your group.\
 ![](<../../.gitbook/assets/image (73).png>)
 
 [https://api.whatsapp.com/send?phone=85294427421](https://api.whatsapp.com/send?phone=85294427421)\
-點擊就可以使用，然後加好友，如朋友一樣加入群組
+Tap to open, add as a friend, then invite to a group like any contact.
 
-(注: 非常不穩定，可能失效)\
+(Note: Very unstable; may stop working.)\
 ![](<../../.gitbook/assets/image (41).png>)
 
 [https://www.plurk.com/hktrpg](https://www.plurk.com/hktrpg)\
-點擊就可以使用，然後加好友，如朋友一樣加入群組\
+Tap to open, add as a friend, then invite to a group like any contact.\
 ![](<../../.gitbook/assets/image (64).png>)

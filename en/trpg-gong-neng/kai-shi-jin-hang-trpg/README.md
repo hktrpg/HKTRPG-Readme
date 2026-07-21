@@ -1,24 +1,24 @@
 ---
-description: 如何開始使用HKTRPG
+description: How to get started with HKTRPG for TRPG play.
 ---
 
-# 開始進行TRPG
+# Getting Started with TRPG
 
-TRPG是一類非常好玩的遊戲模式，可能你被它的遊戲性或是自由度所吸引
+TRPG is a deeply engaging style of play — often for its gameplay or freedom.
 
-它通常由幾種元素組成，包括
+Sessions usually combine:
 
-* 隨機性(抽牌，擲骰)
-* 數值(角色的能力，屬性，挑戰的難度)
-* 資料(世界觀，書籍，文章)
+* Randomness (drawing cards, rolling dice)
+* Numbers (character abilities, stats, challenge difficulty)
+* Reference material (setting, rulebooks, notes)
 
-所以需要不同的工具去紀錄和處理它們，在面團中最基本是實物的骰子，紙筆墨，但在網絡中你可以使用電子的方式進行取代。
+Different tools help track and resolve these. At the table you might use physical dice and pen and paper; online, electronic tools can replace them.
 
-在下面會介紹不同的工具去取代實物。
+The sections below introduce tools that stand in for physical ones.
 
 {% hint style="info" %}
-私心推薦大家使用角色卡功能，在Discord跑文字團真的很有用
+Personal recommendation: use character sheets — they are very helpful for text play on Discord.
 
-![](<../../.gitbook/assets/image (46).png>)
+![](<../../.gitbook/assets/image (8).png>)
 {% endhint %}
 

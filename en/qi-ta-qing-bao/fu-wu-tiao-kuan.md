@@ -1,35 +1,34 @@
 ---
-description: 最後更新時間：2022-03-08
+description: Last updated: 2022-03-08
 ---
 
-# 服務條款
+# Terms of Service
 
-#### 一、服務條款 <a href="#undefined" id="undefined"></a>
+#### 1. Terms of Service <a href="#undefined" id="undefined"></a>
 
-1. 歡迎使用HKTRPG。 此條款(包括隱私權政策)是本組織與您之間所訂立具有法律效力之協議。
-2. 當您使用本組織服務時，即表示您同意這些條款。
-3. 本站保留審核或解除任何人使用服務之權利。
+1. Welcome to HKTRPG. These terms (including the Privacy Policy) are a legally binding agreement between the Organization and you.
+2. By using the Organization’s services, you agree to these terms.
+3. The site reserves the right to review or terminate anyone’s use of the services.
 
-#### 二、隱私權保護 <a href="#undefined" id="undefined"></a>
+#### 2. Privacy Protection <a href="#undefined" id="undefined"></a>
 
-本組織尊重並依據本網站「隱私權聲明」保護您的隱私(請參閱「隱私權聲明」條款)。
+The Organization respects and protects your privacy according to the site’s Privacy Policy (see the Privacy Policy section).
 
-#### 三、服務條款 <a href="#discord" id="discord"></a>
+#### 3. Service Terms <a href="#discord" id="discord"></a>
 
-所有添加或使用到本組織的服務的人需要遵守該平台使用守則。
+Everyone who adds or uses the Organization’s services must follow that platform’s rules of use.
 
-#### 四、行為和使用規則 <a href="#undefined" id="undefined"></a>
+#### 4. Conduct and Usage Rules <a href="#undefined" id="undefined"></a>
 
-1. 尊重他人
-2. 尊重他人的權利，包括私隱權和知識產權權利
-3. 我們保留違反本條款或其他不當使用服務的行為的權利，並有權採取行動
-4. _面斥&#x4E0D;_&#x96C5;
+1. Respect others
+2. Respect others’ rights, including privacy and intellectual property
+3. We reserve the right to act against violations of these terms or other misuse of the services
+4. _Speak plainly when you disagree_
 
-**五、條款之修正**
+**5. Revisions to Terms**
 
-本組織的條款將因應需求隨時進行修正，修正後的條款將刊登於本組織的網站上。
+The Organization’s terms may be revised as needed. Updated terms will be posted on the Organization’s website.
 
-**六、聯繫管道**&#x20;
+**6. Contact**
 
-對於本站之政策有任何疑問，請 Email 至： info@hktrpg.com
-
+For questions about site policies, email: info@hktrpg.com

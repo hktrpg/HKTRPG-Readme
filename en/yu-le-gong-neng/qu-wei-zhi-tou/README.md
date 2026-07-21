@@ -1,16 +1,16 @@
-# 趣味擲骰
+# Fun Dice & Random Commands
 
-玩樂用指令，如**塔羅牌**、**運勢**、**隨機抽選**
+Playful commands such as **tarot**, **`運勢` (fortune)**, and **random selection**.
 
-* `排序 (選項1) (選項2) (選項N)` 會進行隨機的排序
-* `隨機 (選項1) (選項2) (選項N)` - 會隨機抽選其中一個出來
-* choice `(選項1) (選項2) (選項N)` - 會隨機抽選其中一個出來\
+* `排序 (option1) (option2) (optionN)` — Randomly shuffles the options
+* `隨機 (option1) (option2) (optionN)` — Randomly picks one option
+* `choice (option1) (option2) (optionN)` — Randomly picks one option\
   ![](<../../.gitbook/assets/image (25).png>)
-* `立flag` 會隨機出現一些立FLAG的場景\
+* `立flag` — Randomly generates a “flag-raising” scenario\
   ![](<../../.gitbook/assets/image (15).png>)
-* `.me` 可以令HKTRPG機械人重覆你的說話
-* `.mehistory`  顯示在該頻道的過往.me發言
+* `.me` — Makes the HKTRPG bot repeat what you say
+* `.mehistory` — Shows past `.me` messages in the channel
 
 {% hint style="info" %}
-因為會互相衝突，.me 的Discord 斜線指令(/)是 **`/mee`**
+Because of conflicts, the Discord slash command (/) for `.me` is **`/mee`**
 {% endhint %}

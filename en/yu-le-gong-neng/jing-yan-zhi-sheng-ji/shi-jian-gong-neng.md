@@ -1,35 +1,35 @@
 ---
-description: 經驗值升級的附屬功能，可以另外增加經驗值或是得到特效。
+description: A companion feature to experience leveling—you can add events that grant effects or change experience.
 ---
 
-# 事件功能
+# Event System
 
 ![](<../../.gitbook/assets/image (14).png>)
 
-`.event (add delete show) .evt (random/事件名稱)`
+`.event (add delete show) .evt (random/event name)`
 
-經由新增的事件，會得到一些狀態或增加減少經驗值，並可以賺取額外經驗值。
+Events you create can apply status effects or add/subtract experience, and you can earn bonus experience from them.
 
-### 使用教學
+### Tutorial
 
-`.event add` 詳情看下面說明 - 新增事件 \
-`.event delete (事件名稱)` - 刪除事件 \
-`.event show` - 顯示你新增的所有事件, 及賺取了的EXP \
-`.event show (事件名稱)` - 顯示你新增的指定事件詳情 \
-`.event useExp` - 在群組中使用, 將會得到你賺取的EXP\
-`.evt random` - 進入隨機的事件, 消耗5EN \
-`.evt (系列名稱)` - 進入指定的系列事件, 消耗10EN \
-`.evt (事件名稱)` - 進入指定的事件, 消耗15EN
+`.event add` — Add an event (see format below)\
+`.event delete (event name)` — Delete an event\
+`.event show` — Show all events you created and EXP earned\
+`.event show (event name)` — Show details for a specific event\
+`.event useExp` — Use in a group to claim earned EXP\
+`.evt random` — Enter a random event; costs 5 EN\
+`.evt (series name)` — Enter a series event; costs 10 EN\
+`.evt (event name)` — Enter a specific event; costs 15 EN
 
-### 規則
+### Rules
 
-EN上限 = 20+LV 每10分鐘回複1點EN
+EN cap = 20 + LV. Regenerates 1 EN every 10 minutes.
 
-#### 得知事件名稱的方法
+#### How to Learn Event Names
 
-別人告知 或 經隨機事件知道名字 設計事件的好處 能夠吸收對方消耗的en和經驗值 作為自己賺取到的經驗值
+Someone tells you, or you discover names through random events. Designing events lets you absorb EN and experience others spend as your own earned experience.
 
-### 新增事件的格式範例
+### Event Creation Format Example
 
 `.event add` \
 `name:Haha chain:開心系列` \
@@ -40,39 +40,39 @@ EN上限 = 20+LV 每10分鐘回複1點EN
 
 #### name ->&#x20;
 
-事件標題&#x20;
+Event title&#x20;
 
 #### chain->&#x20;
 
-系列名稱，別人可以指定該系列來進行抽選&#x20;
+Series name; others can target that series for random draws&#x20;
 
 #### exp ->&#x20;
 
-(可選)經驗值的名稱, 例如改成SAN, 會變成「你損失了X點SAN」&#x20;
+(Optional) Name for experience, e.g. SAN shows “You lost X SAN”&#x20;
 
 #### 0:你今天的運氣真好;你是個好人;我愛你&#x20;
 
--> (事件類型):(事件的描述);(事件的描述2);.....(事件的描述N)&#x20;
+-> (event type):(description);(description 2);.....(description N)&#x20;
 
-#### 事件的描述->
+#### Description ->
 
-會從描述1,2,N中隨機選取其中一個
+One description is picked at random from 1, 2, … N
 
-#### 事件類型 ->&#x20;
+#### Event Types ->&#x20;
 
-&#x20; 0\. 沒有事發生
+&#x20; 0\. Nothing happens
 
-1. 直接增加X點經驗
-2. 未來X次裡會得到 X 倍經驗值
-3. 贈送群組所有人1點經驗
-4. 贈送作者已賺取到的經驗給玩家
-5. 從整個CHANNEL 的X人吸收X點經驗 -1. 直接減少X點經驗 -2. 停止得到經驗(X次) -3. 被事件開發者吸收X點經驗 -4. 分發X經驗給整個CHANNEL中的X人 -5. 每次發言減少X經驗(X次內)
+1. Gain X experience directly
+2. For the next X times, gain X times experience
+3. Give everyone in the group 1 experience
+4. Give the player experience the author has earned
+5. Absorb X experience from X people in the channel -1. Lose X experience directly -2. Stop gaining experience (X times) -3. Lose X experience to the event author -4. Distribute X experience to X people in the channel -5. Lose X experience per message (for X messages)
 
 ***
 
-#### 限制
+#### Limits
 
-A. 一個事件中，正面選項要比負面選項多 \
-B. 一個事件中，可以有3+(ROUNDDOWN 設計者LV/10) 項選項 \
-C. 一個事件中，不可以全部正面效果 \
-D. 一個事件可用的總EN 為(10+LV)，負面事件消耗X點EN
+A. In one event, positive options must outnumber negative ones \
+B. One event can have 3 + ROUNDDOWN(creator LV / 10) options \
+C. An event cannot be all positive effects \
+D. Total EN available for one event is (10 + LV); negative events consume X EN

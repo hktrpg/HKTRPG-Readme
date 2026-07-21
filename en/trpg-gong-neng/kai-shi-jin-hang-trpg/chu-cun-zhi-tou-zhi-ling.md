@@ -1,14 +1,14 @@
-# 儲存擲骰指令
+# Saved Roll Commands
 
-`.cmd (add edit del show 自定關鍵字)`
+`.cmd (add edit del show custom_keyword)`
 
-* 這是根據關鍵字來再現擲骰指令,
-* 例如輸入 `.cmd add pc1鬥毆 cc 80 鬥毆`
-* 再輸入`.cmd pc1鬥毆` 就會執行後方的指令
-* add 後面第一個是關鍵字, 可以是符號或任何字
-* P.S.如果沒立即生效 用.cmd show 刷新一下
-* 輸入`.cmd add (關鍵字) (指令)`即可增加關鍵字
-* 輸入`.cmd edit (關鍵字) (指令)` 即可修改指令
-* 輸入`.cmd show` 顯示所有關鍵字內容及編號
-* 輸入`.cmd del(編號)`或all 即可刪除
-* 輸入`.cmd (關鍵字/編號)` 即可執行
+* Replays stored roll commands by keyword.
+* Example: `.cmd add pc1鬥毆 cc 80 鬥毆`
+* Then `.cmd pc1鬥毆` runs the stored command.
+* After `add`, the first token is the keyword — symbols or any text.
+* P.S. If it does not take effect immediately, run `.cmd show` to refresh.
+* `.cmd add (keyword) (command)` — add a keyword
+* `.cmd edit (keyword) (command)` — change a stored command
+* `.cmd show` — list all keywords with index numbers
+* `.cmd del(number)` or `all` — delete
+* `.cmd (keyword/number)` — run stored command

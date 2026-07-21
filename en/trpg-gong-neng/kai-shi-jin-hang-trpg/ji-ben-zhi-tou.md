@@ -1,54 +1,51 @@
 ---
-description: 這裡說明最基本的擲骰方法
+description: Basic dice rolling in HKTRPG.
 ---
 
-# 基本擲骰
+# Basic Rolling
 
 {% hint style="info" %}
-小知&#x8B58;**:** 如果看其他TRPG/桌遊教學的話，最普遍的骰子表示方式是xDy，代表有x粒y面的骰子\
-例如去酒吧玩的吹牛(大話骰)就是大家擲五粒六面的骰子，即5D6。
+**Tip:** In most TRPG and board-game docs, dice are written as xDy — x dice with y sides each.\
+Example: the bluffing game Liar’s Dice uses five six-sided dice, i.e. 5D6.
 {% endhint %}
 
 ### xDy
 
-擲出x粒y面的骰子，\
-如1D100 這指令代表擲出一粒一百面的骰子，結果將會是1-100 &#x20;
+Roll x dice with y sides each.\
+Example: `1D100` rolls one hundred-sided die; the result is 1–100.
 
-又例如輸入 1D100 攻撃！ \
-會輸出     1D100：攻撃！  38\[38] = 38
+Example with flavor text: `1D100 攻撃！`\
+Output: `1D100：攻撃！  38[38] = 38`
 
-![](<../../.gitbook/assets/image (27).png>)\
-如上面一樣,在骰子數字後方隔空白位打字,可以進行發言。
+![](<../../.gitbook/assets/image (33) (1) (1).png>)\
+As above, add a space after the dice expression to attach a message.
 
-### 多重擲骰
+### Multiple Rolls
 
-.5 3D6 ： 分別骰出5次3d6 最多30次 \
-![](<../../.gitbook/assets/image (66).png>)
+`.5 3D6` — roll 3d6 five times (up to 30 times)\
+![](<../../.gitbook/assets/image (20).png>)
 
 
 
-### 計算功能
+### Math
 
-支援括號加減乘除及大於小於(>,<,>=,<=)計算&#x20;
+Supports parentheses, + − × ÷, and comparisons (>, <, >=, <=).
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
-![](<../../.gitbook/assets/image (72).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
-### 支援kh|kl|dh|dl
+### kh | kl | dh | dl
 
 {% hint style="info" %}
-這種擲骰要求常見於DND，PF
+Common in DND and PF.
 {% endhint %}
 
-k keep保留，d drop 放棄，h highest最高，l lowest最低 \
-如3d6kh \
-保留最大的1粒骰\
-![](<../../.gitbook/assets/image (32).png>)\
+k = keep, d = drop, h = highest, l = lowest\
+Example: `3d6kh` — keep the highest one die\
+![](<../../.gitbook/assets/image (29).png>)\
 \
-3D6dl2\
-放棄最小的2粒骰\
-![](<../../.gitbook/assets/image (34).png>)
-
+`3D6dl2` — drop the lowest two dice\
+![](<../../.gitbook/assets/image (26) (1).png>)
 
 

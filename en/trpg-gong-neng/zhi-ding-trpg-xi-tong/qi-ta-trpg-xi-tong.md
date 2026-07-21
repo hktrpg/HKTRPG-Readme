@@ -1,17 +1,17 @@
 ---
-description: 這裡說明一些獨特的骰組系統
+description: Dice commands for additional TRPG systems.
 ---
 
-# 其他TRPG系統
+# Other TRPG Systems
 
 {% hint style="info" %}
-由2022/05/11開始，過往使用BcDice的一些擲骰骰組取消，並以BcDice(.bc)功能取代。\
-被取代如【朱の孤塔】【迷宮王國】【忍神】 等等
+From 2022/05/11, some legacy BcDice-style command prefixes were removed and replaced by BcDice (`.bc`).\
+Examples replaced: 【朱の孤塔】【迷宮王國】【忍神】, etc.
 {% endhint %}
 
-* 以下指令詳情省略，輸入指令頭 + help 觀看詳情 eg: `.al help`
+* Details omitted below — type command prefix + `help`, e.g. `.al help`
 * 【魔女狩獵之夜】`.wn xDn+-y`
-* 【命運Fate】 `.4df(m|-)(加值)`
+* 【命運Fate】 `.4df(m|-)(modifier)`
 * 【WOD黑暗世界】`.xWDy`
 * 【貓貓鬼差】`.kc xDy z`
 * 【劍世界】`.sw`

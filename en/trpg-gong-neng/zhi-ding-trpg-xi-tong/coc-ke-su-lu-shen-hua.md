@@ -1,92 +1,91 @@
 ---
-description: 這裡介紹如何使用HKTRPG進行COC擲骰
+description: How to roll Call of Cthulhu with HKTRPG.
 ---
 
-# CoC克蘇魯神話
+# CoC (Call of Cthulhu)
 
 `cc` `cc(n)1~2` `ccb` `ccrt` `ccsu` `.dp` `.cc7build` `.cc6build` `.cc7bg` `.sc` `.chase`
 
 {% hint style="info" %}
-[CoC7ed規則書介紹](https://www.patreon.com/posts/67705000)
+[CoC 7th Edition rulebook overview](https://www.patreon.com/posts/67705000)
 {% endhint %}
 
-### 擲骰檢定
+### Skill Checks
 
-* CoC6版擲骰： `ccb 80` 技能小於等於80
-* CoC7版擲骰： `cc 80` 技能小於等於80\
-  ![](<../../.gitbook/assets/image (67).png>)
-* CoC7版獎勵骰： cc(1\~2) `cc1 80` 一粒獎勵骰
-* CoC7版懲罰骰： ccn(1\~2) `ccn2 80` 兩粒懲罰骰
-* CoC7版聯合檢定：cc (x,y) (z,a) `cc 80,60 鬥毆,魅惑` \
-  支援獎勵懲罰骰，如：`cc１ 80,60 鬥毆,魅惑`
-* CoC7版SanCheck ： `.sc (SAN值) (成功)/(失敗)`\
-  ![](<../../.gitbook/assets/image (62).png>)
-*   CoC7 手動成長或增長檢定
+* CoC 6th edition: `ccb 80` — skill ≤ 80
+* CoC 7th edition: `cc 80` — skill ≤ 80\
+  ![](<../../.gitbook/assets/image (43).png>)
+* CoC 7th bonus dice: `cc(1~2)` e.g. `cc1 80` — one bonus die
+* CoC 7th penalty dice: `ccn(1~2)` e.g. `ccn2 80` — two penalty dice
+* CoC 7th combined check: `cc (x,y) (z,a)` e.g. `cc 80,60 鬥毆,魅惑`\
+  Bonus/penalty supported, e.g. `cc１ 80,60 鬥毆,魅惑`
+* CoC 7th Sanity check: `.sc (SAN value) (success)/(failure)`\
+  ![](<../../.gitbook/assets/image (28).png>)
+*   CoC 7th manual improvement or growth rolls
 
-    ![](<../../.gitbook/assets/image (61).png>)\
-    可以一次輸入多個技能<br>
+    ![](<../../.gitbook/assets/image (32).png>)\
+    Multiple skills in one command<br>
 
-    `.dp` 或 `成長檢定` 或 `幕間成長 (技能%) (名稱)` \
+    `.dp` or `成長檢定` or `幕間成長 (skill%) (name)` \
     `.DP 50 騎乘 60 鬥毆 50 60` \
     `.DP 50 60 50` \
     `成長檢定 65 頭槌 45 劍術`  \
     `幕間成長 40 單車`
 
-### COC資料
+### CoC Reference Tables
 
-`coc7版 神話組織 隨機產生： 啓動語 .cccc` \
-`coc7版 神話資料 隨機產生： 啓動語 .ccdr` \
-`coc7版 施法推骰後果： 啓動語 .ccpc`\
-![](<../../.gitbook/assets/image (54).png>)
+`CoC 7th mythos organizations (random): .cccc` \
+`CoC 7th mythos tomes (random): .ccdr` \
+`CoC 7th spell push consequences: .ccpc`\
+![](<../../.gitbook/assets/image (7).png>)
 
-![](<../../.gitbook/assets/image (68).png>)
+![](<../../.gitbook/assets/image (9).png>)
 
-### 瘋狂結果
+### Insanity Results
 
-* coc7版 即時型瘋狂： 啓動語 `ccrt`
-* coc7版 總結型瘋狂： 啓動語 `ccsu`
+* CoC 7th short-term madness: `ccrt`
+* CoC 7th long-term madness: `ccsu`
 
-### `創造角色`
+### Character Creation
 
-* coc6版創角： 啓動語 `.cc6build`
-* coc7版創角： 啓動語 `.cc7build (歲數7-79)`
-* coc7版隨機創角 ： 啓動語 `.cc7build random`
-* coc7版自由分配點數創角 ： 啓動語 `.cc7build .xyz (歲數7-89)`
+* CoC 6th edition: `.cc6build`
+* CoC 7th edition: `.cc7build (age 7–79)`
+* CoC 7th random character: `.cc7build random`
+* CoC 7th point-buy: `.cc7build .xyz (age 7–89)`
 
-如`.cc7build .752` \
-就會擲出\
-`7次 3d6 * 5`\
-`5次 (2d6+6) * 5` \
-`2次 3d6 * 5`
+Example `.cc7build .752` rolls:\
+`7× 3d6 * 5`\
+`5× (2d6+6) * 5` \
+`2× 3d6 * 5`
 
-可只輸入`.`  不輸入xyz\
-預設值為 .53 即`5次 3d6 * 5` 和`3次 (2d6+6) * 5`&#x20;
+You can use `.` alone without xyz;\
+default is `.53` → `5× 3d6 * 5` and `3× (2d6+6) * 5`
 
-![](<../../.gitbook/assets/image (77).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
-* coc pulp版創角 ： 啓動語 `.ccpulpbuild`
-* coc7版角色背景隨機生成： 啓動語 `.cc7bg`
+* CoC Pulp: `.ccpulpbuild`
+* CoC 7th random background: `.cc7bg`
 
-### 成長檢定紀錄功能
+### Improvement Roll Log
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (34) (1).png>)
 
-開啓後將會紀錄你使用CC功能投擲成功和大成功大失敗的技能， 然後可以呼叫出來進行自動成長。
+When enabled, logs successful rolls (and crits/fumbles) from `cc` commands for automatic improvement.
 
-* `.dp start` ： 開啓紀錄功能
-* `.dp stop` ： 停止紀錄功能
-* `.dp show` ： 顯示擲骰紀錄
-* `.dp auto` ： 進行自動成長並清除擲骰紀錄
-* `.dp clear` ： 清除擲骰紀錄
-* `.dp clearall` ： 清除擲骰紀錄包括大成功大失敗
+* `.dp start` — start logging
+* `.dp stop` — stop logging
+* `.dp show` — show log
+* `.dp auto` — auto-improve and clear log
+* `.dp clear` — clear log
+* `.dp clearall` — clear log including crits/fumbles
 
-### coc7版追逐戰產生器:&#x20;
+### CoC 7th Chase Generator
 
-指令 `.chase`&#x20;
+Command: `.chase`
 
 {% hint style="info" %}
-追逐戰功能使用了可選規則及我對規則書之獨斷理解， 並不一定完全符合規則書內容，請自行衡量使用，建議使用前詳細閱讀規則書第七章追逐
+The chase tool uses optional rules and the author’s reading of the rulebook — it may not match Chapter 7 exactly. Read the chase rules before relying on it.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (40).png>)
 

@@ -1,52 +1,52 @@
 ---
-description: 用來紀錄群組參與度的功能，加入LV概念，嘛，就是MEE6的概念。
+description: Tracks group participation with a level (LV) system—similar in concept to MEE6.
 ---
 
-# 經驗值升級
+# Experience & Leveling
 
 ![](<../../.gitbook/assets/image (76).png>)
 
 `.level (show config LevelUpWord RankWord)`
 
-想在頻道中說話可以得到經驗，請開啓這個功能!還可以和世界各地的人比較LV
+Enable this to earn experience from chatting in a channel and compare levels with people worldwide.
 
-按發言次數增加經驗，提升等級，實現服務器內排名等歡樂功能
+Experience increases with messages; level up and rank within the server.
 
-當經驗達到要求，就會彈出通知，提示你已提升等級。
+When you reach the required experience, a notification tells you that you leveled up.
 
-### 使用教學
+### Tutorial
 
-預設並不開啓，需要輸入`.level config 11` 啓動功能
+Disabled by default. Enter `.level config 11` to enable.
 
-數字11代表等級升級時會進行通知\
-10代表不會通知\
-00的話代表關閉功能
+`11` means you get a notification on level up.\
+`10` means no notification.\
+`00` turns the feature off.
 
-### 預設回應
+### Default Response
 
-* 是「 XXXX 《稱號》， 你的克蘇魯神話知識現在是 X點！
-* 現在排名是XX人中的第XX名！XX%！
-* 調查經驗是XX點。」
+* “XXXX 《title》, your Cthulhu Mythos knowledge is now X points!
+* You rank X out of XX people! XX%!
+* Investigation experience is XX points.”
 
-### 功能一覧
+### Command List
 
-輸入`.level LevelUpWord (內容)` 修改在這群組升級時彈出的升級語\
-輸入`.level RankWord (內容)` 修改在這群組查詢等級時的回應\
-輸入`.level TitleWord -(LV) (內容)`，修改稱號，大於等級即會套用\
-建議由-0開始，可一次輸入多個，如 `.level TitleWord -0 幼童 -5 學徒 -10 武士`\
-輸入`.level RankWord/LevelUpWord/TitleWord del` 即使用預設字句\
-輸入`.level RankWord/LevelUpWord/TitleWord show` 即顯示現在設定 \
-輸入`.level show` 可以查詢你現在的等級 \
-輸入`.level showMe (數字)` 可以查詢這群組排名 預設頭5名 \
-輸入`.level showMeTheworld (數字)` 可以查詢世界排名 預設頭6名 \
-輸入`.level showMeAtTheworld` 可以查詢自己的世界排名
+Enter `.level LevelUpWord (content)` to customize the level-up message in this group\
+Enter `.level RankWord (content)` to customize the rank query response in this group\
+Enter `.level TitleWord -(LV) (content)` to set titles applied at or above that level\
+Start from `-0`; you can set multiple at once, e.g. `.level TitleWord -0 Child -5 Apprentice -10 Warrior`\
+Enter `.level RankWord/LevelUpWord/TitleWord del` to restore defaults\
+Enter `.level RankWord/LevelUpWord/TitleWord show` to show current settings\
+Enter `.level show` to check your level\
+Enter `.level showMe (number)` to show this group’s leaderboard (default top 5)\
+Enter `.level showMeTheworld (number)` to show global leaderboard (default top 6)\
+Enter `.level showMeAtTheworld` to check your global rank
 
-### 升級語及RankWord可使用不同代碼&#x20;
+### Placeholders for Level-Up and RankWord&#x20;
 
-`{user.name}` 名字\
-`{user.level}` 等級\
-`{user.title}` 稱號 \
-`{user.exp}` 經驗值 \
-`{user.Ranking}` 現在排名 \
-`{user.RankingPer}` 現在排名百分比 \
-`{server.member_count}` 現在頻道中總人數
+`{user.name}` — Name\
+`{user.level}` — Level\
+`{user.title}` — Title \
+`{user.exp}` — Experience \
+`{user.Ranking}` — Current rank \
+`{user.RankingPer}` — Rank percentile \
+`{server.member_count}` — Total members in the channel

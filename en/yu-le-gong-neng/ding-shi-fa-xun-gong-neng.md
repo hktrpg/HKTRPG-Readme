@@ -1,77 +1,77 @@
 ---
-description: TRPG有時可能需要定時發訊，例如提醒跑團或是倒數交咭日子。
+description: TRPG groups sometimes need scheduled messages—for example session reminders or countdowns to submission deadlines.
 ---
 
-# 定時發訊功能
+# Scheduled Messages
 
 ![](<../.gitbook/assets/image (50).png>)
 
-定時功能擁有兩種模式\
+The scheduler has two modes:\
 `.at .cron mins hours delete show`
 
-### 【at】 指定一個時間，然後只發佈一次
+### 【at】 Send once at a specified time
 
-輸入`.at 20220604 1900` **(年月日 時間)**\
-`.at 5mins` (五分鐘後)\
-`.at 5hours` (五小時後)\
-就會在指定時間發佈指定一個信息
+Enter `.at 20220604 1900` **(YYYYMMDD HHMM)**\
+`.at 5mins` (in 5 minutes)\
+`.at 5hours` (in 5 hours)\
+to post a message at the specified time.
 
-#### 支援擲骰
+#### Dice Support
 
-使用`[[]]`包著指令就可\
-範例\
+Wrap commands in `[[]]`.\
+Example:\
 `.at 5hours`\
 `[[CC 60]]`\
 `[[立FLAG]]`
 
-### 【cron】 每天或隔天一個指定時間可以發佈一個信息(24小時制)
+### 【cron】 Post daily or on a schedule at a set time (24-hour clock)
 
-#### 格式
+#### Format
 
-必須輸入一個24小時制的時間，&#x5982;**`2300`**，然後可以用`-`\
-加上像數字`1`,`2`,`3`表示相隔多少天，\
-或`mon` `tue` `wed` `thur` `friday` `sat` `sun`\
-來表示逢星期幾發佈
+Enter a 24-hour time such as **`2300`**, then optionally use `-`\
+followed by a number like `1`, `2`, `3` for interval in days,\
+or `mon` `tue` `wed` `thur` `friday` `sat` `sun`\
+for specific weekdays.
 
-#### 範例
+#### Examples
 
 `on 0831` \
-`每天八時三十一分嚎叫吧!`
+`Howl every day at 8:31!`
 
 `.cron 0721`\
-`每天七時二十一分擲`\
+`Roll every day at 7:21`\
 `[[CC 80 幸運]]`
 
 `.cron 1921-2`\
-`我將會每隔兩天的晚上7時21分發一次訊息`
+`I will post every two days at 7:21 PM`
 
 `.cron 1921-wed-mon`\
-`我將會每個星期一和三發一次訊息`
+`I will post every Monday and Wednesday at 7:21 PM`
 
-### 以自定的名字和圖片發訊(Patreoner專用)
+### Custom Name and Avatar for Scheduled Messages (Patreon Only)
 
-在時間後加上name 和link 就可以像.meX 功能，使用自定的身份來定時發訊
+Add `name` and `link` after the time to post as a custom identity, like `.meX`.
 
 ![](<../.gitbook/assets/image (43).png>)\
-**範例**
+**Example**
 
 `.cron 2258` \
 `name=Sad` \
 `link=`[`https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png`](https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png) \
-`第一行` \
-`[[2d3 第二行]]` \
-`hello world 文末`
+`First line` \
+`[[2d3 Second line]]` \
+`hello world footer`
 
 `.at 1mins` \
 `name=Sad` \
 `link=`[`https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png`](https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png) \
-`第一行` \
-`[[2d3 第二行]]` \
-`hello world 文末`
+`First line` \
+`[[2d3 Second line]]` \
+`hello world footer`
 
-### 功能一覧
+### Command List
 
-* `.cron / .at` 增加信息
-* `.cron / .at show` 可以顯示已新增的定時訊息
-* `.cron / .at delete (序號)` 可以刪除指定的定時訊息
-* 如 `.at delete 1` 請使用`.at show` 查詢序號
+* `.cron / .at` — Add a scheduled message
+* `.cron / .at show` — List scheduled messages
+* `.cron / .at delete (number)` — Delete a scheduled message
+* e.g. `.at delete 1` — Use `.at show` to find the number

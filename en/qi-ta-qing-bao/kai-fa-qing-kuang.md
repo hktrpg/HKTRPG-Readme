@@ -1,8 +1,8 @@
-# 開發情況
+# Development Status
 
 {% hint style="info" %}
-**一直在自行開發中，最近在想開發英文(國際版)**
+**Always under active development. Recently considering an English (international) version.**
 {% endhint %}
 
-HKTRPG [**To-DO-LIST**](https://github.com/hktrpg/TG.line.Discord.Roll.Bot/issues)\
-有生之年可以完成
+HKTRPG [**To-Do List**](https://github.com/hktrpg/TG.line.Discord.Roll.Bot/issues)\
+Maybe someday it will all get done.

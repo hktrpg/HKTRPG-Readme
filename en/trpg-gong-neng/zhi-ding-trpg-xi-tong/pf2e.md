@@ -1,22 +1,22 @@
 ---
-description: 這裡介紹如何使用HKTRPG進行PF2e資料查詢
+description: How to look up PF2e data with HKTRPG.
 ---
 
 # PF2e
 
 ### .pf2
 
-這是一個Pf2e的資料庫，只要輸入 .pf2 查找的內容， 就會顯示相關資料，\
-如果沒有資料，就會顯示類似字眼
+PF2e reference lookup — type `.pf2 search_term` to show matching entries.\
+If nothing matches, you get a not-found style message.
 
-## 使用方法
+## How to Use
 
-#### `.pf2 (查找名字)`
+#### `.pf2 (search name)`
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-## 資料來源
+## Data Source
 
 [https://www.goddessfantasy.net/bbs/index.php?topic=134913.0](https://www.goddessfantasy.net/bbs/index.php?topic=134913.0) #1 仙堂麻尋

@@ -1,16 +1,15 @@
-# 功能開關
+# Feature Toggle (Block Keywords)
 
-這是根據關鍵字來開關功能，只要符合內容，\
-例&#x5982;**`運勢`，**&#x90A3;麼只要字句中包括**這詞語，**&#x5C31;不會讓Bot有反應
+This toggles features by keyword. When a message matches a blocked keyword—for example **`運勢` (fortune)**—the bot will not respond to that message.
 
-#### 規則
+#### Rules
 
-不可擋bk，至少兩個字
+You cannot block `bk`. Each keyword must be at least two characters.
 
-### 功能一覧
+### Command List
 
-輸入`.bk add xxxxx` 即可增加關鍵字 每次輸入一個
+Enter `.bk add xxxxx` to add a keyword (one per command).
 
-輸入`.bk show` 顯示關鍵字
+Enter `.bk show` to list blocked keywords.
 
-輸入`.bk del (編號)`或all 即可刪除
+Enter `.bk del (number)` or `all` to remove keywords.

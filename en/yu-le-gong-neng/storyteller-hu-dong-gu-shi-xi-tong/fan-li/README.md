@@ -1,20 +1,20 @@
 ---
-description: 為了讓您更具體地了解如何運用 RUN_DESIGN 語法，以下將為您介紹一個完整的範例劇本。
+description: To help you see how RUN_DESIGN syntax works in practice, here is an overview of complete example scripts.
 ---
 
-# 範例
+# Examples
 
-以下是四個範例劇本的簡介：
+Brief introductions to four example scripts:
 
-1.  **貓咪的一天**&#x20;
+1.  **A Cat’s Day**
 
-    這是一個輕鬆的角色扮演故事，玩家將扮演一隻獨自看家的貓，可以選擇要當個乖巧的貓咪、惡作劇的小壞蛋，或是聰明的小幫手，並根據一天的行為迎來不同的結局 。
-2.  **愛之語心理測驗**&#x20;
+    A light roleplay story where you play a cat home alone. Choose to be a good cat, a mischievous troublemaker, or a clever helper—and reach different endings based on the day’s actions.
+2.  **Love Languages Quiz**
 
-    此為一個包含20個問題的心理測驗，透過一系列的情境選擇，幫助使用者分析並找出自己在親密關係中最主要的「愛之語」是屬於哪一種類型 。
-3.  **靈探事件：山中老村**&#x20;
+    A 20-question psychological quiz. Through situational choices, it helps users find their primary “love language” in close relationships.
+3.  **Spirit Detective: Old Village in the Mountains**
 
-    這是一個帶有懸疑與恐怖元素的文字冒險遊戲，玩家為了擺脫過去而前往一座深山古村，卻被捲入一場圍繞著神秘儀式與村民的詭異事件中 。
-4.  **功能測試腳本**&#x20;
+    A text adventure with mystery and horror. You travel to a remote mountain village to escape the past, only to be drawn into strange rituals and the villagers’ secrets.
+4.  **Feature Test Script**
 
-    這是一個用於技術展示與驗證的劇本，其核心在於透過數十種複雜的變數組合與條件判斷，來測試互動故事引擎的邏輯運算與功能穩定性 。
+    A technical demo script. It uses dozens of complex variable combinations and conditional checks to test the interactive story engine’s logic and stability.

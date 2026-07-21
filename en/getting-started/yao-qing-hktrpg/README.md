@@ -1,22 +1,22 @@
 ---
-description: 如何使用HKTRPG
+description: How to use HKTRPG
 ---
 
-# 邀請HKTRPG
+# Invite HKTRPG
 
-## 邀請連結
+## Invite Links
 
-本頁包含關於如何邀請並說用HKTRPG說明。
+This page explains how to invite and use HKTRPG.
 
-使用HKTRPG，你既可以經網頁使用，也可以經不同聊天平台來使用。
+You can use HKTRPG through the web or through various chat platforms.
 
-然而，使用聊天平台如Discord，Line等等的話，可以新增個人化/頻道化數據並在頻道中進行管理。
+However, on chat platforms such as Discord and Line, you can add personalized or channel-specific data and manage it within channels.
 
-## 連結
+## Links
 
-* [Discord 邀請連結](https://discord.hktrpg.com)
-* [Telegram 邀請連結](http://telegram.hktrpg.com/)
-* [Line 邀請連結](http://line.hktrpg.com/)
-* [網頁版 邀請連結](https://rollbot.hktrpg.com)
-* [Plurk 邀請連結](http://plurk.hktrpg.com/)
-* [Whatsapp 邀請連結](http://whatsapp.hktrpg.com/)
+* [Discord invite link](https://discord.hktrpg.com)
+* [Telegram invite link](http://telegram.hktrpg.com/)
+* [Line invite link](http://line.hktrpg.com/)
+* [Web version invite link](https://rollbot.hktrpg.com)
+* [Plurk invite link](http://plurk.hktrpg.com/)
+* [WhatsApp invite link](http://whatsapp.hktrpg.com/)

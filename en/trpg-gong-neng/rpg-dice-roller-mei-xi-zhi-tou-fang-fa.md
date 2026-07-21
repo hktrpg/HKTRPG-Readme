@@ -1,32 +1,31 @@
 ---
-description: 這裡介紹RPG Dice Roller的使用方法
+description: How to use RPG Dice Roller with HKTRPG.
 ---
 
-# RPG Dice Roller(美系擲骰方法)
+# RPG Dice Roller (New Rolling Method)
 
 {% hint style="info" %}
-新增這個的原因是最近我在跑DND，但HKTRPG沒有r reroll功能 \
-而HKTRPG基本擲骰功能是以BCDICE (日系) 或COC 為學習對象\
-所以像r 這類功能以前我完全沒見用也不需要，接著找到最接近FVTT的就是這個了
+This was added because I started running DND and HKTRPG did not have an `r` reroll feature.\
+HKTRPG’s basic rolling is modeled on BcDice (Japanese-style) and CoC, so commands like `r` were unfamiliar. The closest match to FVTT I found was this library.
 {% endhint %}
 
-.`rr` 指令
+`.rr` command
 
-## RPG Dice Roller(美系擲骰)
+## RPG Dice Roller (Western-style Rolling)
 
-來自這裡的開源骰庫 [https://dice-roller.github.io/documentation/](https://dice-roller.github.io/documentation/)
+Open-source dice library: [https://dice-roller.github.io/documentation/](https://dice-roller.github.io/documentation/)
 
-特點是比較支持DnD, Wod 會出現的骰子
+Better suited to dice notation common in DnD and WoD.
 
-### 使用方法
+### How to Use
 
-根據最下方的網址說明，找出你需要的骰子指令，然後在 **`.rr`** 後輸入指令
+Pick the notation you need from the link below, then put it after **`.rr`**.
 
-#### 範例
+#### Examples
 
 `.rr 5d10!k2`\
 `.rr 4d6min3`
 
-#### 連結
+#### Link
 
 [https://dice-roller.github.io/documentation/guide/notation/dice.html](https://dice-roller.github.io/documentation/guide/notation/dice.html)

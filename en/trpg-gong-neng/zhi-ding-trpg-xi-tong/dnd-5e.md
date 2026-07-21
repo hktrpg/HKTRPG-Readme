@@ -1,14 +1,14 @@
 ---
-description: 這裡介紹如何使用HKTRPG進行5e擲骰
+description: How to roll DND 5e with HKTRPG.
 ---
 
 # DND 5e
 
 `.5ebuild`
 
-### 擲骰檢定
+### Ability Checks
 
 `.5ebuild 5e屬性產生器`
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (36).png>)
 

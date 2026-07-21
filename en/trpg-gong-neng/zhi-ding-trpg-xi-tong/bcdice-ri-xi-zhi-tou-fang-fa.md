@@ -1,17 +1,16 @@
 ---
-description: 這裡說明如何使用BcDice進行日系系統擲骰
+description: How to use BcDice for Japanese-style TRPG rolling in HKTRPG.
 ---
 
-# BcDice(日系擲骰方法)
+# BcDice (Japanese-style Rolling)
 
-這是讓你可以使用Bcdice 那100種擲骰系統的功能
+Use BcDice’s many TRPG dice systems through HKTRPG.
 
-### 使用方法&#x20;
+### How to Use
 
-首先，先在BCDICE官方的[骰表ID](https://bcdice.org/systems/)中找出你所想的系統\
-然後輸入.bc use (ID) 進行登記\
-現在，你可以以.bc (骰子指令)來進行擲骰了<br>
+Find your system’s [table ID on BCDICE](https://bcdice.org/systems/), then register with `.bc use (ID)`.\
+After that, roll with `.bc (dice command)`<br>
 
-注: 登記或刪除需要Admin或頻道管理權限
+Note: registering or removing a system requires Admin or channel manage permission.
 
-[骰組ID連結](https://bcdice.org/systems/)
+[Dice system ID list](https://bcdice.org/systems/)

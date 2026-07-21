@@ -1,27 +1,25 @@
 ---
-description: 這裡介紹一個在Discord上如何修改由HKTRPG所發出的舊訊息。
+description: How to edit older messages sent by HKTRPG on Discord.
 ---
 
-# Discord 修改舊訊息
+# Discord Edit Old Messages
 
 {% hint style="info" %}
-現在你可以修改由HKTRPG和webhook(角色扮演功能)所發出的訊息\
-就像你自己只能修改自己的訊息一樣，此功能不能修改其他人或其他BOT的訊息。
+You can now edit messages sent by HKTRPG and webhooks (roleplay feature)—just like editing your own messages. This cannot edit messages from other users or other bots.
 {% endhint %}
 
-`.edit`  Discord限定功能
+`.edit` — Discord only
 
-![範例](<../.gitbook/assets/image (75).png>)
+![Example](<../.gitbook/assets/image (75).png>)
 
-### 使用方法:
+### How to Use
 
-對想要修改的信息右擊點選reply \
-然後按以下格式輸入即可 \
-`.edit 信息第一行` \
-`信息第二行` \
-`信息第三行`
+Right-click the message you want to edit and choose **Reply**, then enter:
+
+`.edit first line of message` \
+`second line of message` \
+`third line of message`
 
 {% hint style="info" %}
-`使用前，`請確認自己擁有Admin 或頻道管理權限。
+Before using this, make sure you have Admin or channel management permissions.
 {% endhint %}
-

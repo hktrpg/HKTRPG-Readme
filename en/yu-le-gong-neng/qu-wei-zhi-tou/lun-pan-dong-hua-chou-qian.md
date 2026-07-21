@@ -1,9 +1,9 @@
 ---
-description: 生成一個轉動的 GIF 動畫進行抽選
+description: Generates a spinning GIF animation for random selection.
 ---
 
-# 輪盤動畫抽籤
+# Wheel Animation Draw
 
-輸入 `.wl [選項A] [選項B]`，會生成一個轉動的 GIF 動畫進行抽選。
+Enter `.wl [Option A] [Option B]` to generate a spinning GIF animation for random selection.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

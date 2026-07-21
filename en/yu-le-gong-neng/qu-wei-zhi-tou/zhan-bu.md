@@ -1,9 +1,9 @@
-# 占卜
+# Divination
 
-* `每日塔羅` 幫你抽塔羅牌占卜，還有 `大十字塔羅` `時間塔羅` 可以占卜
-* `運勢` 幫你占卜
-* `每日黃曆` 顯示今日黃曆
-* `每日靈簽` 抽取一條觀音簽
-* `每日(星座)` 顯示每日星座運程 如 `每日白羊` `每日金牛` `每日巨蟹`
-* `每日淺草簽 顯示一條淺草簽`
-* `每日解答` 心中想著一個問題，給予你命運的指引。
+* `每日塔羅` (Daily Tarot) — Draws tarot cards for divination. Also supports `大十字塔羅` (Celtic Cross Tarot) and `時間塔羅` (Time Tarot)
+* `運勢` (Fortune) — Fortune telling
+* `每日黃曆` (Daily Almanac) — Shows today’s almanac
+* `每日靈簽` (Daily Oracle) — Draws one Guanyin fortune stick
+* `每日(星座)` (Daily Horoscope) — Daily horoscope by sign, e.g. `每日白羊` (Aries), `每日金牛` (Taurus), `每日巨蟹` (Cancer)
+* `每日淺草簽` (Daily Asakusa Fortune) — Draws one Asakusa fortune slip
+* `每日解答` (Daily Answer) — Think of a question and receive guidance from fate

@@ -1,202 +1,196 @@
 ---
-description: 角色卡功能以個人為單位, 一張卡可以在不同的群組使用 目標是文字團可以快速擲骰，及更新角色狀態。
+description: Character sheets are per-user and work across groups — built for fast rolling and stat updates in text play.
 ---
 
-# 角色卡
+# Character Sheet
 
 
 
 {% hint style="info" %}
-**小知識:** 網頁版角色卡功能可以連動聊天軟件，在網頁上擲骰，結果可以直接出現在軟件上。
+**Tip:** The web character sheet can link to chat apps — roll on the web and results appear in the app.
 {% endhint %}
 
-### 1. 新增角色卡&#x20;
+### 1. Add a character sheet
 
-使用的第一步，是需要你擁有聊天軟件的帳號，然後對HKTRPG輸入以下的新增指令(或按以下格式輸入自己的角色卡)\
-&#xNAN;**`.char add name[Sad或你想要的名字]~`** \
-**`state[HP:15/15;MP:10/10;San:80]~`** \
-**`roll[鬥毆: cc 50;sc:cc {san};]~`** \
-**`notes[筆記:這是測試,請試試在群組輸入 .char use Sad或你想要的名字;]~`**&#x20;
-
-\
-彈出**新增/修改成功**代表你已經新增角色卡
-
-![](<../../.gitbook/assets/image (65).png>)
-
-### 2. 編輯角色卡
-
-{% hint style="info" %}
-注: 這裡的編輯通常是指新增一些固定會出現的數值/欄位，\
-例如力量，智力，星爆氣流斬等角色的能力，屬性，\
-而不是你被扣了1血，就用這個方式去扣血。
-{% endhint %}
-
-新增角色卡後，你可以繼續在聊天軟件上編輯角色卡內容，\
-修改角色卡的格式和新增角色卡一樣，\
-但比較方便的方法還是以網頁的方式，以可視化的方式修改。<br>
-
-### i) 網頁上編輯角色卡
-
-**而為了使用網頁版角色卡，你需要新增管理用的帳號**
-
-![](<../../.gitbook/assets/image (26).png>)
-
-輸入 **`.admin account (username) (password)`**&#x20;
-
-然後進入 [`角色卡管理庫`](https://card.hktrpg.com/)
-
-在網頁 輸入帳號密碼， 就可以管理你的角色卡，進行修改。
-
-![](<../../.gitbook/assets/image (11).png>)![](<../../.gitbook/assets/image (30).png>)
-
-想修改內容，只要直接修改數字然後按右上角的儲存角色卡就可以了。
-
-### ii) 聊天軟件上編輯角色卡
-
-文字式的編輯角色卡，與新增角色卡一樣。
-
-格式\
-&#xNAN;**`.char edit`** \
-**`name[Sad或你想要的名字]~`** \
+You need a chat account linked to HKTRPG. Add a sheet with a command like this (adjust fields to your character):\
+**`.char add name[Sad or your name]~`** \
 **`state[HP:15/15;MP:10/10;San:80]~`** \
 **`roll[鬥毆: cc 50;sc:cc {san};]~`** \
 **`notes[筆記:這是測試,請試試在群組輸入 .char use Sad或你想要的名字;]~`**
 
-### **`3. 使用角色卡`**
+\
+A **add/update success** message means the sheet was saved.
 
-現在你已經把角色卡準備好，就可以正式使用。
+![](<../../.gitbook/assets/image (37) (1).png>)
 
-方法很簡單，只要你在需要使用角色的頻道裡輸入
-
-`.char use 角色卡名字 就可以了`
-
-`如上面就輸入 .char use`` `**`Sad或你想要的名字`**
-
-![](<../../.gitbook/assets/image (60).png>)
-
-接著，就可以在該頻道使用
-
-把結果傳送到已登記的Discord，TG，LINE上的聊天群組的登記方法:&#x20;
-
-由該群組的Admin授權允許 輸入 .admin allowrolling\
-登記該群組到自己的名單中 輸入 .admin registerChannel\
-取消方法 由該群組的Admin取消授權 輸入 .admin disallowrolling\
-取消登記該群組到名單 輸入 .admin unregisterChannel
-
-最後網站會顯示群組名稱，點擊就可以使用了
-
-### 另一種使用方式 - Button 按鈕化 - Discord 限定
-
-![範例](../../.gitbook/assets/unknown.png)
-
-#### 使用方式
-
-**`.ch button`**  或\
-&#xNAN;**`.char button 角色名字`** 可以產生你的角色卡按鈕
-
-兩種產生的按鈕指令會有所不同，前者調&#x7528;**`.ch`**&#x5F8C;者產生直接擲骰的指令
-
-&#x20;
+### 2. Edit a character sheet
 
 {% hint style="info" %}
-.char button 產生的角色卡不支援 {}功能，所以 {San}無效
+Note: editing here usually means adding fixed fields or stats —\
+e.g. Strength, Intelligence, or custom abilities —\
+not applying −1 HP after damage (use `.ch` for that in play).
+{% endhint %}
 
-因為 {} 是.ch 的技術 讀取.ch裡註冊了的角色卡
+After adding a sheet, you can keep editing in chat.\
+The format matches `add`; the web UI is often easier for visual editing.<br>
+
+### i) Edit on the web
+
+**To use the web editor, create an admin account first.**
+
+![](<../../.gitbook/assets/image (5) (1).png>)
+
+Type **`.admin account (username) (password)`**
+
+Then open the [`Character Sheet Manager`](https://card.hktrpg.com/)
+
+Log in on the site to manage and edit your sheets.
+
+![](<../../.gitbook/assets/image (40) (1).png>)![](<../../.gitbook/assets/image (21).png>)
+
+Change values and click **Save character sheet** (top right).
+
+### ii) Edit in chat
+
+Text editing uses the same format as `add`.\
+Format:\
+**`.char edit`** \
+**`name[Sad or your name]~`** \
+**`state[HP:15/15;MP:10/10;San:80]~`** \
+**`roll[鬥毆: cc 50;sc:cc {san};]~`** \
+**`notes[筆記:這是測試,請試試在群組輸入 .char use Sad或你想要的名字;]~`**
+
+### 3. Use a character sheet
+
+When the sheet is ready, activate it in the channel where you play:
+
+`.char use character_name`
+
+Example: **`.char use Sad or your name`**
+
+![](<../../.gitbook/assets/image (32) (1).png>)
+
+Then use `.ch` commands in that channel.
+
+To send web rolls to registered Discord, Telegram, or LINE groups:
+
+* Admin runs `.admin allowrolling` to authorize the group
+* Register the group: `.admin registerChannel`
+* Revoke: `.admin disallowrolling`
+* Unregister: `.admin unregisterChannel`
+
+The site then lists group names — click one to link rolls.
+
+### Alternative — Button UI (Discord only)
+
+![Example](../../.gitbook/assets/unknown.png)
+
+#### Usage
+
+**`.ch button`** or\
+**`.char button character_name`** — generate sheet buttons
+
+The two variants produce different button behavior: the former uses **`.ch`**; the latter runs rolls directly.
+
+ 
+
+{% hint style="info" %}
+Buttons from `.char button` do not support `{}` placeholders — `{San}` will not work.
+
+`{}` is a `.ch` feature that reads the active sheet registered via `.char use`.
 {% endhint %}
 
 {% hint style="info" %}
-按鈕產生後，可以按右鍵點擊Pin，方便自己擲骰時可以找到角色卡位置
+After buttons are posted, right-click and Pin them so you can find your sheet quickly.
 {% endhint %}
 
-### 功能一覧
+### Command Reference
 
 #### `.char`
 
 `.char add name[Sad]~ state[HP:15/15;con:60;san:60]~` \
 `roll[鬥毆: cc 50;投擲: cc 15;sc:cc {san}]~` \
-`notes[筆記:這是測試,請試試在群組輸入 .char use Sad;]~`&#x20;
+`notes[筆記:這是測試,請試試在群組輸入 .char use Sad;]~`
 
-**可以新增及更新角色卡**
+**Add or update a character sheet**
 
-`.char Show` - **可以顯示角色卡列表**&#x20;
+`.char Show` — **list character sheets**
 
-`.char Show0` - **可以顯示0號角色卡內容 0可以用其他數字取代**&#x20;
+`.char Show0` — **show sheet #0 (replace 0 with another index)**
 
-`.char edit name[角色卡名字]~` - **可以以add的格式修改指定角色卡**
+`.char edit name[sheet_name]~` — **edit a sheet using the add format**
 
-`.char use 角色卡名字` - **可以在該群組中使用指定角色卡**&#x20;
+`.char use sheet_name` — **activate a sheet in this group**
 
-`.char nonuse` - **可以在該群組中取消使用角色卡**&#x20;
+`.char nonuse` — **deactivate the sheet in this group**
 
-`.char delete 角色卡名字` - **可以刪除指定角色卡**
+`.char delete sheet_name` — **delete a sheet**
 
-`.char button 角色卡名字` - **Discord限定，產生擲骰按鈕**
+`.char button sheet_name` — **Discord only — generate roll buttons**
 
-#### `.ch 功能`
+#### `.ch` commands
 
-在群組中使用.char use (角色名) 後, 就可以啟動角色卡功能
+After `.char use (name)` in a group, sheet commands are available.
 
-`.ch 項目名稱 項目名稱` - **沒有加減的話, 會單純顯示數據或擲骰**&#x20;
+`.ch field_name field_name` — **show value or roll if no math**
 
-`.ch 項目名稱 (數字)` - **可以立即把如HP變成該數字**&#x20;
+`.ch field_name (number)` — **set e.g. HP to that number**
 
-`.ch 項目名稱 (+-`_`/數字)` - **可以立即對如HP進行四則運算**_
+`.ch field_name (+-/_number)` — **apply arithmetic to e.g. HP**
 
-_`.ch 項目名稱 (+-`_`/xDy)` - **可以對如HP進行擲骰四則運算**&#x20;
+`.ch field_name (+-/_xDy)` — **apply dice arithmetic to e.g. HP**
 
-`.ch set 項目名稱 新內容` - **直接更改內容**&#x20;
+`.ch set field_name new_content` — **replace field content**
 
-`.ch show` - **顯示角色卡的state 和roll 內容**&#x20;
+`.ch show` — **show state and roll sections**
 
-`.ch showall` - **顯示角色卡的所有內容**
+`.ch showall` — **show entire sheet**
 
-`.ch button` - **Discord限定，產生擲骰按鈕**
+`.ch button` — **Discord only — generate roll buttons**
 
-## 運算式
+## Expressions
 
-### state&#x20;
+### state
 
-這是用來儲存浮動數據，支援進行運算 如: `.ch HP +3`\
-`.ch HP +1d3`
+Stores numeric fields that support math, e.g. `.ch HP +3`, `.ch HP +1d3`.
 
-### roll&#x20;
+### roll
 
-這是用來儲存擲骰指令, 快速使用 如 `.ch 空手鬥毆`\
-注意項目名稱請不要有空格
+Stores roll commands for quick use, e.g. `.ch 空手鬥毆`.\
+Avoid spaces in roll entry names.
 
-#### {}符號
+#### `{}` placeholders
 
-這可以用來指定state 的參數, 如`{db}`就會變成 1d3\
-可以進行簡單運算 如`1+{HP}` 就會變成 `1+15 -> 16`
+Reference `state` values, e.g. `{db}` becomes 1d3.\
+Simple math works: `1+{HP}` → `1+15 -> 16`.
 
-`<>`符號
+`<>` expressions
 
-這個可以用來進行**基本擲骰**，**進階擲骰**及**COC擲骰**的運算，\
-它支援比較長的命令，\
-不會顯示過程，只會取得運算後的最後一個數字\
-<1d3>  -> 2\
-<.sc san 1/1d5> 的本來顯示結果是`現在San值是x點`\
-所以結果是x，而不是1或1d5
+Used for **basic**, **advanced**, and **CoC** rolling.\
+Supports longer commands;\
+hides intermediate steps and uses the final numeric result only.\
+`<1d3>` → 2\
+`<.sc san 1/1d5>` normally prints `現在San值是x點`, so the result is x, not 1 or 1d5.
 
-### notes&#x20;
+### notes
 
-這是用來儲存數據, 以後可以查看 如 `.ch 筆記`
+Stored text you can read later, e.g. `.ch 筆記`.
 
-## 使用範例
+## Examples
 
-`.ch set 護甲 3`                  - 設定護甲為3\
-`.ch hp 10`                             - 設定 hp 為10\
-`.ch HP +3 MP 6 san -10 筆記` - 設定hp增加3點，MP為6，San減少10及顯示筆記\
-`.ch HP +3d6`                        - 設定hp增加3d6\
-`.ch san -<1d3>`                 - 設定hp減少1d3\
-`.ch san <.sc san 1/1d3>`  - 設定san進行san check\
-![](<../../.gitbook/assets/image (78).png>)\
-`.ch str <3D6dl2>`               - 設定str 為 3d6dl2\
-`.ch hp *3/2`                           -  設定hp 乘3除以2\
+`.ch set 護甲 3`                  — set armor to 3\
+`.ch hp 10`                             — set HP to 10\
+`.ch HP +3 MP 6 san -10 筆記` — HP +3, MP 6, San −10, show notes\
+`.ch HP +3d6`                        — HP +3d6\
+`.ch san -<1d3>`                 — San −1d3\
+`.ch san <.sc san 1/1d3>`  — San check\
+![](<../../.gitbook/assets/image (46).png>)\
+`.ch str <3D6dl2>`               — set STR to 3d6dl2\
+`.ch hp *3/2`                           — HP ×3÷2\
 \
-`.ch 鬥毆`                                  - 進行鬥毆\
-`.ch san`                                   - 顯示現時San\
-`dr .ch 魔法`                           - 暗骰\
+`.ch 鬥毆`                                  — brawl roll\
+`.ch san`                                   — show current San\
+`dr .ch 魔法`                           — secret roll\
 \
 <br>
 

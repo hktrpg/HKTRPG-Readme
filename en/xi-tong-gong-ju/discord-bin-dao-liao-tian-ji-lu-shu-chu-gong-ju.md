@@ -1,16 +1,16 @@
-# Discord 頻道聊天紀錄輸出工具
+# Discord Channel Chat Log Export
 
 ![](<../.gitbook/assets/image (51).png>)
 
-`.discord html` 可以輸出有分析功能的聊天紀錄(暫停開放中)
+`.discord html` exports a chat log with analysis features (temporarily unavailable)
 
-`.discord txt` 可以輸出純文字的聊天紀錄
+`.discord txt` exports a plain-text chat log
 
-`.discord txt -withouttime` 匯出的文字檔將不包含時間戳記。這對於想要將跑團紀錄直接轉化為小說素材的使用者非常有用，省去了手動刪除時間的麻煩。
+`.discord txt -withouttime` exports a text file without timestamps. This is useful if you want to turn session logs into novel material without manually removing timestamps.
 
-需要使用者及rollbot 都有閱讀頻道聊天紀錄的權限 然後會私訊你紀錄
+Both you and the bot need permission to read channel message history. The log will be sent to you via DM.
 
-#### **注意**
+#### **Note**
 
-使用此功能，你需要有管理此頻道的權限或管理員權限。\
-另外網頁版內容經過AES加密，後者是純文字檔案 因為經過server處理，擔心個資外洩請勿使用。
+You need permission to manage the channel or administrator permissions to use this feature.\
+The HTML version is AES-encrypted; the TXT version is a plain file. Because processing happens on the server, do not use this if you are concerned about personal data leakage.

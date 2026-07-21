@@ -1,50 +1,50 @@
 ---
-description: HKTRPG 支援以群組／伺服器或私訊為單位，設定機器人回覆使用的語言。
+description: HKTRPG lets you set the bot's reply language per group/server or per DM.
 ---
 
-# 語言設定（多語系）
+# Language Settings (Multilingual)
 
-預設語言為**正體中文（zh-tw）**。
+The default language is **Traditional Chinese (zh-tw)**.
 
 {% hint style="info" %}
-**小知識：** 切換語言只會改變機器人的**回覆文字**。擲骰指令前綴不變，例如 `.cc`、`bothelp`、`/lang`、`.in` 等仍然相同。
+**Tip:** Changing the language only affects the bot's **reply text**. Roll command prefixes stay the same—`.cc`, `bothelp`, `/lang`, `.in`, and so on are unchanged.
 {% endhint %}
 
-### 支援語言
+### Supported Languages
 
-| 代碼        | 語言       |
-| --------- | -------- |
-| `zh-tw`   | 正體中文（預設） |
-| `zh-hans` | 简体中文     |
-| `en`      | English  |
+| Code      | Language                      |
+| --------- | ----------------------------- |
+| `zh-tw`   | Traditional Chinese (default) |
+| `zh-hans` | Simplified Chinese            |
+| `en`      | English                       |
 
 {% hint style="warning" %}
-請使用 `zh-hans` 切換簡體，**不要**使用 `cn` 或 `zh-cn`（不支援）。
+Use `zh-hans` for Simplified Chinese. **Do not** use `cn` or `zh-cn` (not supported).
 {% endhint %}
 
-### 指令一覽
+### Command Reference
 
-| 指令                     | 說明                    |
-| ---------------------- | --------------------- |
-| `.lang` 或 `.lang show` | 顯示目前語言                |
-| `.lang list`           | 列出支援語言                |
-| `.lang help`           | 顯示說明                  |
-| `.lang zh-tw`          | 設為正體中文                |
-| `.lang zh-hans`        | 設為简体中文                |
-| `.lang en`             | 設為英文                  |
-| `/lang`                | Discord Slash 版（功能相同） |
+| Command                | Description                          |
+| ---------------------- | ------------------------------------ |
+| `.lang` or `.lang show` | Show the current language            |
+| `.lang list`           | List supported languages             |
+| `.lang help`           | Show help                            |
+| `.lang zh-tw`          | Set to Traditional Chinese           |
+| `.lang zh-hans`        | Set to Simplified Chinese            |
+| `.lang en`             | Set to English                       |
+| `/lang`                | Discord Slash version (same features) |
 
-### 兩種設定範圍
+### Two Setting Scopes
 
-語言設定分成兩種範圍，互不干擾：
+Language settings come in two scopes that do not interfere with each other:
 
-#### 1. 伺服器／群組（Server）
+#### 1. Server / Group
 
-* **誰可以設：** 需要該群組的**管理員權限**
-* **影響範圍：** 此伺服器／群組內，所有人看到的機器人回覆
-* **不影響：** 其他伺服器、其他群組、任何人的私訊
+* **Who can set it:** Requires **administrator** permissions in that group
+* **Scope:** Bot replies everyone sees in this server/group
+* **Does not affect:** Other servers, other groups, or anyone's DMs
 
-範例（在 Discord 伺服器或群組中輸入）：
+Example (in a Discord server or group channel):
 
 ```
 .lang en
@@ -52,19 +52,19 @@ description: HKTRPG 支援以群組／伺服器或私訊為單位，設定機器
 .lang zh-tw
 ```
 
-或使用 Slash：
+Or use Slash:
 
 ```
 /lang
 ```
 
-#### 2. 私訊（DM）
+#### 2. Direct Messages (DM)
 
-* **誰可以設：** 任何人
-* **影響範圍：** **只有你**與 HKTRPG 的私訊回覆
-* **不影響：** 任何伺服器／群組的回覆語言
+* **Who can set it:** Anyone
+* **Scope:** Replies in **your** DMs with HKTRPG only
+* **Does not affect:** Reply language in any server/group
 
-範例（直接私訊 HKTRPG）：
+Example (DM HKTRPG directly):
 
 ```
 .lang en
@@ -73,89 +73,88 @@ description: HKTRPG 支援以群組／伺服器或私訊為單位，設定機器
 ```
 
 {% hint style="success" %}
-想在團裡用繁中、自己私訊查資料時用英文？可以：群組維持 `zh-tw`，私訊單獨設 `.lang en`。
+Want Traditional Chinese in the group but English when you DM the bot for lookups? Set the group to `zh-tw` and your DM to `.lang en`.
 {% endhint %}
 
-### 實際使用流程
+### Step-by-Step Usage
 
-#### 把整個 Discord 伺服器改成英文
+#### Switch an entire Discord server to English
 
-1. 確認你有該伺服器的管理員權限
-2. 在任一頻道輸入：
+1. Confirm you have administrator permissions on that server
+2. Enter in any channel:
 
 ```
 .lang en
 ```
 
-3. 之後此伺服器內的說明、錯誤訊息、多數功能回覆會改為英文
-4. 要改回繁中：
+3. After that, help text, error messages, and most feature replies in this server will be in English
+4. To switch back to Traditional Chinese:
 
 ```
 .lang zh-tw
 ```
 
-#### 只改自己的私訊語言
+#### Change only your DM language
 
-1. 開啟與 HKTRPG 的私訊
-2. 輸入：
+1. Open a DM with HKTRPG
+2. Enter:
 
 ```
 .lang zh-hans
 ```
 
-3. 只有你的私訊會變成简体；群組語言不變
+3. Only your DMs will use Simplified Chinese; group language stays unchanged
 
-#### 查目前是什麼語言
+#### Check the current language
 
 ```
 .lang show
 ```
 
-或：
+Or:
 
 ```
 .lang
 ```
 
-### 常見問題
+### FAQ
 
-#### Q：我改了私訊語言，為什麼群組還是繁中？
+#### Q: I changed my DM language—why is the group still in Traditional Chinese?
 
-這是預期行為。私訊語言與群組語言是分開儲存的。
+That is expected. DM language and group language are stored separately.
 
-#### Q：我在群組輸入 `.lang en`，為什麼說沒有權限？
+#### Q: I entered `.lang en` in a group and got a permission error—why?
 
-群組／伺服器語言需要**管理員權限**。一般成員只能在**私訊**設定自己的語言。
+Group/server language requires **administrator** permissions. Regular members can only set their own language in **DMs**.
 
-#### Q：Discord 介面語言會跟著變嗎？
+#### Q: Will the Discord client UI language change too?
 
-不會。`.lang` 控制的是 **HKTRPG 回覆內容**的語言。\
-Discord 客戶端介面、以及 Slash 指令名稱的本地化，仍依 Discord 本身的語言設定。
+No. `.lang` controls the language of **HKTRPG reply content**.\
+The Discord client UI and Slash command name localization still follow Discord's own language settings.
 
-#### Q：指令會不會變成英文版（例如 `.cc` 變成別的）？
+#### Q: Will commands change to English versions (e.g. `.cc` becoming something else)?
 
-不會。指令前綴與骰組指令維持不變，只改回覆文字。
+No. Command prefixes and dice-system commands stay the same; only reply text changes.
 
-#### Q：Line / Telegram / WhatsApp 也可以用嗎？
+#### Q: Does this work on Line / Telegram / WhatsApp?
 
-可以。在對應平台的群組或私訊使用 `.lang` 即可（群組同樣需要管理員權限才能改群組語言）。
+Yes. Use `.lang` in the corresponding platform's group or DM (groups still require admin permissions to change group language).
 
-#### Q：設定後沒有效？
+#### Q: The setting doesn't seem to take effect?
 
-語言設定需要資料庫連線才能儲存。若系統暫時無法連線資料庫，會提示無法儲存；稍後再試即可。
+Language settings require a database connection to persist. If the system cannot connect to the database temporarily, it will report that it cannot save; try again later.
 
-### 快速對照
+### Quick Reference
 
-| 你想做的事     | 在哪裡輸入 | 指令              |
-| --------- | ----- | --------------- |
-| 全伺服器用英文   | 伺服器頻道 | `.lang en`      |
-| 全伺服器用简体   | 伺服器頻道 | `.lang zh-hans` |
-| 還原伺服器繁中   | 伺服器頻道 | `.lang zh-tw`   |
-| 只有我的私訊用英文 | 私訊    | `.lang en`      |
-| 查看目前語言    | 任意處   | `.lang show`    |
-| 看支援列表     | 任意處   | `.lang list`    |
+| What you want to do              | Where to enter | Command         |
+| -------------------------------- | -------------- | --------------- |
+| English for the whole server     | Server channel | `.lang en`      |
+| Simplified Chinese for the server | Server channel | `.lang zh-hans` |
+| Restore Traditional Chinese on server | Server channel | `.lang zh-tw`   |
+| English for my DMs only          | DM             | `.lang en`      |
+| View current language            | Anywhere       | `.lang show`    |
+| View supported list              | Anywhere       | `.lang list`    |
 
 {% hint style="info" %}
-相關指令說明也可在聊天中輸入 `.lang help` 或 `/lang` 查看。
+You can also enter `.lang help` or `/lang` in chat for command help.
 {% endhint %}
-

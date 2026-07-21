@@ -1,385 +1,386 @@
 ---
 description: >-
-  StoryTeller
-  是一個互動故事系統，允許用戶新增自己的劇本、管理和遊玩他人文字冒險遊戲。系統支援多種平台（Discord、Line、Telegram、WhatsApp），並希望以豐富的功能來創造沉浸式的互動體驗。你可以用它來設計抉擇叢書式遊戲或知識測驗等等。
+  StoryTeller is an interactive story system that lets users add their own scripts, manage them, and play
+  text adventures by others. It supports Discord, Line, Telegram, and WhatsApp, with rich features for
+  immersive interactive experiences. Use it for choose-your-own-adventure games, quizzes, and more.
 ---
 
-# StoryTeller 互動故事系統
+# StoryTeller Interactive Story System
 
 {% hint style="info" %}
-## 製作這個功能的目的，是因為小時候玩的抉擇叢書，明明它好像一本小說，卻可以讓自己選擇行動。長大後還是念念不忘，希望有一天自己也可以再玩到這種類型的遊戲。
+## This feature exists because of the choose-your-own-adventure books I played as a kid—they read like novels, yet let you decide what to do. I never forgot them and always hoped to play that kind of game again someday.
 {% endhint %}
 
-## 快速開始
+## Quick Start
 
-#### 基本指令
+#### Basic Commands
 
 ```bash
-# 啟動劇本
+# Start a script
 .st start <alias|title> [alone|all|poll
  x]  
  
- # 查看可玩劇本清單
+ # List playable scripts
 .st list     
 
-# 遊戲控制
-.st pause                                   # 暫停目前進行中的劇本
-.st continue [runId]                        # 繼續暫停中的劇本
-.st end                                     # 結束目前劇本
+# Game control
+.st pause                                   # Pause the current script
+.st continue [runId]                        # Resume a paused script
+.st end                                     # End the current script
 ```
 
-#### 遊戲進行
+#### During Play
 
 ```bash
-.st goto <page>                             # 跳至指定頁面/選項
-.st set <var> <value>                       # 設定變數
+.st goto <page>                             # Jump to a page/option
+.st set <var> <value>                       # Set a variable
 ```
 
-### 詳細功能說明
+### Detailed Features
 
-#### 1. 劇本管理
+#### 1. Script Management
 
-**新增和更新劇本**
+**Add and Update Scripts**
 
-**Discord 專用功能：**
+**Discord-only:**
 
 ```bash
-# 以附件方式上傳及下載
-.st import <alias> [title]                  # 上傳檔案以新增劇本
-.st update <alias> [title]                  # 上傳檔案以覆蓋既有劇本
-.st export <alias>                      # 將劇本以私訊傳送文字檔
+# Upload and download as attachments
+.st import <alias> [title]                  # Upload a file to add a script
+.st update <alias> [title]                  # Upload a file to overwrite an existing script
+.st export <alias>                      # Send the script as a text file via DM
 ```
 
-**支援的檔案格式：**
+**Supported Formats:**
 
-* `.json` - 完整的 StoryTeller 格式
-* `.txt` - RUN\_DESIGN 語法格式
+* `.json` — Full StoryTeller format
+* `.txt` — RUN\_DESIGN syntax format
 
-**劇本管理指令**
+**Script Management Commands**
 
 ```bash
-.st my [alias]                              # 查看自己新增之劇本統計
-.st mylist                                  # 顯示自己所有新增之劇本清單
-.st list <alias>                            # 顯示該劇本簡介與可用資訊
-.st delete <alias>                          # 刪除自己擁有的劇本
-.st verify <alias>                          # 檢查劇本內容格式是否正確
+.st my [alias]                              # View stats for scripts you added
+.st mylist                                  # List all scripts you added
+.st list <alias>                            # Show that script’s summary and info
+.st delete <alias>                          # Delete a script you own
+.st verify <alias>                          # Check whether the script format is valid
 ```
 
-#### 2. 權限管理
+#### 2. Permission Management
 
 ```bash
-.st allow <alias> AUTHOR                    # 僅作者本人可在任何地方啟動（預設）
-.st allow <alias>                           # 在本群組/頻道允許啟動
-.st allow <alias> <groupId...>              # 允許指定之群組/頻道啟動（可多個）
-.st allow <alias> all                       # 任何人皆可啟動（公開）
+.st allow <alias> AUTHOR                    # Only the author can start anywhere (default)
+.st allow <alias>                           # Allow starting in this group/channel
+.st allow <alias> <groupId...>              # Allow specific groups/channels (multiple)
+.st allow <alias> all                       # Anyone can start (public)
 ```
 
-#### 3. 遊戲設定
+#### 3. Game Settings
 
 ```bash
-.st edit alone|all|poll x                   # 發起者可切換參與權限
+.st edit alone|all|poll x                   # Host can switch participation mode
 ```
 
-**參與權限選項：**
+**Participation Options:**
 
-* `alone` - 僅發起者可互動
-* `all` - 任何人可參與
-* `poll x` - 啟用 Discord 投票 x 分鐘（預設 3，僅 Discord）
+* `alone` — Only the host can interact
+* `all` — Anyone can participate
+* `poll x` — Enable Discord poll for x minutes (default 3; Discord only)
 
-#### 4. 狀態檢視
+#### 4. Status View
 
 ```bash
-.st game                                    # 顯示目前運行與暫停中的遊戲
-.st debug                                   # 顯示詳細的除錯資訊
+.st game                                    # Show running and paused games
+.st debug                                   # Show detailed debug info
 ```
 
-### RUN\_DESIGN 語法
+### RUN\_DESIGN Syntax
 
-StoryTeller 支援 RUN\_DESIGN 語法，這是一種簡潔的文字格式來定義互動故事。
+StoryTeller supports RUN\_DESIGN—a concise text format for interactive stories.
 
-#### 基本語法結構
+#### Basic Structure
 
 ```txt
-[meta] title "故事標題"
-[intro] 故事簡介內容
+[meta] title "Story Title"
+[intro] Story introduction
 
-[player_var] name "請輸入角色名稱" "範例：小明"
-[stat_def] hp 1 20 "生命值"
-[var_def] gold 0 1000 "金幣"
+[player_var] name "Enter character name" "Example: Alex"
+[stat_def] hp 1 20 "HP"
+[var_def] gold 0 1000 "Gold"
 
 [label] 0
-[title] 開始頁面
-[text] 歡迎來到這個故事世界！
-[text|if=hp>10] 你的生命值看起來不錯。
+[title] Start Page
+[text] Welcome to this world!
+[text|if=hp>10] Your HP looks good.
 [set] gold=100
 [random] 50%
-[text] 你發現了一些寶藏！
+[text] You found some treasure!
 
 [choice]
--> 繼續前進 | 1
--> 休息一下 | 2 | if=hp<5
--> 結束遊戲 | END
+-> Continue | 1
+-> Rest | 2 | if=hp<5
+-> End game | END
 
 [label] 1
-[title] 第二頁
-[text] 你繼續前進了...
+[title] Page Two
+[text] You press on...
 [ending]
-[text] 恭喜你完成了故事！
+[text] Congratulations—you finished the story!
 ```
 
-#### 語法元素說明
+#### Syntax Elements
 
-**元數據**
+**Metadata**
 
-* `[meta] title "標題"` - 設定故事標題
+* `[meta] title "Title"` — Set the story title
 
-**簡介**
+**Introduction**
 
-* `[intro] 內容` - 設定故事簡介
+* `[intro] content` — Set the story introduction
 
-**玩家變數**
+**Player Variables**
 
-* `[player_var] key "提示文字" "預設值"` - 定義玩家需要設定的變數
+* `[player_var] key "prompt" "default"` — Define variables the player must set
 
-**統計值定義**
+**Stat Definitions**
 
-* `[stat_def] key min max "標籤"` - 定義遊戲統計值（如生命值、攻擊力等）
+* `[stat_def] key min max "label"` — Define game stats (HP, attack, etc.)
 
-**變數定義**
+**Variable Definitions**
 
-* `[var_def] key min max "標籤"` - 定義遊戲變數
+* `[var_def] key min max "label"` — Define game variables
 
-**頁面結構**
+**Page Structure**
 
-* `[label] id` - 定義頁面 ID
-* `[title] 標題` - 設定頁面標題
-* `[text] 內容` - 顯示文字內容
-* `[text|if=條件] 內容` - 條件性文字
-* `[text|speaker=角色] 內容` - 指定說話角色
+* `[label] id` — Define page ID
+* `[title] title` — Set page title
+* `[text] content` — Display text
+* `[text|if=condition] content` — Conditional text
+* `[text|speaker=character] content` — Specify speaker
 
-**變數操作**
+**Variable Operations**
 
-* `[set] key=value` - 設定變數值
-* `[set|if=條件] key=value` - 條件性設定變數
+* `[set] key=value` — Set a variable
+* `[set|if=condition] key=value` — Conditional set
 
-**隨機事件**
+**Random Events**
 
-* `[random] 百分比%` - 設定隨機觸發機率
+* `[random] percent%` — Set trigger probability
 
-**選項**
+**Choices**
 
-* `[choice]` - 開始定義選項
-* `-> 選項文字 | 目標頁面 | if=條件 | stat=統計變化`
+* `[choice]` — Start defining choices
+* `-> choice text | target page | if=condition | stat=stat changes`
 
-**結局**
+**Endings**
 
-* `[ending]` - 標記為結局頁面
+* `[ending]` — Mark an ending page
 
-### 變數系統
+### Variable System
 
-#### 變數類型
+#### Variable Types
 
-1. **玩家變數** (`playerVariables`)
-   * 由玩家設定的角色相關資訊
-   * 例如：角色名稱、職業等
-2. **統計值** (`stats`)
-   * 遊戲中的數值屬性
-   * 例如：生命值、攻擊力、防禦力等
-3. **遊戲變數** (`variables`)
-   * 故事進行中的狀態變數
-   * 例如：金幣數量、任務進度等
+1. **Player Variables** (`playerVariables`)
+   * Character info set by the player
+   * e.g. name, class
+2. **Stats** (`stats`)
+   * Numeric attributes in the game
+   * e.g. HP, attack, defense
+3. **Game Variables** (`variables`)
+   * State during the story
+   * e.g. gold, quest progress
 
-#### 變數操作
+#### Variable Operations
 
 ```bash
-.st set name 小花          # 設定角色名稱
-.st set hp 12             # 設定生命值
-.st set gold 500          # 設定金幣數量
+.st set name 小花          # Set character name
+.st set hp 12             # Set HP
+.st set gold 500          # Set gold
 ```
 
-#### 條件表達式
+#### Conditional Expressions
 
-支援多種條件判斷：
+Supports many condition forms:
 
 ```txt
-[text|if=hp>10] 你的生命值很高
-[text|if=gold>=100] 你有足夠的金幣
-[text|if=name=="小明"] 你好，小明！
-[text|if=hp>5 && gold>50] 你的狀態不錯
+[text|if=hp>10] Your HP is high
+[text|if=gold>=100] You have enough gold
+[text|if=name=="Alex"] Hello, Alex!
+[text|if=hp>5 && gold>50] You're in good shape
 ```
 
-#### 骰子系統
+#### Dice System
 
-支援骰子表達式：
+Supports dice expressions:
 
 ```txt
-[text] 你投出了 {2d6} 點傷害
-[text] 你的攻擊力是 {1d20+5}
+[text] You rolled {2d6} damage
+[text] Your attack is {1d20+5}
 ```
 
-### 平台特定功能
+### Platform-Specific Features
 
-#### Discord 專用功能
+#### Discord Only
 
-1.  **投票系統**
+1.  **Poll System**
 
     ```bash
-    .st start story poll 5    # 啟用 5 分鐘投票
-    .st edit poll 3          # 切換為 3 分鐘投票
+    .st start story poll 5    # Enable 5-minute poll
+    .st edit poll 3          # Switch to 3-minute poll
     ```
-2. **檔案上傳**
-   * 支援拖拽上傳 `.json` 或 `.txt` 檔案
-   * 自動解析和驗證檔案格式
-3. **私訊功能**
-   * 可將劇本以私訊方式傳送給用戶
+2. **File Upload**
+   * Drag-and-drop `.json` or `.txt`
+   * Automatic parse and validation
+3. **DM**
+   * Scripts can be sent to users via DM
 
-#### 跨平台相容性
+#### Cross-Platform Compatibility
 
-* **Line/Telegram/WhatsApp**: 支援基本功能，不支援投票和檔案上傳
-* **Discord**: 支援所有功能，包括投票、檔案上傳等
+* **Line/Telegram/WhatsApp**: Basic features; no polls or file upload
+* **Discord**: All features including polls and file upload
 
-### 限制和規則
+### Limits and Rules
 
-#### 檔案大小限制
+#### File Size Limits
 
-* 最大上傳檔案：1MB
-* 最大頁數：400 頁
-* 每段文字最大長度：500 字
+* Max upload: 1MB
+* Max pages: 400
+* Max text per segment: 500 characters
 
-#### 用戶限制
+#### User Limits
 
-根據 VIP 等級有不同的限制：
+Limits vary by VIP tier:
 
-| VIP 等級 | 劇本數量限制 | 同時進行遊戲數 |
+| VIP Tier | Script Limit | Concurrent Games |
 | ------ | ------ | ------- |
 | 0      | 3      | 3       |
 | 1      | 10     | 10      |
 | 2+     | 100    | 100     |
 
-#### 權限系統
+#### Permission System
 
-1. **AUTHOR\_ONLY**: 僅作者可啟動
-2. **GROUP\_ONLY**: 僅指定群組可啟動
-3. **ANYONE**: 任何人可啟動
+1. **AUTHOR\_ONLY**: Only author can start
+2. **GROUP\_ONLY**: Only specified groups can start
+3. **ANYONE**: Anyone can start
 
-### 最佳實踐
+### Best Practices
 
-#### 新增劇本
+#### Creating Scripts
 
-1. **規劃故事結構**
-   * 先設計主要情節和分支
-   * 確定結局數量和多樣性
-2. **變數設計**
-   * 合理設計統計值範圍
-   * 提供有意義的玩家變數
-3. **測試和驗證**
-   * 使用 `.st verify` 檢查格式
-   * 測試所有分支和結局
+1. **Plan Structure**
+   * Design main plot and branches first
+   * Decide number and variety of endings
+2. **Variable Design**
+   * Set sensible stat ranges
+   * Provide meaningful player variables
+3. **Test and Validate**
+   * Use `.st verify` to check format
+   * Test all branches and endings
 
-#### 遊戲進行
+#### Running Games
 
-1. **角色設定**
-   * 鼓勵玩家設定豐富的角色資訊
-   * 根據角色資訊提供個性化內容
-2. **進度管理**
-   * 適時使用暫停功能
-   * 記錄重要的遊戲狀態
-3. **社群互動**
-   * 在 Discord 中使用投票功能增加參與感
-   * 鼓勵玩家分享遊戲體驗
+1. **Character Setup**
+   * Encourage rich character info
+   * Personalize content from character data
+2. **Progress Management**
+   * Use pause when needed
+   * Record important game state
+3. **Community**
+   * Use Discord polls for engagement
+   * Encourage players to share experiences
 
-### 故障排除
+### Troubleshooting
 
-#### 常見問題
+#### Common Issues
 
-1. **找不到劇本**
-   * 檢查 alias 是否正確
-   * 確認權限設定
-2. **無法啟動遊戲**
-   * 檢查是否已達同時進行遊戲數限制
-   * 確認劇本格式是否正確
-3. **變數設定失敗**
-   * 檢查變數名稱是否正確
-   * 確認數值範圍是否合理
+1. **Script Not Found**
+   * Check alias spelling
+   * Confirm permission settings
+2. **Cannot Start Game**
+   * Check concurrent game limit
+   * Confirm script format
+3. **Variable Set Failed**
+   * Check variable name
+   * Confirm value is in range
 
-#### 除錯工具
+#### Debug Tools
 
 ```bash
-.st debug    # 顯示詳細的遊戲狀態資訊
+.st debug    # Show detailed game state
 ```
 
-### 範例劇本
+### Example Script
 
-#### 簡單冒險故事
+#### Simple Adventure
 
 ```txt
-[meta] title "森林冒險"
-[intro] 你是一個勇敢的冒險者，正在探索神秘的森林。
+[meta] title "Forest Adventure"
+[intro] You are a brave adventurer exploring a mysterious forest.
 
-[player_var] name "請輸入你的角色名稱" "範例：亞瑟"
-[stat_def] hp 10 20 "生命值"
-[stat_def] strength 1 10 "力量"
+[player_var] name "Enter your character name" "Example: Arthur"
+[stat_def] hp 10 20 "HP"
+[stat_def] strength 1 10 "Strength"
 
 [label] 0
-[title] 森林入口
-[text] 歡迎，{name}！你來到了神秘的森林入口。
-[text] 你的生命值：{hp}，力量：{strength}
+[title] Forest Entrance
+[text] Welcome, {name}! You reach the entrance of the mysterious forest.
+[text] Your HP: {hp}, Strength: {strength}
 [choice]
--> 進入森林 | 1
--> 先休息一下 | 2 | if=hp<15
--> 離開 | END
+-> Enter the forest | 1
+-> Rest first | 2 | if=hp<15
+-> Leave | END
 
 [label] 1
-[title] 森林深處
-[text] 你進入了森林深處，發現了一個古老的遺跡。
+[title] Deep Forest
+[text] You go deeper and find an ancient ruin.
 [random] 30%
-[text] 突然，一隻野獸出現了！
+[text] Suddenly, a beast appears!
 [set] hp=hp-5
 [choice]
--> 戰鬥 | 3 | if=strength>5
--> 逃跑 | 4
--> 投降 | END
+-> Fight | 3 | if=strength>5
+-> Flee | 4
+-> Surrender | END
 
 [label] 2
-[title] 休息
-[text] 你決定先休息一下，恢復了一些體力。
+[title] Rest
+[text] You rest and recover some stamina.
 [set] hp=hp+5
 [choice]
--> 現在進入森林 | 1
--> 繼續休息 | 2
+-> Enter the forest now | 1
+-> Rest more | 2
 
 [label] 3
-[title] 戰鬥勝利
-[text] 你勇敢地擊敗了野獸！
+[title] Victory
+[text] You bravely defeat the beast!
 [set] strength=strength+1
 [ending]
-[text] 恭喜你完成了冒險！
+[text] Congratulations—you completed the adventure!
 
 [label] 4
-[title] 逃跑
-[text] 你選擇了逃跑，雖然安全但錯過了寶藏。
+[title] Escape
+[text] You flee safely but miss the treasure.
 [ending]
-[text] 你安全離開了森林，但沒有獲得任何獎勵。
+[text] You leave the forest safely but gain no reward.
 ```
 
-這個範例展示了 StoryTeller 的基本功能，包括變數設定、條件判斷、隨機事件和多重結局。
+This example shows basic StoryTeller features: variables, conditions, random events, and multiple endings.
 
-### 更新日誌
+### Changelog
 
-#### 最新功能
+#### Recent Features
 
-* 支援 RUN\_DESIGN 語法
-* Discord 投票系統
-* 跨平台暫停/繼續功能
-* 增強的角色統計系統
-* 改進的權限管理
+* RUN\_DESIGN syntax support
+* Discord poll system
+* Cross-platform pause/continue
+* Enhanced character stats
+* Improved permission management
 
-#### 已知限制
+#### Known Limitations
 
-* 投票功能僅限 Discord
-* 檔案上傳僅限 Discord
-* 某些進階功能需要 VIP 等級
+* Polls: Discord only
+* File upload: Discord only
+* Some advanced features require VIP tier
 
 ***
 
-StoryTeller 系統持續更新中，請關注最新版本的功能和改進。
+StoryTeller is actively updated—watch for new features and improvements.

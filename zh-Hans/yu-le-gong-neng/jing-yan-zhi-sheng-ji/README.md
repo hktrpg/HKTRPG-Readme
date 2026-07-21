@@ -1,52 +1,52 @@
 ---
-description: 用來紀錄群組參與度的功能，加入LV概念，嘛，就是MEE6的概念。
+description: 用来纪录群组参与度的功能，加入LV概念，嘛，就是MEE6的概念。
 ---
 
-# 經驗值升級
+# 经验值升级
 
-![](<../../.gitbook/assets/image (76).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 `.level (show config LevelUpWord RankWord)`
 
-想在頻道中說話可以得到經驗，請開啓這個功能!還可以和世界各地的人比較LV
+想在频道中说话可以得到经验，请开启这个功能!还可以和世界各地的人比较LV
 
-按發言次數增加經驗，提升等級，實現服務器內排名等歡樂功能
+按发言次数增加经验，提升等级，实现服务器内排名等欢乐功能
 
-當經驗達到要求，就會彈出通知，提示你已提升等級。
+当经验达到要求，就会弹出通知，提示你已提升等级。
 
-### 使用教學
+### 使用教学
 
-預設並不開啓，需要輸入`.level config 11` 啓動功能
+默认并不开启，需要输入`.level config 11` 启动功能
 
-數字11代表等級升級時會進行通知\
-10代表不會通知\
-00的話代表關閉功能
+数字11代表等级升级时会进行通知\
+10代表不会通知\
+00的话代表关闭功能
 
-### 預設回應
+### 默认回应
 
-* 是「 XXXX 《稱號》， 你的克蘇魯神話知識現在是 X點！
-* 現在排名是XX人中的第XX名！XX%！
-* 調查經驗是XX點。」
+* 是「 XXXX 《称号》， 你的克苏鲁神话知识现在是 X点！
+* 现在排名是XX人中的第XX名！XX%！
+* 调查经验是XX点。」
 
 ### 功能一覧
 
-輸入`.level LevelUpWord (內容)` 修改在這群組升級時彈出的升級語\
-輸入`.level RankWord (內容)` 修改在這群組查詢等級時的回應\
-輸入`.level TitleWord -(LV) (內容)`，修改稱號，大於等級即會套用\
-建議由-0開始，可一次輸入多個，如 `.level TitleWord -0 幼童 -5 學徒 -10 武士`\
-輸入`.level RankWord/LevelUpWord/TitleWord del` 即使用預設字句\
-輸入`.level RankWord/LevelUpWord/TitleWord show` 即顯示現在設定 \
-輸入`.level show` 可以查詢你現在的等級 \
-輸入`.level showMe (數字)` 可以查詢這群組排名 預設頭5名 \
-輸入`.level showMeTheworld (數字)` 可以查詢世界排名 預設頭6名 \
-輸入`.level showMeAtTheworld` 可以查詢自己的世界排名
+输入`.level LevelUpWord (内容)` 修改在这群组升级时弹出的升级语\
+输入`.level RankWord (内容)` 修改在这群组查找等级时的回应\
+输入`.level TitleWord -(LV) (内容)`，修改称号，大于等级即会套用\
+建议由-0开始，可一次输入多个，如 `.level TitleWord -0 幼童 -5 学徒 -10 武士`\
+输入`.level RankWord/LevelUpWord/TitleWord del` 即使用默认字句\
+输入`.level RankWord/LevelUpWord/TitleWord show` 即显示现在设置 \
+输入`.level show` 可以查找你现在的等级 \
+输入`.level showMe (数字)` 可以查找这群组排名 默认头5名 \
+输入`.level showMeTheworld (数字)` 可以查找世界排名 默认头6名 \
+输入`.level showMeAtTheworld` 可以查找自己的世界排名
 
-### 升級語及RankWord可使用不同代碼&#x20;
+### 升级语及RankWord可使用不同代码&#x20;
 
 `{user.name}` 名字\
-`{user.level}` 等級\
-`{user.title}` 稱號 \
-`{user.exp}` 經驗值 \
-`{user.Ranking}` 現在排名 \
-`{user.RankingPer}` 現在排名百分比 \
-`{server.member_count}` 現在頻道中總人數
+`{user.level}` 等级\
+`{user.title}` 称号 \
+`{user.exp}` 经验值 \
+`{user.Ranking}` 现在排名 \
+`{user.RankingPer}` 现在排名百分比 \
+`{server.member_count}` 现在频道中总人数

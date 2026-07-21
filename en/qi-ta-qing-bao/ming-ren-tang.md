@@ -1,8 +1,8 @@
 ---
-description: 這裡紀錄所有幫助及支援HKTRPG的人，如有遺漏，非常抱歉
+description: This page records everyone who has helped and supported HKTRPG. We apologize for any omissions.
 ---
 
-# 名人堂
+# Hall of Fame
 
 * LarryLo&#x20;
 * Retsnimle&#x20;

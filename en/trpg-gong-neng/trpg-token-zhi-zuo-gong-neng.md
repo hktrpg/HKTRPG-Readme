@@ -1,23 +1,23 @@
 ---
-description: 這是個懶人TRPG Token製作功能的教學，適合DND，COC，PF，FVTT等系統
+description: A quick guide to the lazy TRPG Token maker — works with DND, CoC, PF, FVTT, and similar systems.
 ---
 
-# TRPG Token製作功能
+# TRPG Token Maker
 
-**`.token(2-3) [名字1] [名字2]` 製作TRPG Token**
+**`.token(2-3) [name line 1] [name line 2]` — create a TRPG Token**
 
-**`.tokenupload` 上傳Token到imgbox**
+**`.tokenupload` — upload a Token to imgbox**
 
-**Discord 限定**\
-這是用來製作跑團Token的功能\
-可以自定兩行名字和圖片內容 \
+**Discord only**\
+This feature creates session tokens for play.\
+You can customize two lines of text and the image content.\
 ![](../.gitbook/assets/6cc9e2d9-dff5-43c4-9192-425d6876e928.jpg)
 
-### 使用方法
+### How to Use
 
-Reply一個有圖片的訊息 或傳送一張圖片時，輸入指令.token 或 .token2 就可以製作Token\
-沒有圖片的話，會使用你的頭像，作為token\
-亦可以輸入兩行文字，作為圖片上的名字 如
+Reply to a message with an image, or send an image, then type `.token` or `.token2` to create a Token.\
+If there is no image, your avatar is used as the token.\
+You can also enter two lines of text for the name on the image, for example:
 
 ```
 .token
@@ -25,19 +25,19 @@ Sad
 HKTRPG
 ```
 
-也可以不輸入，那Token上就不會有文字
+You can leave the text blank — the Token will have no text.
 
-### 樣式
+### Styles
 
 {% hint style="info" %}
-### 現在只有這三款格式，歡迎有創意/會畫畫的人，提供圖樣， 豐富這功能
+Only these three formats are available for now. If you are creative or can draw, feel free to submit designs to expand this feature.
 {% endhint %}
 
-`.token` 是一張即影即有相片 \
-`.token2` 是一張圓型透明Token \
-`.token3` 是一張根據輸入名字隨機外圈顏色的Token
+`.token` — instant-photo style\
+`.token2` — round transparent Token\
+`.token3` — Token with a random border color based on the name you enter
 
-![](<../.gitbook/assets/image (38).png>)
+![](<../.gitbook/assets/image (1) (1) (2).png>)
 
 \
 <br>
@@ -48,11 +48,10 @@ HKTRPG
 
 ### .tokenupload
 
-<div align="left"><figure><img src="../.gitbook/assets/image (5).png" alt="" width="284"><figcaption><p>Credit: <a href="https://en.wikipedia.org/wiki/Cat#/media/File:Cat_August_2010-4.jpg">https://en.wikipedia.org/wiki/Cat#/media/File:Cat_August_2010-4.jpg</a></p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt="" width="284"><figcaption><p>Credit: <a href="https://en.wikipedia.org/wiki/Cat#/media/File:Cat_August_2010-4.jpg">https://en.wikipedia.org/wiki/Cat#/media/File:Cat_August_2010-4.jpg</a></p></figcaption></figure></div>
 
-Reply Message並輸入`.tokenupload` 就可以把圖片上傳去imgbox \
-方便FVTT使用
-
+Reply to a message and type `.tokenupload` to upload the image to imgbox —\
+handy for FVTT.
 
 
 

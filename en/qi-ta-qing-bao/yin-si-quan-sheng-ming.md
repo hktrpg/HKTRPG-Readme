@@ -1,69 +1,67 @@
 ---
-description: 最後更新時間：2022-03-23
+description: Last updated: 2022-03-23
 ---
 
-# 隱私權聲明
+# Privacy Policy
 
-非常歡迎您光臨及使用「HKTRPG」（以下簡稱本組織），為了讓您能夠安心使用本組織的各項服務與資訊，特此向您說明本組織的隱私權保護政策，以保障您的權益，請您詳閱下列內容：
+Welcome to **HKTRPG** (hereinafter “the Organization”). To help you use our services and information with confidence, this Privacy Policy explains how we protect your rights. Please read the following carefully:
 
-**一、隱私權保護政策的適用範圍**&#x20;
+**1. Scope of This Privacy Policy**
 
-隱私權保護政策內容，包括本組織如何處理在您使用服務時收集到的個人識別資料。隱私權保護政策不適用於本組織以外的相關連結網站，也不適用於非本組織所委託或參與管理的人員。
+This Privacy Policy covers how the Organization handles personally identifiable information collected when you use our services. It does not apply to linked external websites or to persons not commissioned or managed by the Organization.
 
-**二、個人資料的蒐集、處理及利用方式**&#x20;
+**2. Collection, Processing, and Use of Personal Data**
 
-當您造訪本組織或使用本組織所提供之功能服務時，我們將視該服務功能性質，請您提供必要的個人資料，並在該特定目的範圍內處理及利用您的個人資料；非經您書面同意，本組織不會將個人資料用於其他用途。&#x20;
+When you visit the Organization or use its features, we may ask you to provide necessary personal data depending on the service. We process and use your data only within the scope of that purpose; without your written consent, we will not use personal data for other purposes.
 
-本組織在您使用HKTRPG的BOT或網站中具互動性或資料庫功能時，會保留您或您所使用的平台(包括但不限於Discord LINE Telegram Whatsapp)所提供的用戶名稱、ID、及使用時間等。&#x20;
+When you use interactive or database features in the HKTRPG bot or website, we may retain usernames, IDs, and usage times that you or your platform (including but not limited to Discord, LINE, Telegram, and WhatsApp) provide.
 
-於一般使用時，伺服器會以不記名的方式自行記錄相關行徑進行統計，做為我們增進服務的參考依據。 \
-為提供精確的服務，我們會將收集的資訊內容進行統計與分析，分析結果之統計數據或說明文字呈現，除供內部研究外，我們會視需要公佈統計數據及說明文字，但不涉及特定個人之資料。&#x20;
+During normal use, the server may record related activity anonymously for statistics to improve our services.\
+To provide accurate services, we analyze collected information. Statistical results or descriptive text may be published when needed, but will not identify specific individuals.
 
-您可以隨時向我們提出請求，以更正或刪除本組織所蒐集您錯誤或不完整的個人資料，請見最下方聯繫管道。
+You may request correction or deletion of inaccurate or incomplete personal data we hold. See the contact information at the bottom.
 
-**三、資料之保護**&#x20;
+**3. Data Protection**
 
-本組織主機均設有防火牆等相關的各項資訊安全設備及必要的安全防護措施，加以保護本組織及您的個人資料採用嚴格的保護措施，只由經過授權的人員才能接觸您的個人資料。\
-如因業務需要有必要委託其他單位提供服務時，本組織亦會嚴格要求其遵守保密義務，並且採取必要檢查程序以確定其將確實遵守。&#x20;
+Our servers use firewalls and other security measures to protect the Organization and your personal data. Access is restricted to authorized personnel only.\
+When we must entrust other parties to provide services, we require strict confidentiality obligations and take necessary checks to ensure compliance.
 
-**四、本組織對外的相關連結**&#x20;
+**4. External Links**
 
-本組織提供其他網站的網路連結，您也可經由本組織所提供的連結，點選進入其他網站。但該連結網站不適用本組織的隱私權保護政策，您必須參考該連結網站中的隱私權保護政策。
+The Organization may provide links to other websites. You may also reach other sites through our links. Those sites are not covered by this Privacy Policy; please refer to their own privacy policies.
 
-**五、與第三人共用個人資料之政策**&#x20;
+**5. Policy on Sharing Personal Data with Third Parties**
 
-本組織絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。
+The Organization will not provide, exchange, rent, or sell your personal data to other individuals, groups, private enterprises, or public agencies, except where required by law or contract.
 
-前項但書之情形包括不限於：
+Exceptions include but are not limited to:
 
-經由您書面同意。
+With your written consent.
 
-法律明文規定。&#x20;
+As required by law.
 
-為免除您生命、身體、自由或財產上之危險。&#x20;
+To protect your life, body, freedom, or property from danger.
 
-與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。
+Cooperation with public or academic institutions for statistics or research in the public interest, where data is processed so specific individuals cannot be identified.
 
-當您在本組織的行為，違反服務條款或可能損害或妨礙網站與其他使用者權益或導致任何人遭受損害時，經本組織管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。&#x20;
+When your conduct on the Organization’s services violates terms of service or may harm other users or the site, and disclosure is necessary to identify, contact, or take legal action.
 
-有利於您的權益。
+When it benefits your rights.
 
-&#x20;本組織委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。
+When the Organization commissions vendors to collect, process, or use your personal data, we supervise them responsibly.
 
-**六、Cookie之使用**&#x20;
+**6. Use of Cookies**
 
-為了提供您最佳的服務，本組織可能會在您的電腦中放置並取用我們的Cookie，若您不願接受Cookie的寫入，您可在您使用的瀏覽器功能項中設定隱私權等級為高，即可拒絕Cookie的寫入，但可能會導至網站某些功能無法正常執行 。
+To provide the best service, we may place and access cookies on your computer. If you do not want cookies, you can set your browser privacy level to high to refuse them, though some site features may not work properly.
 
-**七、隱私權保護政策之修正**
+**7. Revisions to This Privacy Policy**
 
-本組織隱私權保護政策將因應需求隨時進行修正，修正後的條款將刊登於本組織的網站上。
+This Privacy Policy may be revised as needed. Updated terms will be posted on the Organization’s website.
 
-**八、聯繫管道**&#x20;
+**8. Contact**
 
-對於本站之隱私權政策有任何疑問，或者想提出變更、移除個人資料之請求，請 Email 至： info@hktrpg.com
+For questions about this Privacy Policy, or to request changes or removal of personal data, email: info@hktrpg.com
 
-
-
-這隱私權條款以下列網站提供的範本作基礎，並修改後使用。&#x20;
+This Privacy Policy is based on and adapted from the template at:
 
 https://github.com/lyrasoft/chinese-privacy-policy-template

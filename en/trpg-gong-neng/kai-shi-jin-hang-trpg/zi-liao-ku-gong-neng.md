@@ -1,31 +1,31 @@
 ---
-description: 這功能可以做到在跑團時立即提取需要的資料。
+description: Pull reference text instantly during play.
 ---
 
-# 資料庫功能
+# Database
 
 
 
-`.db (add del show 自定關鍵字)`
+`.db (add del show custom_keyword)`
 
-* 這是根據關鍵字來顯示數據內容的資料庫功能
-* 例如輸入 `.db add 九大陣營 九大陣營包括守序善良 (...省略) 中立邪惡 混亂邪惡`
-* 再輸入`.db 九大陣營` 就會輸出 「`九大陣營包括守序善良 (...省略) 中立邪惡 混亂邪惡」`的全部內容
-* add 後面第一個是觸發的關鍵字, 可以是漢字,數字,英文及emoji
+* Keyword lookup database — type a keyword to show stored text.
+* Example: `.db add 九大陣營 九大陣營包括守序善良 (...省略) 中立邪惡 混亂邪惡`
+* Then `.db 九大陣營` outputs the full stored text.
+* After `add`, the first token is the trigger keyword — Chinese, numbers, English, or emoji.
 
 
 
-* 輸入`.db add (關鍵字) (內容)`即可增加關鍵字
-* 輸入`.db show` 顯示所有關鍵字
-* 輸入`.db del(編號)`即可刪除
-* 輸入`.db (關鍵字)` 即可顯示內容
-* 範例\
+* `.db add (keyword) (content)` — add an entry
+* `.db show` — list all keywords
+* `.db del(number)` — delete by index
+* `.db (keyword)` — show content
+* Examples\
   `.db add COC COC是其中一系很受歡迎的TRPG系統，最新版本是7th`\
-  `.db del 0` 刪除第一個關鍵字
+  `.db del 0` — delete the first keyword
 
 
 
-### 兩種模式
+### Two Modes
 
-* 如使用.db 是群組版, 供整個群組共用&#x20;
-* 如使用.dbp 是公開版, 在整個HKTRPG可以看到&#x20;
+* `.db` — group version, shared in the server
+* `.dbp` — public version, visible across HKTRPG

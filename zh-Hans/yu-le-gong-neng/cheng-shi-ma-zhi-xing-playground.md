@@ -1,10 +1,10 @@
 ---
-description: 本系統整合 JDoodle API，讓你可以直接在 HKTRPG 執行多種程式語言。
+description: 本系统集成 JDoodle API，让你可以直接在 HKTRPG 运行多种编程语言。
 ---
 
-# 程式碼執行Playground
+# 代码运行Playground
 
-## 支援語言及用法
+## 支持语言及用法
 
 1️⃣ javascript \
 `.code js console.log("Hello JS");`

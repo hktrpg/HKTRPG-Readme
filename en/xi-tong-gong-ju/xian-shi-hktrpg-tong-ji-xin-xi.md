@@ -1,5 +1,5 @@
-# 顯示HKTRPG統計信息
+# Display HKTRPG Statistics
 
 ![](<../.gitbook/assets/image (53).png>)
 
-**`.admin state` 顯示系統資訊**
+**`.admin state` displays system information**

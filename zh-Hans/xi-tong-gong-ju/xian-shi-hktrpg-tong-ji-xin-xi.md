@@ -1,5 +1,5 @@
-# 顯示HKTRPG統計信息
+# 显示HKTRPG统计信息
 
-![](<../.gitbook/assets/image (53).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
-**`.admin state` 顯示系統資訊**
+**`.admin state` 显示系统信息**

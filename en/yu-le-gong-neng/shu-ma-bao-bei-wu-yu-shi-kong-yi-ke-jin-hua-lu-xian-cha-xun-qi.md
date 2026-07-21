@@ -1,42 +1,43 @@
 ---
 description: >-
-  雖然快考試了，但最近我仍沉迷於《數碼寶貝物語：時空異客》，而在努力開圖鑑途中，時常迷失了方向，進化的路線差了十萬八千里遠所以為了方便查詢數碼寶貝的進化路線，我在自己的平台上開發了一個進化路線查詢器功能！
+  Although exams were coming up, I was still hooked on Digimon Story: Time Stranger. While filling the
+  encyclopedia, I often got lost—evolution paths were miles off—so I built an evolution route lookup on my platform!
 ---
 
-# 數碼寶貝物語 時空異客進化路線查詢器
+# Digimon Story Time Stranger Evolution Route Lookup
 
-## &#x20;🔍 數碼寶貝進化路線查詢功能
+## 🔍 Digimon Evolution Route Lookup
 
-### **基本查詢**
+### **Basic Lookup**
 
-輸入\
+Enter\
 `.digi 亞古獸`\
 `.digi 231`\
-查詢數碼寶貝的基本資料，包括進化路線、幼年期的捕捉地點等
+to query basic Digimon data, including evolution routes and baby-stage capture locations.
 
-### 進化路線查詢
+### Evolution Route Lookup
 
-輸入 \
+Enter \
 `.digi 亞古獸 戰鬥暴龍獸` \
 <br>
 
 \
 `.digi 123 323`\
-顯示從起始數碼寶貝到目標的完整進化路線！<br>
+Shows the full evolution path from the starting Digimon to the target!<br>
 
-### 功能特色
+### Features
 
-✅ 支援退化與進化混合路線- \
-✅ 包含特殊進化（合體進化、裝甲進化）\
-✅ 最多顯示 4 條最短路線\
-✅ 涵蓋所有進化階段（幼年期1 → 超究極體）
+✅ Supports mixed devolution and evolution routes\
+✅ Includes special evolutions (DNA fusion, Armor)\
+✅ Shows up to 4 shortest routes\
+✅ Covers all stages (Baby I → Super Ultimate)
 
-### **進化階段對照**
+### **Stage Reference**
 
-1: 幼年期1\
-2: 幼年期2\
-3: 成長期\
-4: 成熟期\
-5: 完全體\
-6: 究極體\
-7: 超究極體
+1: Baby I\
+2: Baby II\
+3: Child\
+4: Adult\
+5: Perfect\
+6: Ultimate\
+7: Super Ultimate
