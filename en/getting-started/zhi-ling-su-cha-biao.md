@@ -73,21 +73,21 @@ Details: `bothelp Dice` or `command help` (e.g. `.4df help`).
 | `.ai` / `.ait`   | AI chat / translate | [AI](../entertainment-features/ai-fan-yi-dui-hua-gong-neng.md)               |
 | `.st`            | StoryTeller         | [StoryTeller](../entertainment-features/storyteller-hu-dong-gu-shi-xi-tong/) |
 
-#### Telegram Videos and Photos
+#### Public Post Videos and Photos
+
+In a chat with this feature enabled, send `.video <link>` or reply to a message containing a public post link with `.video`.
+
+**Telegram mobile menu.** Tap `/video`, then reply to the bot’s prompt with the public URL. You can also send `/video <link>` or reply to the original post with `/video`.
 
 ![Diagram showing /video, a reply with the public post URL, and media delivery.](../.gitbook/assets/hktrpg-telegram-video-guide.png)
 
-1. **Mobile menu.** Tap `/video`, then reply to the bot’s prompt with the public URL.
-2. **One message.** Send `/video <link>` or `.video <link>`.
-3. **Reply to a post.** Reply with `/video` or `.video` to a message containing the link.
-
-Supported public links include Facebook, Instagram, Threads, TikTok, X, and Reddit. X and Reddit also support public photos where media is available.
+You can use eligible public posts from Facebook, Instagram, Threads, TikTok, X, and Reddit. Public images on X and Reddit can be downloaded when the source provides them.
 
 {% hint style="info" %}
-A VIP group can use its group allowance. Personal VIP works in groups without VIP and is required in direct messages. Videos are limited to 5 minutes and 30 MiB. Videos that require transcoding must be at most 90 seconds. VIP levels 1, 2, 3, and 4+ can queue 3, 6, 9, and 12 waiting requests respectively.
+Use group or personal VIP in a group. DMs require personal VIP. Source videos can be up to 5 minutes and 30 MiB. Videos that need transcoding must be no longer than 90 seconds.
 {% endhint %}
 
-The result includes the requester's mention and source link. For commands sent directly, the bot attempts to delete the command after delivery if it has permission.
+Telegram VIP levels 1, 2, 3, and 4+ can queue 3, 6, 9, and 12 waiting requests. The result includes the requester’s mention and source link. The bot attempts to remove a direct command after delivery if it has permission.
 
 ### Related
 

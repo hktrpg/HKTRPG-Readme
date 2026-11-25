@@ -10,21 +10,20 @@ Most dice commands work on Discord, LINE, Telegram, WhatsApp, Plurk, and the web
 
 ### Feature × platform
 
-| Feature                       | Discord   | LINE | Telegram | WhatsApp     | Plurk | Web          |
-| ----------------------------- | --------- | ---- | -------- | ------------ | ----- | ------------ |
-| Basic / system rolls          | ✓         | ✓    | ✓        | ✓ (unstable) | ✓     | ✓            |
-| Secret `dr` / `ddr`           | ✓         | ✓    | ✓        | △            | △     | △            |
-| Sheets `.char` / `.ch`        | ✓         | ✓    | ✓        | △            | △     | ✓ (linkable) |
-| Sheet buttons `.ch button`    | ✓         | —    | —        | —            | —     | —            |
-| Request roll `.re`            | ✓         | —    | —        | —            | —     | —            |
-| Button forward `.forward`     | ✓         | —    | —        | —            | —     | —            |
-| Roleplay `.myname` / webhook  | ✓         | —    | —        | —            | —     | —            |
-| Edit messages `.edit`         | ✓         | —    | —        | —            | —     | —            |
-| Log export `.discord`         | ✓         | —    | —        | —            | —     | —            |
-| Role reactions                | ✓         | —    | —        | —            | —     | —            |
-| Slash commands `/`            | ✓         | —    | △        | —            | —     | —            |
-| Public post download `/video` | —         | —    | ✓        | —            | —     | —            |
-| AI file / long translate      | ✓ primary | △    | △        | △            | △     | △            |
+| Feature                      | Discord   | LINE | Telegram | WhatsApp     | Plurk | Web          |
+| ---------------------------- | --------- | ---- | -------- | ------------ | ----- | ------------ |
+| Basic / system rolls         | ✓         | ✓    | ✓        | ✓ (unstable) | ✓     | ✓            |
+| Secret `dr` / `ddr`          | ✓         | ✓    | ✓        | △            | △     | △            |
+| Sheets `.char` / `.ch`       | ✓         | ✓    | ✓        | △            | △     | ✓ (linkable) |
+| Sheet buttons `.ch button`   | ✓         | —    | —        | —            | —     | —            |
+| Request roll `.re`           | ✓         | —    | —        | —            | —     | —            |
+| Button forward `.forward`    | ✓         | —    | —        | —            | —     | —            |
+| Roleplay `.myname` / webhook | ✓         | —    | —        | —            | —     | —            |
+| Edit messages `.edit`        | ✓         | —    | —        | —            | —     | —            |
+| Log export `.discord`        | ✓         | —    | —        | —            | —     | —            |
+| Role reactions               | ✓         | —    | —        | —            | —     | —            |
+| Slash commands `/`           | ✓         | —    | △        | —            | —     | —            |
+| AI file / long translate     | ✓ primary | △    | △        | △            | △     | △            |
 
 ✓ supported　— unsupported　△ limited / unstable
 
