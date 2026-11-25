@@ -72,7 +72,7 @@
 * [名人堂](qi-ta-qing-bao/ming-ren-tang.md)
 * [FAQ](qi-ta-qing-bao/faq.md)
 * [平台差异表](qi-ta-qing-bao/ping-tai-cha-yi-biao.md)
-* [Discord版注意事项](qi-ta-qing-bao/discord-ban-zhu-yi-shi-xiang.md)
+* [Discord 指令入门](qi-ta-qing-bao/discord-ban-zhu-yi-shi-xiang.md)
 * [服务条款](qi-ta-qing-bao/fu-wu-tiao-kuan.md)
 * [隐私权声明](qi-ta-qing-bao/yin-si-quan-sheng-ming.md)
 * [开发情况](qi-ta-qing-bao/kai-fa-qing-kuang.md)
