@@ -71,21 +71,21 @@ description: 对齐 bothelp 分类的常用指令速查。细节请用「指令 
 | `.ai` / `.ait`  | AI 对话／翻译    | [AI](../yu-le-gong-neng/ai-fan-yi-dui-hua-gong-neng.md)               |
 | `.st`           | StoryTeller | [StoryTeller](../yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/) |
 
-#### Telegram 视频与图片
+#### 公开帖子视频与图片
+
+在已开启此功能的聊天中，可以直接输入 `.video <链接>`，或对包含公开链接的原帖回复 `.video`。
+
+**Telegram 手机菜单**。点击 `/video`，再回复机器人的提示并贴上公开网址。也可以直接输入 `/video <链接>`，或者用 `/video` 回复原帖。
 
 ![流程图，先按 /video，再回复公开帖子链接，机器人随后发送媒体。](../.gitbook/assets/hktrpg-telegram-video-guide.png)
 
-1. **手机菜单**。点击 `/video`，再回复机器人的提示并贴上公开网址。
-2. **一条消息**。直接发送 `/video <链接>` 或 `.video <链接>`。
-3. **回复原帖**。对包含链接的消息回复 `/video` 或 `.video`。
-
-支持 Facebook、Instagram、Threads、TikTok、X 和 Reddit 符合要求的公开链接。X 和 Reddit 也支持可获取的公开图片。
+可处理 Facebook、Instagram、Threads、TikTok、X 和 Reddit 符合要求的公开帖子。X 和 Reddit 也可下载能够获取的公开图片。
 
 {% hint style="info" %}
-群组可以用群组 VIP。群组没有 VIP 时，可以用个人 VIP。私聊需要个人 VIP。 视频最多 5 分钟、30 MiB。需要重新编码时，时长上限为 90 秒。VIP LV 1、2、3、4+ 分别可以等待 3、6、9、12 条请求。
+群组可以用群组 VIP 或个人 VIP。私聊需要个人 VIP。视频来源上限为 5 分钟、30 MiB。需要重新编码时，时长上限为 90 秒。
 {% endhint %}
 
-结果会标注下载者和来源链接。对于直接输入的指令，机器人在有删除权限时会在发送成功后尝试删除指令。
+Telegram 队列按 VIP 等级计算，LV 1、2、3、4+ 分别可以等待 3、6、9、12 条请求。结果会标注下载者和来源链接。机器人成功发送后，有删除权限时会尝试删除直接输入的指令。
 
 ### 相关
 
