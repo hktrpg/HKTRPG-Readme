@@ -72,7 +72,7 @@
 * [Hall of Fame](other-information/ming-ren-tang.md)
 * [FAQ](other-information/faq.md)
 * [Platform Differences](other-information/ping-tai-cha-yi-biao.md)
-* [Discord Edition Notes](other-information/discord-ban-zhu-yi-shi-xiang.md)
+* [Discord Command Guide](other-information/discord-ban-zhu-yi-shi-xiang.md)
 * [Terms of Service](other-information/fu-wu-tiao-kuan.md)
 * [Privacy Policy](other-information/yin-si-quan-sheng-ming.md)
 * [Development Status](other-information/kai-fa-qing-kuang.md)

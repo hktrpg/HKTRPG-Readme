@@ -6,18 +6,18 @@ description: >-
 
 # Command Cheat Sheet
 
-Type `bothelp` on any platform for categorized help.
+Use `/bothelp` on Discord, or type the text command `bothelp` to browse categories. [Discord Command Guide](../other-information/discord-ban-zhu-yi-shi-xiang.md)
 
-| Command           | Content                           |
-| ----------------- | --------------------------------- |
-| `bothelp`         | Overview                          |
-| `bothelp Base`    | Basic rolls, secret rolls, sheets |
-| `bothelp Dice`    | System dice list                  |
-| `bothelp Tool`    | Tools                             |
-| `bothelp admin`   | Admin tools                       |
-| `bothelp funny`   | Entertainment                     |
-| `bothelp link`    | Invite links                      |
-| `bothelp privacy` | Privacy                           |
+| Command           | Content                                  |
+| ----------------- | ---------------------------------------- |
+| `bothelp`         | Overview                                 |
+| `bothelp Base`    | Basic rolls, secret rolls, dice notation |
+| `bothelp Dice`    | System dice list                         |
+| `bothelp Tool`    | Tools                                    |
+| `bothelp admin`   | Admin tools                              |
+| `bothelp funny`   | Entertainment                            |
+| `bothelp link`    | Invite links                             |
+| `bothelp privacy` | Privacy                                  |
 
 Also: [https://bothelp.hktrpg.com](https://bothelp.hktrpg.com)
 
@@ -72,6 +72,22 @@ Details: `bothelp Dice` or `command help` (e.g. `.4df help`).
 | `.level`         | XP / levels         | [Leveling](../entertainment-features/jing-yan-zhi-sheng-ji/)                 |
 | `.ai` / `.ait`   | AI chat / translate | [AI](../entertainment-features/ai-fan-yi-dui-hua-gong-neng.md)               |
 | `.st`            | StoryTeller         | [StoryTeller](../entertainment-features/storyteller-hu-dong-gu-shi-xi-tong/) |
+
+#### Telegram Videos and Photos
+
+![Diagram showing /video, a reply with the public post URL, and media delivery.](../.gitbook/assets/hktrpg-telegram-video-guide.png)
+
+1. **Mobile menu.** Tap `/video`, then reply to the bot’s prompt with the public URL.
+2. **One message.** Send `/video <link>` or `.video <link>`.
+3. **Reply to a post.** Reply with `/video` or `.video` to a message containing the link.
+
+Supported public links include Facebook, Instagram, Threads, TikTok, X, and Reddit. X and Reddit also support public photos where media is available.
+
+{% hint style="info" %}
+A VIP group can use its group allowance. Personal VIP works in groups without VIP and is required in direct messages. Videos are limited to 5 minutes and 30 MiB. Videos that require transcoding must be at most 90 seconds. VIP levels 1, 2, 3, and 4+ can queue 3, 6, 9, and 12 waiting requests respectively.
+{% endhint %}
+
+The result includes the requester's mention and source link. For commands sent directly, the bot attempts to delete the command after delivery if it has permission.
 
 ### Related
 
