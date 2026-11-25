@@ -20,7 +20,7 @@ ID: HKTRPG#4989
 In Discord → Home → Find or start a conversation, enter the ID to use HKTRPG.\
 To add it to a server, you still need the link below.\
 [https://discord.hktrpg.com](https://discord.hktrpg.com)\
-![](<../../.gitbook/assets/image (63).png>)
+![](<../../.gitbook/assets/image (57).png>)
 
 {% embed url="https://page.line.me/?accountId=utr0641o" %}
 We recommend opening on mobile. After visiting the URL, tap the Chat button in the center to talk to HKTRPG.\
@@ -31,14 +31,14 @@ Then invite it to a group like any other friend—but note that LINE allows only
 [https://t.me/hktrpg\_bot](https://t.me/hktrpg_bot)\
 Tap to chat with HKTRPG directly.\
 Then choose Add to Group from the menu to add it to your group.\
-![](<../../.gitbook/assets/image (73).png>)
+![](<../../.gitbook/assets/image (67).png>)
 
 [https://api.whatsapp.com/send?phone=85294427421](https://api.whatsapp.com/send?phone=85294427421)\
 Tap to open, add as a friend, then invite to a group like any contact.
 
 (Note: Very unstable; may stop working.)\
-![](<../../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/image (39).png>)
 
 [https://www.plurk.com/hktrpg](https://www.plurk.com/hktrpg)\
 Tap to open, add as a friend, then invite to a group like any contact.\
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../.gitbook/assets/image (58).png>)
