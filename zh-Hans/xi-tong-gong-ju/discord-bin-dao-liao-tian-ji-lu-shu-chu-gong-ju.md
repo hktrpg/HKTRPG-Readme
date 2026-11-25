@@ -1,6 +1,6 @@
 # Discord 频道聊天纪录输出工具
 
-![](<../.gitbook/assets/image (4) (2).png>)
+![](<../.gitbook/assets/image (43).png>)
 
 `.discord html` 可以输出有分析功能的聊天纪录(暂停开放中)
 

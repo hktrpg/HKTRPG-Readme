@@ -23,7 +23,7 @@ Discord 于8月31日将会改变机械人的[使用政策](https://support.disco
 再加入一次你的群组一次，**不需要先移除**，直接加入就可以。\
 或是使用[Discord 邀请链接](https://discord.hktrpg.com)
 
-<img src="../.gitbook/assets/image (37).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (34).png" alt="" data-size="original">
 
 ### 为什么还没有全面使用斜线指令(/)
 

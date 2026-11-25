@@ -10,5 +10,4 @@ description: 这里介绍如何使用HKTRPG进行5e掷骰
 
 `.5ebuild 5e属性产生器`
 
-![](<../../.gitbook/assets/image (36).png>)
-
+![](<../../.gitbook/assets/image (33).png>)

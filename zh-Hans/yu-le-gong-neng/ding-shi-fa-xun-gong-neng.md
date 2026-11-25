@@ -4,7 +4,7 @@ description: TRPG有时可能需要定时发讯，例如提醒跑团或是倒数
 
 # 定时发讯功能
 
-![](<../.gitbook/assets/image (35) (1).png>)
+![](<../.gitbook/assets/image (42).png>)
 
 定时功能拥有两种模式\
 `.at .cron mins hours delete show`
@@ -35,7 +35,7 @@ description: TRPG有时可能需要定时发讯，例如提醒跑团或是倒数
 
 #### 范例
 
-`on 0831` \
+`on 0831`\
 `每天八时三十一分嚎叫吧!`
 
 `.cron 0721`\
@@ -52,21 +52,21 @@ description: TRPG有时可能需要定时发讯，例如提醒跑团或是倒数
 
 在时间后加上name 和link 就可以像.meX 功能，使用自定的身份来定时发讯
 
-![](<../.gitbook/assets/image (19).png>)\
+![](<../.gitbook/assets/image (17).png>)\
 **范例**
 
-`.cron 2258` \
-`name=Sad` \
-`link=`[`https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png`](https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png) \
-`第一行` \
-`[[2d3 第二行]]` \
+`.cron 2258`\
+`name=Sad`\
+`link=`[`https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png`](https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png)\
+`第一行`\
+`[[2d3 第二行]]`\
 `hello world 文末`
 
-`.at 1mins` \
-`name=Sad` \
-`link=`[`https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png`](https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png) \
-`第一行` \
-`[[2d3 第二行]]` \
+`.at 1mins`\
+`name=Sad`\
+`link=`[`https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png`](https://user-images.githubusercontent.com/23254376/113255717-bd47a300-92fa-11eb-90f2-7ebd00cd372f.png)\
+`第一行`\
+`[[2d3 第二行]]`\
 `hello world 文末`
 
 ### 功能一覧

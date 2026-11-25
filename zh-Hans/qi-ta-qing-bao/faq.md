@@ -45,7 +45,7 @@ description: 背后开发秘申
 那刻我心里怀疑是不是搞错了什么，那个好像要有一千个群组在使用HKTRPG才会发生，怎知我写了个检查功能，才发现，欸，已经有千多个群在使用…?\
 接下来是莫名的兴奋，和一堆的手续。当时HKTRPG寄存在免费的Heroku，后台开始不断显示Ram不足，所以HKTRPG搬到付费Server，开始每天有十多二十个新群使用HKTRPG，就有开Patreon的想法。
 
-<img src="../.gitbook/assets/image (33) (1).png" alt="" data-size="original">\
+<img src="../.gitbook/assets/image (31).png" alt="" data-size="original">\
 \#2022/02/09 随着Discord使用人数增多，Server 的Ram, CPU, SSD还是一直处于满载状态，别问我为什么……\
 \
 Patreon除了金钱支持，还有心灵上支持，「原来真的有支持者」「原来真的有人觉得好用」，令我投入更多心机进HKTRPG，挑战了很多课题，.ra 抽选功能那时我看了超久的文档才写得出来，现在看来真的写的超难看，超不合理，但就是我踏出挑战的第一步。\

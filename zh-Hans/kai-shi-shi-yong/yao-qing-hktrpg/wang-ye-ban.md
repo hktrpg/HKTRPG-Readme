@@ -10,17 +10,17 @@ description: 为了提供方便性，HKTRPG拥有简单的网上聊天室，可�
 
 网上聊天室以一个个房间为单位，进入时默认使用房间「公共房间」。你可以变更右方的名字来进入其他房间。左边则是你在聊天室显示的名字。同样可以自由更改。
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (37).png>)
 
 {% hint style="info" %}
 因为目标以简便为主，所以所有房间只要输入名称就可以进入，并不设密码。另外每间房的信息上限为100条，超过会自动删除。
 {% endhint %}
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 右边显示你现在的位置及所有房间的总共人数。<br>
 
-![](<../../.gitbook/assets/image (7) (1).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
 中间显示聊天内容，下方的输入栏可以输入说话及掷骰指令。
 

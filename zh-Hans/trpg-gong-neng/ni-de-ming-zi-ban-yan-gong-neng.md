@@ -59,7 +59,7 @@ _**`.myname delete 序号 / 名字缩写 / "名字"`**_
 如
 
 * **`.me1 泉心慢慢的走到他们旁边，伺机行动`**
-* ![](<../.gitbook/assets/image (13).png>)
+* ![](<../.gitbook/assets/image (12).png>)
 * **`.me造 「我接受你的挑战」`**
 
 ### 功能一覧
@@ -69,8 +69,3 @@ _**`.myname delete 序号 / 名字缩写 / "名字"`**_
 * `.myname show` - 显示角色列表
 * `.me(序号/名字缩写) 消息` - 使用角色发言
 * `.mehistory` - 显示该频道过往.me发言
-
-
-
-
-

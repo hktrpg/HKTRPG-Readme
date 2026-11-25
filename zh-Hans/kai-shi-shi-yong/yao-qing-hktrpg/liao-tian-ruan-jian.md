@@ -20,7 +20,7 @@ ID: HKTRPG#4989
 在Discord -> Home -> Find or start a conversation 中输入ID就可以使用HKTRPG了\
 不过邀请到群组的话还是需要使用下面的链接\
 [https://discord.hktrpg.com](https://discord.hktrpg.com)\
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
 {% embed url="https://page.line.me/?accountId=utr0641o" %}
 建议使用手机开启，进入网址后，中间的Chat按钮可以和HKTRPG对话。\
@@ -31,14 +31,14 @@ ID: HKTRPG#4989
 [https://t.me/hktrpg\_bot](https://t.me/hktrpg_bot)\
 点击后同样可以直接和HKTRPG对话\
 然后在选项中就可以选Add to Group 加到你的群组\
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (53).png>)
 
 [https://api.whatsapp.com/send?phone=85294427421](https://api.whatsapp.com/send?phone=85294427421)\
 点击就可以使用，然后加好友，如朋友一样加入群组
 
 (注: 非常不稳定，可能失效)\
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (9).png>)
 
 [https://www.plurk.com/hktrpg](https://www.plurk.com/hktrpg)\
 点击就可以使用，然后加好友，如朋友一样加入群组\
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (11).png>)

@@ -10,11 +10,11 @@ description: >-
 
 ### 与 Bot 角色卡（`.char` / `.ch`）的关系
 
-| | 网页名片／喜好卡 | Bot 角色卡（`.char` / `.ch`） |
-| --- | --- | --- |
-| 用途 | 对外展示、美观分享、玩家喜好说明 | 跑团掷骰、改 HP／SAN、快速技能检定 |
+|    | 网页名片／喜好卡                                                                                             | Bot 角色卡（`.char` / `.ch`）                               |
+| -- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 用途 | 对外展示、美观分享、玩家喜好说明                                                                                     | 跑团掷骰、改 HP／SAN、快速技能检定                                   |
 | 入口 | [character.hktrpg.com](https://character.hktrpg.com/)、[player.hktrpg.com](https://player.hktrpg.com) | 聊天软件指令；编辑库 [card.hktrpg.com](https://card.hktrpg.com/) |
-| 连动 | 独立网页工具 | 可与群组连动掷骰（见 [角色卡](kai-shi-jin-hang-trpg/jiao-se-ka.md)） |
+| 连动 | 独立网页工具                                                                                               | 可与群组连动掷骰（见 [角色卡](kai-shi-jin-hang-trpg/jiao-se-ka.md)） |
 
 两者互补：Bot 卡负责开团运算；名片／喜好卡负责形象与沟通。
 
@@ -38,7 +38,7 @@ description: >-
   * 使用 Chart.js 与 SortableJS 呈现动态图表与拖曳排序功能
   * 提供导出 PNG 与备份链接，方便分享与保存角色数据
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>范例君-TRPG喜好卡</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>范例君-TRPG喜好卡</p></figcaption></figure>
 
 ### 2. TRPG 游玩喜好卡
 

@@ -10,7 +10,7 @@ description: TRPG进入战斗环节时，通常需要按先攻值决定行动次
 可以保存你的掷骰方法，而不需要再输入。
 {% endhint %}
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (44) (1).png>)
 
 ### 使用方法
 
@@ -32,7 +32,7 @@ description: TRPG进入战斗环节时，通常需要按先攻值决定行动次
 
 #### 重掷先攻表
 
-`.in reroll`&#x20;
+`.in reroll`
 
 很多系统的每场战斗，都需要重掷一次先攻值，
 

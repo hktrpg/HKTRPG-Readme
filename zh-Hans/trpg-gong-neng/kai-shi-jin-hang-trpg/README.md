@@ -19,6 +19,5 @@ TRPG是一类非常好玩的游戏模式，可能你被它的游戏性或是自�
 {% hint style="info" %}
 私心推荐大家使用角色卡功能，在Discord跑文本团真的很有用
 
-![](<../../.gitbook/assets/image (8).png>)
+<img src="../../.gitbook/assets/image (7).png" alt="" data-size="original">
 {% endhint %}
-

@@ -4,7 +4,7 @@ description: 应用Discord 的button功能，暂时只限Discord，有机会会�
 
 # 要求掷骰
 
-![使用示范](<../.gitbook/assets/image (26).png>)
+![使用示范](<../.gitbook/assets/image (24).png>)
 
 ### 要求掷骰功能
 

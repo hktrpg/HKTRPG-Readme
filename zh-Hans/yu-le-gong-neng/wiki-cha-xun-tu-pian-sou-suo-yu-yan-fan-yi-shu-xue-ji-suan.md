@@ -7,7 +7,7 @@ description: .ca .wiki .image .tran
 ### 数学计算
 
 `.ca` 只进行数学计算 例如: `.ca 1.2 * (2 + 4.5)` `12.7 米 to inch` `sin(45 deg) ^ 2` `5磅转斤` `10米转呎` `10米=吋`\
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (23).png>)
 
 ### 搜索WIKI
 
@@ -20,7 +20,7 @@ description: .ca .wiki .image .tran
 ### 翻译文本
 
 `.tran (项目)` 立即翻译为繁体中文\
-可翻译成其他语言 ： \
+可翻译成其他语言 ：\
 `.tran.(语系) (内容)`
 
 #### 范例
@@ -28,8 +28,8 @@ description: .ca .wiki .image .tran
 `.tran.ja BATMAN`\
 `.tran.日 BATMAN`
 
-#### 常用语言代码:&#x20;
+#### 常用语言代码:
 
-英=en, 简=zh-cn, 德=de, 日=ja \
-语系代码 [https://github.com/vitalets/google-translate-api/blob/master/languages.js](https://github.com/vitalets/google-translate-api/blob/master/languages.js) \
+英=en, 简=zh-cn, 德=de, 日=ja\
+语系代码 [https://github.com/vitalets/google-translate-api/blob/master/languages.js](https://github.com/vitalets/google-translate-api/blob/master/languages.js)\
 注: 翻译使用Google Translate

@@ -4,7 +4,7 @@ description: 用来纪录群组参与度的功能，加入LV概念，嘛，就�
 
 # 经验值升级
 
-![](<../../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../.gitbook/assets/image (55).png>)
 
 `.level (show config LevelUpWord RankWord)`
 
@@ -35,18 +35,18 @@ description: 用来纪录群组参与度的功能，加入LV概念，嘛，就�
 输入`.level TitleWord -(LV) (内容)`，修改称号，大于等级即会套用\
 建议由-0开始，可一次输入多个，如 `.level TitleWord -0 幼童 -5 学徒 -10 武士`\
 输入`.level RankWord/LevelUpWord/TitleWord del` 即使用默认字句\
-输入`.level RankWord/LevelUpWord/TitleWord show` 即显示现在设置 \
-输入`.level show` 可以查找你现在的等级 \
-输入`.level showMe (数字)` 可以查找这群组排名 默认头5名 \
-输入`.level showMeTheworld (数字)` 可以查找世界排名 默认头6名 \
+输入`.level RankWord/LevelUpWord/TitleWord show` 即显示现在设置\
+输入`.level show` 可以查找你现在的等级\
+输入`.level showMe (数字)` 可以查找这群组排名 默认头5名\
+输入`.level showMeTheworld (数字)` 可以查找世界排名 默认头6名\
 输入`.level showMeAtTheworld` 可以查找自己的世界排名
 
-### 升级语及RankWord可使用不同代码&#x20;
+### 升级语及RankWord可使用不同代码
 
 `{user.name}` 名字\
 `{user.level}` 等级\
-`{user.title}` 称号 \
-`{user.exp}` 经验值 \
-`{user.Ranking}` 现在排名 \
-`{user.RankingPer}` 现在排名百分比 \
+`{user.title}` 称号\
+`{user.exp}` 经验值\
+`{user.Ranking}` 现在排名\
+`{user.RankingPer}` 现在排名百分比\
 `{server.member_count}` 现在频道中总人数
