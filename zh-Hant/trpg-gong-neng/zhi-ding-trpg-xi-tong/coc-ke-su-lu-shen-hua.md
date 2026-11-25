@@ -17,7 +17,7 @@ description: 這裡介紹如何使用HKTRPG進行COC擲骰
   ![](<../../.gitbook/assets/image (43).png>)
 * CoC7版獎勵骰： cc(1\~2) `cc1 80` 一粒獎勵骰
 * CoC7版懲罰骰： ccn(1\~2) `ccn2 80` 兩粒懲罰骰
-* CoC7版聯合檢定：cc (x,y) (z,a) `cc 80,60 鬥毆,魅惑` \
+* CoC7版聯合檢定：cc (x,y) (z,a) `cc 80,60 鬥毆,魅惑`\
   支援獎勵懲罰骰，如：`cc１ 80,60 鬥毆,魅惑`
 * CoC7版SanCheck ： `.sc (SAN值) (成功)/(失敗)`\
   ![](<../../.gitbook/assets/image (28).png>)
@@ -26,16 +26,16 @@ description: 這裡介紹如何使用HKTRPG進行COC擲骰
     ![](<../../.gitbook/assets/image (32).png>)\
     可以一次輸入多個技能<br>
 
-    `.dp` 或 `成長檢定` 或 `幕間成長 (技能%) (名稱)` \
-    `.DP 50 騎乘 60 鬥毆 50 60` \
-    `.DP 50 60 50` \
-    `成長檢定 65 頭槌 45 劍術`  \
+    `.dp` 或 `成長檢定` 或 `幕間成長 (技能%) (名稱)`\
+    `.DP 50 騎乘 60 鬥毆 50 60`\
+    `.DP 50 60 50`\
+    `成長檢定 65 頭槌 45 劍術`\
     `幕間成長 40 單車`
 
 ### COC資料
 
-`coc7版 神話組織 隨機產生： 啓動語 .cccc` \
-`coc7版 神話資料 隨機產生： 啓動語 .ccdr` \
+`coc7版 神話組織 隨機產生： 啓動語 .cccc`\
+`coc7版 神話資料 隨機產生： 啓動語 .ccdr`\
 `coc7版 施法推骰後果： 啓動語 .ccpc`\
 ![](<../../.gitbook/assets/image (7).png>)
 
@@ -53,14 +53,14 @@ description: 這裡介紹如何使用HKTRPG進行COC擲骰
 * coc7版隨機創角 ： 啓動語 `.cc7build random`
 * coc7版自由分配點數創角 ： 啓動語 `.cc7build .xyz (歲數7-89)`
 
-如`.cc7build .752` \
+如`.cc7build .752`\
 就會擲出\
 `7次 3d6 * 5`\
-`5次 (2d6+6) * 5` \
+`5次 (2d6+6) * 5`\
 `2次 3d6 * 5`
 
-可只輸入`.`  不輸入xyz\
-預設值為 .53 即`5次 3d6 * 5` 和`3次 (2d6+6) * 5`&#x20;
+可只輸入`.` 不輸入xyz\
+預設值為 .53 即`5次 3d6 * 5` 和`3次 (2d6+6) * 5`
 
 ![](<../../.gitbook/assets/image (45).png>)
 
@@ -69,7 +69,7 @@ description: 這裡介紹如何使用HKTRPG進行COC擲骰
 
 ### 成長檢定紀錄功能（`.dp` 流程）
 
-![](<../../.gitbook/assets/image (34) (1).png>)
+![](<../../.gitbook/assets/image (27) (1).png>)
 
 建議流程：
 
@@ -91,24 +91,23 @@ description: 這裡介紹如何使用HKTRPG進行COC擲骰
 
 ### COC 資料與特殊指令速查
 
-| 指令 | 說明 |
-| ---- | ---- |
-| `.cccc` | 隨機產生神話組織 |
-| `.ccdr` | 隨機產生神話資料 |
-| `.ccpc` | 施法推骰後果判定 |
-| `.ccpulpbuild` | PULP 版創角 |
-| `.cc6build` / `.cc7build` | 六／七版創角 |
-| `.cc7bg` | 七版角色背景 |
-| `.chase` | 追逐戰產生器（見下） |
-| `ccrt` / `ccsu` | 即時／總結型瘋狂 |
+| 指令                        | 說明         |
+| ------------------------- | ---------- |
+| `.cccc`                   | 隨機產生神話組織   |
+| `.ccdr`                   | 隨機產生神話資料   |
+| `.ccpc`                   | 施法推骰後果判定   |
+| `.ccpulpbuild`            | PULP 版創角   |
+| `.cc6build` / `.cc7build` | 六／七版創角     |
+| `.cc7bg`                  | 七版角色背景     |
+| `.chase`                  | 追逐戰產生器（見下） |
+| `ccrt` / `ccsu`           | 即時／總結型瘋狂   |
 
-### coc7版追逐戰產生器:&#x20;
+### coc7版追逐戰產生器:
 
-指令 `.chase`&#x20;
+指令 `.chase`
 
 {% hint style="info" %}
 追逐戰功能使用了可選規則及我對規則書之獨斷理解， 並不一定完全符合規則書內容，請自行衡量使用，建議使用前詳細閱讀規則書第七章追逐
 {% endhint %}
 
-![](<../../.gitbook/assets/image (40).png>)
-
+![](<../../.gitbook/assets/image (33) (1).png>)

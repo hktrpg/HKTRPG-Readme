@@ -4,19 +4,17 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 # 角色卡
 
-
-
 {% hint style="info" %}
 **小知識:** 網頁版角色卡功能可以連動聊天軟件，在網頁上擲骰，結果可以直接出現在軟件上。
 {% endhint %}
 
-### 1. 新增角色卡&#x20;
+### 1. 新增角色卡
 
 使用的第一步，是需要你擁有聊天軟件的帳號，然後對HKTRPG輸入以下的新增指令(或按以下格式輸入自己的角色卡)\
-&#xNAN;**`.char add name[Sad或你想要的名字]~`** \
-**`state[HP:15/15;MP:10/10;San:80]~`** \
-**`roll[鬥毆: cc 50;sc:cc {san};]~`** \
-**`notes[筆記:這是測試,請試試在群組輸入 .char use Sad或你想要的名字;]~`**&#x20;
+\&#xNAN;**`.char add name[Sad或你想要的名字]~`**\
+**`state[HP:15/15;MP:10/10;San:80]~`**\
+**`roll[鬥毆: cc 50;sc:cc {san};]~`**\
+**`notes[筆記:這是測試,請試試在群組輸入 .char use Sad或你想要的名字;]~`**
 
 \
 彈出**新增/修改成功**代表你已經新增角色卡
@@ -41,13 +39,13 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 ![](<../../.gitbook/assets/image (5) (1).png>)
 
-輸入 **`.admin account (username) (password)`**&#x20;
+輸入 **`.admin account (username) (password)`**
 
 然後進入 [`角色卡管理庫`](https://card.hktrpg.com/)
 
 在網頁 輸入帳號密碼， 就可以管理你的角色卡，進行修改。
 
-![](<../../.gitbook/assets/image (40) (1).png>)![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (40) (1).png>) ![](<../../.gitbook/assets/image (21) (1).png>)
 
 想修改內容，只要直接修改數字然後按右上角的儲存角色卡就可以了。
 
@@ -56,10 +54,10 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 文字式的編輯角色卡，與新增角色卡一樣。
 
 格式\
-&#xNAN;**`.char edit`** \
-**`name[Sad或你想要的名字]~`** \
-**`state[HP:15/15;MP:10/10;San:80]~`** \
-**`roll[鬥毆: cc 50;sc:cc {san};]~`** \
+\&#xNAN;**`.char edit`**\
+**`name[Sad或你想要的名字]~`**\
+**`state[HP:15/15;MP:10/10;San:80]~`**\
+**`roll[鬥毆: cc 50;sc:cc {san};]~`**\
 **`notes[筆記:這是測試,請試試在群組輸入 .char use Sad或你想要的名字;]~`**
 
 ### **`3. 使用角色卡`**
@@ -70,13 +68,13 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 `.char use 角色卡名字 就可以了`
 
-`如上面就輸入 .char use`` `**`Sad或你想要的名字`**
+` 如上面就輸入 .char use`` `` `**`Sad或你想要的名字`**
 
 ![](<../../.gitbook/assets/image (32) (1).png>)
 
 接著，就可以在該頻道使用
 
-把結果傳送到已登記的Discord，TG，LINE上的聊天群組的登記方法:&#x20;
+把結果傳送到已登記的Discord，TG，LINE上的聊天群組的登記方法:
 
 由該群組的Admin授權允許 輸入 .admin allowrolling\
 登記該群組到自己的名單中 輸入 .admin registerChannel\
@@ -91,12 +89,10 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 #### 使用方式
 
-**`.ch button`**  或\
-&#xNAN;**`.char button 角色名字`** 可以產生你的角色卡按鈕
+**`.ch button`** 或\
+\&#xNAN;**`.char button 角色名字`** 可以產生你的角色卡按鈕
 
 兩種產生的按鈕指令會有所不同，前者調&#x7528;**`.ch`**&#x5F8C;者產生直接擲骰的指令
-
-&#x20;
 
 {% hint style="info" %}
 .char button 產生的角色卡不支援 {}功能，所以 {San}無效
@@ -124,21 +120,21 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 #### `.char`
 
-`.char add name[Sad]~ state[HP:15/15;con:60;san:60]~` \
-`roll[鬥毆: cc 50;投擲: cc 15;sc:cc {san}]~` \
-`notes[筆記:這是測試,請試試在群組輸入 .char use Sad;]~`&#x20;
+`.char add name[Sad]~ state[HP:15/15;con:60;san:60]~`\
+`roll[鬥毆: cc 50;投擲: cc 15;sc:cc {san}]~`\
+`notes[筆記:這是測試,請試試在群組輸入 .char use Sad;]~`
 
 **可以新增及更新角色卡**
 
-`.char Show` - **可以顯示角色卡列表**&#x20;
+`.char Show` - **可以顯示角色卡列表**
 
-`.char Show0` - **可以顯示0號角色卡內容 0可以用其他數字取代**&#x20;
+`.char Show0` - **可以顯示0號角色卡內容 0可以用其他數字取代**
 
 `.char edit name[角色卡名字]~` - **可以以add的格式修改指定角色卡**
 
-`.char use 角色卡名字` - **可以在該群組中使用指定角色卡**&#x20;
+`.char use 角色卡名字` - **可以在該群組中使用指定角色卡**
 
-`.char nonuse` - **可以在該群組中取消使用角色卡**&#x20;
+`.char nonuse` - **可以在該群組中取消使用角色卡**
 
 `.char delete 角色卡名字` - **可以刪除指定角色卡**
 
@@ -148,17 +144,17 @@ description: 角色卡功能以個人為單位, 一張卡可以在不同的群�
 
 在群組中使用.char use (角色名) 後, 就可以啟動角色卡功能
 
-`.ch 項目名稱 項目名稱` - **沒有加減的話, 會單純顯示數據或擲骰**&#x20;
+`.ch 項目名稱 項目名稱` - **沒有加減的話, 會單純顯示數據或擲骰**
 
-`.ch 項目名稱 (數字)` - **可以立即把如HP變成該數字**&#x20;
+`.ch 項目名稱 (數字)` - **可以立即把如HP變成該數字**
 
 `.ch 項目名稱 (+-`_`/數字)` - **可以立即對如HP進行四則運算**_
 
-_`.ch 項目名稱 (+-`_`/xDy)` - **可以對如HP進行擲骰四則運算**&#x20;
+_`.ch 項目名稱 (+-`_`/xDy)` - **可以對如HP進行擲骰四則運算**
 
-`.ch set 項目名稱 新內容` - **直接更改內容**&#x20;
+`.ch set 項目名稱 新內容` - **直接更改內容**
 
-`.ch show` - **顯示角色卡的state 和roll 內容**&#x20;
+`.ch show` - **顯示角色卡的state 和roll 內容**
 
 `.ch showall` - **顯示角色卡的所有內容**
 
@@ -166,12 +162,12 @@ _`.ch 項目名稱 (+-`_`/xDy)` - **可以對如HP進行擲骰四則運算**&#x2
 
 ## 運算式
 
-### state&#x20;
+### state
 
 這是用來儲存浮動數據，支援進行運算 如: `.ch HP +3`\
 `.ch HP +1d3`
 
-### roll&#x20;
+### roll
 
 這是用來儲存擲骰指令, 快速使用 如 `.ch 空手鬥毆`\
 注意項目名稱請不要有空格
@@ -186,29 +182,28 @@ _`.ch 項目名稱 (+-`_`/xDy)` - **可以對如HP進行擲骰四則運算**&#x2
 這個可以用來進行**基本擲骰**，**進階擲骰**及**COC擲骰**的運算，\
 它支援比較長的命令，\
 不會顯示過程，只會取得運算後的最後一個數字\
-<1d3>  -> 2\
+<1d3> -> 2\
 <.sc san 1/1d5> 的本來顯示結果是`現在San值是x點`\
 所以結果是x，而不是1或1d5
 
-### notes&#x20;
+### notes
 
 這是用來儲存數據, 以後可以查看 如 `.ch 筆記`
 
 ## 使用範例
 
-`.ch set 護甲 3`                  - 設定護甲為3\
-`.ch hp 10`                             - 設定 hp 為10\
+`.ch set 護甲 3` - 設定護甲為3\
+`.ch hp 10` - 設定 hp 為10\
 `.ch HP +3 MP 6 san -10 筆記` - 設定hp增加3點，MP為6，San減少10及顯示筆記\
-`.ch HP +3d6`                        - 設定hp增加3d6\
-`.ch san -<1d3>`                 - 設定hp減少1d3\
-`.ch san <.sc san 1/1d3>`  - 設定san進行san check\
+`.ch HP +3d6` - 設定hp增加3d6\
+`.ch san -<1d3>` - 設定hp減少1d3\
+`.ch san <.sc san 1/1d3>` - 設定san進行san check\
 ![](<../../.gitbook/assets/image (46).png>)\
-`.ch str <3D6dl2>`               - 設定str 為 3d6dl2\
-`.ch hp *3/2`                           -  設定hp 乘3除以2\
+`.ch str <3D6dl2>` - 設定str 為 3d6dl2\
+`.ch hp *3/2` - 設定hp 乘3除以2\
 \
-`.ch 鬥毆`                                  - 進行鬥毆\
-`.ch san`                                   - 顯示現時San\
-`dr .ch 魔法`                           - 暗骰\
+`.ch 鬥毆` - 進行鬥毆\
+`.ch san` - 顯示現時San\
+`dr .ch 魔法` - 暗骰\
 \
 <br>
-
