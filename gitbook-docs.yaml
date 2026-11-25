@@ -1,0 +1,26 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: HKTRPG  官方使用教學
+  structure:
+    - type: space
+      key: space-1
+      title: 繁中(zh-Hant)
+      path: zh-hant
+      default: true
+      content:
+        directory: ./zh-Hant
+        language: zh-tw
+    - type: space
+      key: space-2
+      title: English(en)
+      path: en
+      content:
+        directory: ./en
+        language: en
+    - type: space
+      key: space-3
+      title: 簡中(zh-Hans)
+      path: zh-hans
+      content:
+        directory: ./zh-Hans
+        language: zh
