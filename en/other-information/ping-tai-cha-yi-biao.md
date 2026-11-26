@@ -27,7 +27,7 @@ Most dice commands work on Discord, LINE, Telegram, WhatsApp, Plurk, and the web
 
 ✓ supported　— unsupported　△ limited / unstable
 
-Slash menus vary by platform. Telegram includes `/bothelp` and `/video`. Discord commands have their own options. [Discord Command Guide](discord-ban-zhu-yi-shi-xiang.md)
+Slash menus vary by platform. Telegram includes `/bothelp`. Discord commands have their own options. [Discord Command Guide](discord-ban-zhu-yi-shi-xiang.md)
 
 ### Discord-only (highlights)
 
