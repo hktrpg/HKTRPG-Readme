@@ -25,7 +25,7 @@ HKTRPG 多數擲骰指令在 Discord、LINE、Telegram、WhatsApp、Plurk、網�
 
 ✓ 支援　— 不支援　△ 有限制或不穩定
 
-部份平台有自己的 `/` 選單。Telegram 可用 `/bothelp` 同 `/video`，下方 Discord 指令另有自己的參數。 [Discord 指令入門](discord-ban-zhu-yi-shi-xiang.md)
+部份平台有自己的 `/` 選單。Telegram 可用 `/bothelp`，下方 Discord 指令另有自己的參數。 [Discord 指令入門](discord-ban-zhu-yi-shi-xiang.md)
 
 ### Discord 限定（重點）
 

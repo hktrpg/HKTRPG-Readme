@@ -71,22 +71,6 @@ description: 對齊 bothelp 分類的常用指令速查。細節請用「指令 
 | `.ai` / `.ait`  | AI 對話／翻譯    | [AI](../yu-le-gong-neng/ai-fan-yi-dui-hua-gong-neng.md)               |
 | `.st`           | StoryTeller | [StoryTeller](../yu-le-gong-neng/storyteller-hu-dong-gu-shi-xi-tong/) |
 
-#### 公開貼文影片與圖片
-
-在已開啟此功能嘅聊天入面，可以直接輸入 `.video <連結>`，或者用 `.video` 回覆含有公開連結嘅原帖。
-
-**Telegram 手機選單**。按 `/video`，再回覆 Bot 嘅提示貼上公開網址。亦可以直接輸入 `/video <連結>`，或用 `/video` 回覆原帖。
-
-![流程圖，先按 /video，再回覆公開貼文連結，Bot 隨後送出媒體。](../.gitbook/assets/hktrpg-telegram-video-guide.png)
-
-可處理 Facebook、Instagram、Threads、TikTok、X 同 Reddit 嘅合資格公開貼文。X 同 Reddit 亦可下載可取得嘅公開圖片。
-
-{% hint style="info" %}
-群組可以用群組 VIP 或個人 VIP。私訊需要個人 VIP。影片來源上限為 5 分鐘、30 MiB。需要重新編碼時，片長上限為 90 秒。
-{% endhint %}
-
-Telegram 隊列按 VIP 等級計算，LV 1、2、3、4+ 分別可等候 3、6、9、12 條請求。結果會附上下載者同來源連結。Bot 成功送出後，有刪訊息權限時會嘗試刪除直接輸入嘅指令。
-
 ### 相關
 
 * [5 分鐘上手](../)
